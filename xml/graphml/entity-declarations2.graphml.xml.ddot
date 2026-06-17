@@ -1,0 +1,5 @@
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. 3-node / 1-edge airport sample with country/lat/lon, one country value being M&amp;Eacute;XICO#MEXICO
+ddot.it/this ..tests.. escaped entity text inside <data> values
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)

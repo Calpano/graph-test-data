@@ -1,0 +1,8 @@
+Deliberately broken variant of the ezyang/metromaps haitimap2 graph.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. deliberately malformed copy of haitimap2 (stray "====" banner text and broken whitespace) used as a negative test
+ddot.it/this ..tests.. detection/handling of invalid GraphML; paired with haitimap2--FIXED.graphml
+ddot.it/this ..source url.. https://github.com/ezyang/metromaps
+ddot.it/this ..license.. no license file in source repo (public domain unless otherwise stated)

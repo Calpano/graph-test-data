@@ -1,0 +1,17 @@
+GraphML test files created with various yWorks tools (yEd, yFiles for Java, yFiles for HTML),
+organised into sub-folders by the exact tool version that wrote them.
+
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..created with.. yWorks tools (yEd / yFiles)
+
+NOTE on license: yWorks tools do not claim copyright over the GraphML they emit; rights to a
+file's content belong to whoever authored the graph. Most files here are synthetic test graphs
+authored within this project (treat as public domain unless otherwise stated). A few depict
+third-party content and inherit that content's situation -- see each folder's meta.ddot or
+per-file .ddot sidecars:
+  yed-3.12.2/      mixed: synthetic graphs + Google Guava class graph (Apache-2.0) + a Goobi
+                   topology diagram; licenses differ per file, so each file has its own .ddot sidecar
+  yed-3.14.3/      synthetic sample graphs
+  yed-3.18.0.2/    a single large unlabeled graph
+  yfiles-html-3.0.0.3/  SVG-node samples (one triggers a SAX parser bug)
+  yfiles-java-2.8/ a French "classements" configuration diagram (third-party origin)

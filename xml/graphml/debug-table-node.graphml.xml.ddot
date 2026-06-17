@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. single yEd y:TableNode with anonymized labels; tests yWorks TableNode nodegraphics, 1 node / 0 edges, directed
+ddot.it/this ..created with.. yEd (yWorks); uses xmlns:y and xmlns:yed namespaces
+ddot.it/this ..tests.. parsing of yWorks yfiles.type="nodegraphics" / y:TableNode group-node extension elements
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)

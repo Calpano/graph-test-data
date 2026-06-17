@@ -1,0 +1,40 @@
+= graph-entry test fixtures (ConnectedJson)
+
+This folder contains hand-authored synthetic ConnectedJson (CJ) documents used as
+test fixtures for the "graphinout" project by Calpano. Each file is a small,
+deliberately constructed graph example exercising a specific feature of the
+ConnectedJson format (node/port nesting, endpoint syntax, mixed/undirected edges,
+extensible non-reserved keys, multi-language labels, JSON5 syntax variant, schema
+reference, and nested subgraphs). No external dataset is involved; all content is
+crafted by hand. The non-English text in multilang.connected.json ("Sonne" / "Sun",
+German/English) is intentional test content, not data sourced from elsewhere.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..authored by.. Calpano (graphinout project)
+ddot.it/this ..format.. format:connected-json
+ddot.it/this ..content.. hand-crafted ConnectedJson graph test fixtures
+ddot.it/this ..tests.. ConnectedJson parsing / graph-entry features
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+
+== Per-file
+
+example.connected.json ..kind.. synthetic
+example.connected.json ..authored by.. Calpano (graphinout project)
+example.connected.json ..format.. format:connected-json
+example.connected.json ..content.. nodes with nested ports (a -> a2 -> a2-1/a2-2), an extensible non-reserved "hello" key, source/target edge, and endpoint-syntax edges including in/out/undir directions and port references
+example.connected.json ..tests.. nested ports, endpoint syntax, mixed/undirected edges, extensible keys
+example.connected.json ..license.. not stated (public domain unless otherwise stated)
+
+multilang.connected.json ..kind.. synthetic
+multilang.connected.json ..authored by.. Calpano (graphinout project)
+multilang.connected.json ..format.. format:connected-json
+multilang.connected.json ..content.. two nodes: node "a" with a simple string label, node "b" with a multi-language label array {language:"de", value:"Sonne"} / {language:"en", value:"Sun"}
+multilang.connected.json ..tests.. multi-language (i18n) label handling
+multilang.connected.json ..license.. not stated (public domain unless otherwise stated)
+
+sample-1.cj.json ..kind.. synthetic
+sample-1.cj.json ..authored by.. Calpano (graphinout project)
+sample-1.cj.json ..format.. format:connected-json
+sample-1.cj.json ..content.. document with $schema reference (cj-8.0.0), two top-level nodes with ports, source/target and endpoint-syntax edges carrying data, and a nested subgraph (graphs[]) with its own node and cross-graph edge
+sample-1.cj.json ..tests.. schema reference, edge data payloads, nested subgraphs, cross-graph endpoints
+sample-1.cj.json ..license.. not stated (public domain unless otherwise stated)

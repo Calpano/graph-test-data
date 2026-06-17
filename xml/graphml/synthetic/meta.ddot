@@ -1,0 +1,11 @@
+Synthetic GraphML test files, hand-crafted by Calpano to exercise specific parser/writer
+features and error-handling cases. These are *not* collected from third parties — they are
+original works authored within the GraphInOut / graph-test-data project.
+
+ddot.it/this ..license.. MIT License, Copyright (c) 2022-2025 Calpano
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..created.. 2022-12-19
+
+The earliest synthetic GraphML samples were committed 2022-12-19 ("Add GraphML sample files");
+the collection has grown since (through 2025). As original works by Calpano they are released
+under the MIT License.

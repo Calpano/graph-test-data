@@ -40,6 +40,64 @@ We are interested in
   ..download date..    ISO date when the data was downloaded.
   ..license..          which is very often not stated at all. Public files on the web are considered public domain unless otherwise stated.
 
+==== Per-directory vs. per-file metadata
+There are two ways to attach metadata, pick whichever fits:
+
+* *Per-directory* `meta.ddot` — use when a directory holds many files that share the
+  same provenance (e.g. one dataset, one source, one license). The triples use
+  `ddot.it/this` for facts about the whole folder and the file name as the subject for
+  facts about a single file, e.g. `got-graph.graphml ..license.. ...`.
+* *Per-file* sidecar `<filename>.ddot` — use when a directory holds many small,
+  unrelated files with differing sources/licenses. Each data file gets its own
+  `.ddot` file next to it, named by appending `.ddot` to the full file name
+  (e.g. `got-graph.graphml` is described by `got-graph.graphml.ddot`, and
+  `planar.graphml.xml` by `planar.graphml.xml.ddot`). Inside a sidecar, the subject
+  is always `ddot.it/this` (it refers to the one file the sidecar belongs to).
+
+A sidecar `.ddot` is just a `meta.ddot` scoped to a single file; the triple
+vocabulary is identical.
+
+
+== File naming: `--INVALID` and `--FIXED`
+
+Some test files are *intentionally broken* so that parsers can be tested against bad input.
+We mark them with a tag in the file name, written with a double dash `--` directly before the
+extension(s): `name--TAG.ext`.
+
+.For maintainers — how to name files
+[cols="1,3", options="header"]
+|===
+| Tag | Meaning
+
+| `--INVALID`
+| The file is intentionally invalid. Optionally append the *format* to say _how_ it is invalid,
+  using the format family from the
+  https://github.com/Calpano/graph-format-registry[graph-format-registry] (lower-case, no dots):
+  `--INVALIDxml` (not even well-formed XML), `--INVALIDgraphml` (well-formed XML but invalid GraphML),
+  `--INVALIDdot`, `--INVALIDgml`, … A bare `--INVALID` means "invalid in general". +
+  Examples: `root--INVALIDgraphml.graphml`, `example4--INVALIDdot.dot`.
+
+| `--FIXED`
+| A manually corrected, *valid* counterpart of a broken sibling file — useful to show the intended,
+  repaired form next to the invalid one. Example: `greek2--INVALIDgraphml.graphml` next to
+  `greek2--FIXED.graphml`.
+|===
+
+Keep the marker right before the extension so the tag survives multi-dot extensions
+(e.g. `foo--INVALIDxml.graphml.xml`). Tags are matched case-insensitively.
+
+.For users — how to exclude invalid files
+A valid-input test run should skip the broken files. Filter them out by the `--INVALID` tag in the
+file name:
+
+* To skip *all* intentionally-invalid files: drop any file whose name (before the extension) contains
+  `--INVALID`.
+* To skip only files invalid for *your* format: drop names containing `--INVALID<yourformat>`
+  (e.g. a GraphML reader skips `--INVALIDgraphml` and `--INVALIDxml`). Note an `--INVALIDxml` file is
+  also invalid for every XML-based format, so exclude `--INVALIDxml` as well when consuming an
+  XML-based format.
+
+`--FIXED` files are valid and should be treated as normal input.
 
 == Legal
 If you want your data to be removed from the test collection, please https://github.com/Calpano/graph-test-data/issues[file an issue at the tracker].

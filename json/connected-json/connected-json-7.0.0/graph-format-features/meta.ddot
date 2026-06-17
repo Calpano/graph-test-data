@@ -1,0 +1,38 @@
+= ConnectedJson Feature Fixtures
+
+One test file per feature defined in https://github.com/Calpano/graph-format-registry
+
+This folder contains hand-authored synthetic test fixtures for the ConnectedJson
+(cj) format, defined by the "graphinout" project by Calpano. Each `.cj.json` file
+isolates exactly ONE feature of the ConnectedJson format, so that parsers and
+converters can be tested against a minimal, single-concern example.
+
+The fixtures use trivial placeholder identifiers (e.g. "a", "b", "c", "g",
+"Alice") and carry no real-world or externally sourced data. All files reference
+the schema `https://j-s-o-n.org/schema/cj-8.0.0.json` and follow the structure
+`{ "graphs": [ { "id", "nodes", "edges", ... } ] }`.
+
+Provenance verdict: confirmed synthetic, authored within the graphinout project.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..authored by.. Calpano (graphinout project)
+ddot.it/this ..format.. format:connected-json
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+ddot.it/this ..content.. Minimal single-feature ConnectedJson fixtures, one feature per file.
+
+attributes-on-edges.cj.json ..tests.. data attributes on an edge ("data": { "weight": 42 })
+attributes-on-graphs.cj.json ..tests.. data attributes on a graph ("data": { "title": "My Graph" })
+attributes-on-nodes.cj.json ..tests.. data attributes on a node ("data": { "color": "red" })
+directed-edges.cj.json ..tests.. directed edges via endpoint directions "in"/"out"
+edge-labels.cj.json ..tests.. labels on edges ("label": { "entries": [ ... ] })
+edges-on-edges.cj.json ..tests.. edges whose endpoint is another edge (edge-to-edge / meta edges)
+hyperedges.cj.json ..tests.. hyperedges connecting more than two nodes via multiple endpoints
+mixed-directionality-edges.cj.json ..tests.. a graph mixing directed ("in"/"out") and undirected ("undir") edges
+multiple-graphs-per-document.cj.json ..tests.. multiple graphs within a single document
+nested-graphs-in-edges.cj.json ..tests.. nested subgraphs declared inside an edge
+nested-graphs-in-graphs.cj.json ..tests.. nested subgraphs declared inside a graph
+nested-graphs-in-nodes.cj.json ..tests.. nested subgraphs declared inside a (compound) node
+node-labels.cj.json ..tests.. labels on nodes ("label": { "entries": [ ... ] })
+nodes.cj.json ..tests.. a plain graph with an isolated node
+typed-edges.cj.json ..tests.. typed edges via the edge "type" field ("type": "knows")
+undirected-edges.cj.json ..tests.. undirected edges via endpoint direction "undir"

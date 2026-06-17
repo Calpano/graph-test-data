@@ -1,0 +1,10 @@
+yEd GraphML diagram sources from the sciebo RDS project documentation, collected as test data.
+
+ddot.it/this ..source url.. https://zivgitlab.uni-muenster.de/sciebo-rds/sciebo-rds/-/tree/gitlab-ci-changes-in-folder/docs/static/images
+ddot.it/this ..license.. MIT License, Copyright (c) 2019 University of Muenster (https://zivgitlab.uni-muenster.de/sciebo-rds/sciebo-rds/-/blob/develop/LICENSE.md)
+ddot.it/this ..download date.. 2023-04-03
+
+sciebo RDS (Research Data Services) is a research-data-management connector developed at the
+University of Münster. These GraphML files are the editable yEd diagram sources kept under
+`docs/static/images`, used to render the project's documentation images (requirement clusters,
+building-block views, CI/CD process, Kubernetes architecture/deployment, etc.).

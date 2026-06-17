@@ -1,0 +1,17 @@
+GraphML files created with yFiles for HTML 3.0.0.3, exercising SVG image nodes.
+
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..created with.. yFiles for HTML 3.0.0.3
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+
+  with-svg.graphml.xml         ..content.. graph with SVG image nodes, 2 nodes / 1 edge
+  with-svg.graphml.xml         ..tests.. parsing of SVG-node GraphML written by yFiles for HTML
+  with-svg-SIMPLER.graphml.xml ..content.. reduced version of with-svg, still fails to parse
+  with-svg-SIMPLER2.graphml.xml ..content.. further reduced version that parses correctly
+
+NOTE (the bug): with-svg.graphml.xml and with-svg-SIMPLER.graphml.xml cause errors when parsing,
+while with-svg-SIMPLER2.graphml.xml works. The cause appears to be the excessive number of XML
+namespace declarations written by yFiles for HTML 3.0.0.3 (most of them unused), which triggers
+a bug in the Java SAX parser. No other tool was observed writing that many namespaces. The
+failing file is therefore treated as invalid XML for now.
+(This note replaces the former with-svg.adoc.)

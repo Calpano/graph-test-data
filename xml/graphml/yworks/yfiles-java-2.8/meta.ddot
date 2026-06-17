@@ -1,0 +1,7 @@
+GraphML file created with yFiles for Java 2.8.
+
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..created with.. yFiles for Java 2.8
+
+  classements.graphml ..content.. configuration/data-model diagram in French ("classements" = rankings/listings), 20 nodes / 8 edges; references .ini config files (classements_codes.ini, classements_groupes.ini, classements_lib.ini) and concepts like (G)roupes, (P)ilotes, code unique, libelles, categories
+  classements.graphml ..license.. not stated; third-party origin, author/source unknown

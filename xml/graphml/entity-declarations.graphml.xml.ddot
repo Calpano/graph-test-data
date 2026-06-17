@@ -1,0 +1,5 @@
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. 1-node graph whose <desc> contains the escaped text M&amp;Eacute;XICO#MEXICO
+ddot.it/this ..tests.. handling of escaped ampersand / named-entity-like text in element content
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)

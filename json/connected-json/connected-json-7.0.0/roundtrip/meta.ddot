@@ -1,0 +1,116 @@
+= nasty JSON fixtures that survive round-trip
+
+This folder contains hand-authored synthetic "nasty" JSON documents used as test
+fixtures for the "graphinout" project by Calpano. They are deliberately tricky /
+edge-case JSON inputs (big numbers, extreme exponents, deep nesting, odd
+whitespace, escaped characters, reserved-word and leading-zero keys, empty
+containers, etc.).
+
+This particular folder (roundtrip/) holds the nasty JSON files that DO survive a
+round-trip conversion (parse -> internal model -> serialize -> parse again yields
+an equivalent document). The sibling folder ../no_roundtrip/ holds the ones that
+do NOT survive a round-trip.
+
+Provenance: these are project-internal synthetic fixtures, not a collected
+external corpus. The "nasty##" numbering is shared across this folder and
+../no_roundtrip/ (this folder: 01,02,04,06,09,10,12,13,14,15,16,18; the other:
+03,05,07,08,11,17), i.e. one hand-authored suite split by round-trip behavior.
+The contents do NOT match the structure of known public JSON test suites:
+Nicolas Seriot's JSONTestSuite uses i_/n_/y_ filename prefixes, and the classic
+json.org JSON_checker uses pass#.json / fail#.json names; neither matches the
+small bespoke payloads here. All files are pure ASCII (no BOM, no non-ASCII
+bytes); nasty06 intentionally contains a literal TAB character as part of its
+whitespace test.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..authored by.. Calpano (graphinout project)
+ddot.it/this ..format.. format:json
+ddot.it/this ..content.. hand-crafted edge-case ("nasty") JSON test fixtures that survive round-trip conversion
+ddot.it/this ..tests.. JSON parser / round-trip robustness against tricky JSON inputs
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+
+== Per-file
+
+nasty01.json ..kind.. synthetic
+nasty01.json ..authored by.. Calpano (graphinout project)
+nasty01.json ..format.. format:json
+nasty01.json ..content.. { "n": 9223372036854775808 }
+nasty01.json ..tests.. integer just above Long.MAX_VALUE (2^63 = 9223372036854775808); big-integer / numeric-overflow handling
+nasty01.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty02.json ..kind.. synthetic
+nasty02.json ..authored by.. Calpano (graphinout project)
+nasty02.json ..format.. format:json
+nasty02.json ..content.. { "tiny": 1.234e-300, "huge": 9.99e+308 }
+nasty02.json ..tests.. extreme floating-point exponents near double underflow/overflow limits
+nasty02.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty04.json ..kind.. synthetic
+nasty04.json ..authored by.. Calpano (graphinout project)
+nasty04.json ..format.. format:json
+nasty04.json ..content.. 19 nested arrays wrapping the value 42 ([[[ ... [42] ... ]]])
+nasty04.json ..tests.. deep array nesting / recursion-depth handling
+nasty04.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty06.json ..kind.. synthetic
+nasty06.json ..authored by.. Calpano (graphinout project)
+nasty06.json ..format.. format:json
+nasty06.json ..content.. object with leading blank lines and irregular spacing/tab whitespace: "a":[1,2,3], "b":{"c":true}
+nasty06.json ..tests.. insignificant whitespace handling (leading newlines, spaces around tokens, literal TAB inside object); whitespace must not affect round-trip
+nasty06.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty09.json ..kind.. synthetic
+nasty09.json ..authored by.. Calpano (graphinout project)
+nasty09.json ..format.. format:json
+nasty09.json ..content.. { "url": "https://example.com/a/b?x=1&y=2" }
+nasty09.json ..tests.. URL string with reserved/special characters (slashes, ?, &, =) preserved verbatim
+nasty09.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty10.json ..kind.. synthetic
+nasty10.json ..authored by.. Calpano (graphinout project)
+nasty10.json ..format.. format:json
+nasty10.json ..content.. empty object spread across lines with leading spaces and a tab-indented closing brace
+nasty10.json ..tests.. empty object with surrounding/insignificant whitespace
+nasty10.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty12.json ..kind.. synthetic
+nasty12.json ..authored by.. Calpano (graphinout project)
+nasty12.json ..format.. format:json
+nasty12.json ..content.. pretty-printed array of integers 1..10, one per line
+nasty12.json ..tests.. multi-line pretty-printed array; reformatting/indentation round-trip
+nasty12.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty13.json ..kind.. synthetic
+nasty13.json ..authored by.. Calpano (graphinout project)
+nasty13.json ..format.. format:json
+nasty13.json ..content.. { "emptyObj": {}, "emptyArr": [] }
+nasty13.json ..tests.. empty object and empty array values
+nasty13.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty14.json ..kind.. synthetic
+nasty14.json ..authored by.. Calpano (graphinout project)
+nasty14.json ..format.. format:json
+nasty14.json ..content.. { "true": "t", "null": "n", "01": "leading", "00": 0 }
+nasty14.json ..tests.. reserved-word strings as object keys ("true"/"null") and numeric-looking keys with leading zeros ("01","00")
+nasty14.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty15.json ..kind.. synthetic
+nasty15.json ..authored by.. Calpano (graphinout project)
+nasty15.json ..format.. format:json
+nasty15.json ..content.. { "weird\"key\\name": "ok", "path": "C:\\Users\\name\\file.txt" }
+nasty15.json ..tests.. escaped characters in key and value: escaped quote \" and escaped backslash \\, including a Windows path; escapes must be preserved
+nasty15.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty16.json ..kind.. synthetic
+nasty16.json ..authored by.. Calpano (graphinout project)
+nasty16.json ..format.. format:json
+nasty16.json ..content.. { "deep": { "a": { "b": { "c": { "d": { "e": [ {"f": 1}, {"f": 2} ] } } } } } }
+nasty16.json ..tests.. deep object nesting terminating in an array of objects
+nasty16.json ..license.. not stated (public domain unless otherwise stated)
+
+nasty18.json ..kind.. synthetic
+nasty18.json ..authored by.. Calpano (graphinout project)
+nasty18.json ..format.. format:json
+nasty18.json ..content.. [ true , false , null ] (with leading blank line and spaces around elements)
+nasty18.json ..tests.. array of literal primitives (true/false/null) with surrounding whitespace
+nasty18.json ..license.. not stated (public domain unless otherwise stated)

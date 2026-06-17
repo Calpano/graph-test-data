@@ -1,0 +1,8 @@
+Deliberately broken variant of the ezyang/metromaps greek2 graph.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. deliberately malformed copy of greek2 (stray "====" banner text and broken whitespace) used as a negative test
+ddot.it/this ..tests.. detection/handling of invalid GraphML; paired with greek2--FIXED.graphml
+ddot.it/this ..source url.. https://github.com/ezyang/metromaps/blob/master/greek2.graphml
+ddot.it/this ..license.. no license file in source repo (public domain unless otherwise stated)

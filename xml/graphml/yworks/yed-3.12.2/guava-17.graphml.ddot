@@ -1,0 +1,10 @@
+Class/structure graph of Google Guava 17, created with yEd 3.12.2. This is a
+derived class graph (com.google.common.* packages), not an official Google
+artifact.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..created with.. yEd 3.12.2
+ddot.it/this ..content.. class graph of Google Guava 17 (com.google.common.* packages), 1755 nodes / 5923 edges
+ddot.it/this ..depicts.. Google Guava (Apache License 2.0); the diagram is a derived class/structure graph, not an official Google artifact
+ddot.it/this ..license.. Apache-2.0 -- https://www.apache.org/licenses/LICENSE-2.0 (upstream library); the diagram itself is not separately licensed

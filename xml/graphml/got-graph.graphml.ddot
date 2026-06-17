@@ -1,0 +1,30 @@
+Game of Thrones character relationship graph.
+
+== Attribution (CC BY-NC-SA 4.0)
+Per the CC BY-NC-SA 4.0 attribution requirements (Title, Author, Source, License),
+plus the NonCommercial and ShareAlike notices:
+
+* Title:   "Game of Thrones" character relationship graph (84 characters / 216 relations)
+* Author:  Andrew Beveridge -- the upstream character-interaction dataset
+           "Network of Thrones" (Andrew Beveridge and Jie Shan, Math Horizons, 2016),
+           published at https://github.com/mathbeveridge/gameofthrones and reused as
+           the creative-track dataset of the Graph Drawing Contest 2018.
+* Source:  Upstream interaction data: https://github.com/mathbeveridge/gameofthrones
+           Reused via Graph Drawing Contest 2018 -- https://mozart.diei.unipg.it/gdcontest/contest2018/
+* License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+           (CC BY-NC-SA 4.0) -- https://creativecommons.org/licenses/by-nc-sa/4.0/
+* Changes: redistributed here as a test fixture; file renamed to got-graph.graphml.
+           Graph content not altered.
+* NonCommercial: this material is provided for non-commercial use only (it is used here
+           as test data, not for commercial purposes).
+* ShareAlike: any adaptation/remix of this file must be distributed under the same
+           CC BY-NC-SA 4.0 license.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. Game of Thrones character network with node attributes (name, status, house-birth, house-marriage, group) and relation edges, 84 nodes / 216 edges
+ddot.it/this ..depicts.. character relationships in HBO's Game of Thrones / A Song of Ice and Fire
+ddot.it/this ..authored by.. Andrew Beveridge -- "Network of Thrones" data (Andrew Beveridge and Jie Shan, Math Horizons, 2016), reused as the GD Contest 2018 creative-track dataset
+ddot.it/this ..source url.. https://github.com/mathbeveridge/gameofthrones
+ddot.it/this ..license.. CC BY-NC-SA 4.0 -- https://creativecommons.org/licenses/by-nc-sa/4.0/
+ddot.it/this ..license note.. CC BY-NC-SA 4.0 is explicitly declared by the upstream source repo (github.com/mathbeveridge/gameofthrones README); the GD Contest 2018 page that reuses the data states no separate license

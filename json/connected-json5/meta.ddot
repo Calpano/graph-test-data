@@ -1,0 +1,6 @@
+example.connected.json5 ..kind.. synthetic
+example.connected.json5 ..authored by.. Calpano (graphinout project)
+example.connected.json5 ..format.. format:connected-json (json5 syntax variant)
+example.connected.json5 ..content.. JSON5 variant of example.connected.json; identical graph content with explanatory // comments ("Extensible. Only some keys reserved for CJ.", "in canonical form, can have ports", etc.)
+example.connected.json5 ..tests.. JSON5 syntax acceptance plus same features as the JSON variant
+example.connected.json5 ..license.. not stated (public domain unless otherwise stated)

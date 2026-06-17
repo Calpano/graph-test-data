@@ -1,0 +1,11 @@
+From the ezyang/metromaps project (Metro Maps as envisioned by Dafna Shahaf). The
+source repository has no license file. Same format as greek2.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. "metro map" of New York Times articles about the 2010 Haiti earthquake; nodes are dated article headlines with x/y layout coordinates, 18 nodes / 20 edges
+ddot.it/this ..depicts.. timeline/storyline of news coverage of the 2010 Haiti earthquake relief effort
+ddot.it/this ..tests.. corrected (well-formed) version of haitimap2--INVALIDgraphml.graphml
+ddot.it/this ..authored by.. Edward Z. Yang (ezyang) metromaps project
+ddot.it/this ..source url.. https://github.com/ezyang/metromaps
+ddot.it/this ..license.. no license file in source repo (public domain unless otherwise stated)

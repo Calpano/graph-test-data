@@ -1,0 +1,157 @@
+# Metadata for ConnectedJson (cj) test fixtures
+
+These are hand-crafted ConnectedJson (".cj.json") test fixtures authored
+within the graphinout project (by Calpano), which DEFINES the ConnectedJson
+graph format. They are synthetic, NOT collected external data: every file
+uses illustrative made-up content (e.g. "Simple Social Network" with
+Alice/Bob/Charlie, "Chemical Reaction" combustion, "Theory of Relativity" /
+Einstein, "Circuit Diagram with Ports", London/Tokyo cities). No external
+dataset markers, provenance URLs, or third-party copyright notices are
+present.
+
+Naming conventions:
+- "<name>.cj.json"            = base, hand-authored fixture (input).
+- "<name>.cj.canonical.json"  = canonical-form ConnectedJson sample.
+
+Note on versioning: the folder is named "connected-json-7.0.0", but the fixtures
+declare "$schema" https://j-s-o-n.org/schema/cj-8.0.0.json and (where present)
+connectedJson.versionNumber "8.0.0" / versionDate "2025-07-14". The format is
+recorded below as connected-json-7.0.0 to match the folder; the embedded 8.0.0
+schema markers are the fixtures' own declarations.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:connected-json-7.0.0
+ddot.it/this ..authored by.. Calpano / graphinout project
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+ddot.it/this ..content.. Synthetic, hand-crafted ConnectedJson test fixtures: base inputs and canonical-form samples.
+ddot.it/this ..tests.. ConnectedJson parsing/serialization and ConnectedJson<->GraphML round-trip conversion (Cj2Gml2Cj), plus canonical output form.
+
+
+# --- minimal ---
+
+minimal.cj.json ..kind.. synthetic
+minimal.cj.json ..content.. Smallest non-empty CJ document: only a "connectedJson" header block (versionNumber/versionDate), no graphs.
+minimal.cj.json ..tests.. Minimal valid document handling.
+
+
+# --- basic ---
+
+basic.cj.json ..kind.. synthetic
+basic.cj.json ..content.. One graph "Simple Social Network" with 3 nodes (Alice, Bob, Charlie) and 2 labeled directed edges ("knows") using out/in endpoint directions.
+basic.cj.json ..tests.. Basic nodes/edges/labels/endpoint directions.
+
+
+# --- canonical ---
+
+canonical.cj.json ..kind.. synthetic
+canonical.cj.json ..content.. Same "Simple Social Network" graph as basic, but with connectedJson.canonical=true and expanded (canonical) object/array nesting.
+canonical.cj.json ..tests.. Canonical-form CJ structure / canonical flag.
+
+
+# --- baseuris ---
+
+baseuris.cj.json ..kind.. synthetic
+baseuris.cj.json ..content.. Graph using a JSON-LD "@context" with "@vocab":"doi:doc#"; nodes/edges/endpoints carry string "data" values noting their resolved full URIs (e.g. doi:doc#aaa). Includes nested graphs on a node and on an edge to show base-URI resolution at multiple depths.
+baseuris.cj.json ..tests.. Base/vocab URI resolution (@context @vocab) across nested graphs, nodes, edges and endpoints.
+
+
+# --- compound-nodes ---
+
+compound-nodes.cj.json ..kind.. synthetic
+compound-nodes.cj.json ..content.. Graph "g_compound" where node "Server Rack A" contains a nested graph ("rack_internals") with web_server/db_server nodes and an internal edge; a top-level edge connects an outer node (n_firewall) to an inner node (web_server).
+compound-nodes.cj.json ..tests.. Compound/hierarchical nodes and edges that cross graph boundaries (inner<->outer references).
+
+
+# --- hyperedge ---
+
+hyperedge.cj.json ..kind.. synthetic
+hyperedge.cj.json ..content.. "Chemical Reaction" graph; a single edge "Combustion" with 3 endpoints (H2/O2 in, H2O out), each endpoint carrying custom "data" (stoichiometry).
+hyperedge.cj.json ..tests.. Hyperedges (n-ary edges) with per-endpoint custom data and directions.
+
+
+# --- labels ---
+
+labels.cj.json ..kind.. synthetic
+labels.cj.json ..content.. Multi-language labels: nodes Berlin/Paris and a train-line edge, each label having multiple "entries" with "language" codes (en/de/fr). Includes an escaped/accented value "Bär-lin" style text ("Bär-lin").
+labels.cj.json ..tests.. Multi-language label entries (language-tagged values) on nodes and edges.
+
+
+# --- nested-graphs ---
+
+nested-graphs.cj.json ..kind.. synthetic
+nested-graphs.cj.json ..content.. Outer graph "world" (canada/usa) with a nested "europe" graph (france/germany); an outer edge "trade_transatlantic" references "germany" defined in the nested graph.
+nested-graphs.cj.json ..tests.. Nested graphs and cross-level node references.
+
+
+# --- ports ---
+
+ports.cj.json ..kind.. synthetic
+ports.cj.json ..content.. "Circuit Diagram with Ports": an AND gate with flat ports (in1/in2/out) and a microcontroller with nested ports (GPIO Bank > pin1/pin2); an edge connects by node+port.
+ports.cj.json ..tests.. Node ports, nested ports, and port-targeted edge endpoints.
+
+ports-simple.cj.json ..kind.. synthetic
+ports-simple.cj.json ..content.. Minimal ports case: node-1 with two flat ports, node-2 with one nested port group; one port-to-port edge.
+ports-simple.cj.json ..tests.. Simple/nested ports and port-targeted endpoints.
+
+
+# --- typed-edges ---
+
+typed-edges.cj.json ..kind.. synthetic
+typed-edges.cj.json ..content.. Knowledge graph with "@context" "@vocab":https://schema.org/; edges carry a "type" (birthPlace, knowsAbout) resolved against the vocab (Einstein/Relativity/Ulm).
+typed-edges.cj.json ..tests.. Typed edges with JSON-LD vocab-resolved "type" values.
+
+
+# --- custom-data ---
+
+custom-data.cj.json ..kind.. synthetic
+custom-data.cj.json ..content.. "Cities with Custom Data": nodes London/Tokyo with structured "data" (nested coordinates object, population int) and an edge with custom "data" (carrier, distance_km).
+custom-data.cj.json ..tests.. Arbitrary structured custom "data" objects on nodes and edges.
+
+custom-data-simple.cj.json ..kind.. synthetic
+custom-data-simple.cj.json ..content.. Nodes london/tokyo with mixed custom "data" (array of mixed types, int, nested object) plus an edge with data.
+custom-data-simple.cj.json ..tests.. Simple custom data: mixed-type arrays and nested objects on nodes/edges.
+
+custom-data-simple2.cj.json ..kind.. synthetic
+custom-data-simple2.cj.json ..content.. Document-level "data" (no graphs): mixed-type array, int, nested object, alongside a connectedJson header.
+custom-data-simple2.cj.json ..tests.. Custom "data" at the top/document level.
+
+custom-data-simple3.cj.json ..kind.. synthetic
+custom-data-simple3.cj.json ..content.. Tiny document: only top-level "data": { "foo": "bar" }.
+custom-data-simple3.cj.json ..tests.. Minimal document-level custom data.
+
+
+# --- full ---
+
+full.cj.json ..kind.. synthetic
+full.cj.json ..content.. Comprehensive fixture combining most features: connectedJson header, "@context" @vocab, graph/node/edge custom "data", multi-language labels (en/de), nested graphs on nodes, ports, etc. The "everything" exerciser.
+full.cj.json ..tests.. Combined coverage of all major CJ features in one document.
+
+
+# --- example-cj-with-all-features ---
+
+example-cj-with-all-features.cj.json ..kind.. synthetic
+example-cj-with-all-features.cj.json ..content.. Showcase example: "@context" @vocab example.org; nodes with "types" (FOAF Person URIs), data as object and as plain string, a blank-node id "_:b1", multi-language labels (it/de/default); typed edges (foaf:knows, livesIn) with per-endpoint "type"/"data" and edge-level data.
+example-cj-with-all-features.cj.json ..tests.. Feature showcase: node types, blank nodes, scalar/object data, typed edges/endpoints, multi-language labels.
+
+
+# --- canonical samples ---
+
+sample-1.cj.canonical.json ..kind.. synthetic
+sample-1.cj.canonical.json ..content.. Canonical sample: graph with two nodes (one with ports), two edges (one with data, one port-targeted), and a nested subgraph with its own node and edge crossing levels.
+sample-1.cj.canonical.json ..tests.. Canonical form covering nodes, ports, edge data, and nested-graph cross-references.
+
+sample-1b.cj.canonical.json ..kind.. synthetic
+sample-1b.cj.canonical.json ..content.. Canonical sample: single node with string "data" plus graph-level "data".
+sample-1b.cj.canonical.json ..tests.. Canonical form with node-level and graph-level scalar data.
+
+sample-2.cj.canonical.json ..kind.. synthetic
+sample-2.cj.canonical.json ..content.. Canonical sample: two labeled nodes and one directed edge (in/out).
+sample-2.cj.canonical.json ..tests.. Canonical form for basic node/edge/direction.
+
+sample-2b.cj.canonical.json ..kind.. synthetic
+sample-2b.cj.canonical.json ..content.. Canonical sample: an outer graph whose only content is a nested subgraph "subgraph1" (empty).
+sample-2b.cj.canonical.json ..tests.. Canonical form for empty nested subgraph.
+
+sample-3.cj.canonical.json ..kind.. synthetic
+sample-3.cj.canonical.json ..content.. Canonical sample: single graph with one labeled node ("First Node").
+sample-3.cj.canonical.json ..tests.. Canonical form for the simplest single-node graph.

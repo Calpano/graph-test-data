@@ -1,0 +1,5 @@
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. tiny 3-node / 1-edge airport sample (Albuquerque, Aguascalientes, Wasu) derived from airportsAndCoord, with country/lat/lon data
+ddot.it/this ..tests.. raw (unescaped) entity reference M&Eacute;XICO in a data value and a non-standard edge attribute directed="null"
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)

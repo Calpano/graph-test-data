@@ -1,0 +1,22 @@
+World airport graph derived from the OpenFlights database.
+
+== Attribution (ODbL)
+Per the Open Database License attribution and share-alike requirements:
+
+* Source:   OpenFlights Airport Database -- https://openflights.org/data.php
+* License:  the database is made available under the Open Database License (ODbL) v1.0
+            -- https://opendatacommons.org/licenses/odbl/1-0/
+            individual contents are under the Database Contents License (DbCL) v1.0
+            -- https://opendatacommons.org/licenses/dbcl/1-0/
+* Changes:  derived/processed into a GraphML graph (airports as nodes with
+            country + lat/lon data; routes as edges). This is a Derivative Database.
+* ShareAlike (Open): as required by ODbL, this derived database is redistributed under
+            the same Open Database License (ODbL) and is not subject to any technical
+            restriction (DRM) that would limit the rights granted.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. world airport graph with country + lat/lon coordinates as node data, 3373 nodes / 13547 edges, undirected
+ddot.it/this ..depicts.. airports and the connections (routes) between them
+ddot.it/this ..source url.. https://openflights.org/data.php
+ddot.it/this ..license.. Open Database License (ODbL) v1.0 -- https://opendatacommons.org/licenses/odbl/1-0/ (contents under DbCL v1.0); derived database redistributed under the same ODbL terms

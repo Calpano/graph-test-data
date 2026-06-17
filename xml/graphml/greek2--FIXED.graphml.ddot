@@ -1,0 +1,11 @@
+From the ezyang/metromaps project (Metro Maps as envisioned by Dafna Shahaf). The
+source repository has no license file.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..content.. "metro map" of New York Times articles about the Greek debt crisis / EU austerity; nodes are dated article headlines with x/y layout coordinates, 14 nodes / 14 edges
+ddot.it/this ..depicts.. timeline/storyline of news coverage of the Greek financial crisis
+ddot.it/this ..tests.. corrected (well-formed) version of greek2--INVALIDgraphml.graphml
+ddot.it/this ..source url.. https://github.com/ezyang/metromaps/blob/master/greek2.graphml
+ddot.it/this ..authored by.. Edward Z. Yang (ezyang) metromaps project
+ddot.it/this ..license.. no license file in source repo (public domain unless otherwise stated)

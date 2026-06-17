@@ -1,0 +1,8 @@
+GraphML files created with yEd 3.14.3.
+
+ddot.it/this ..format.. format:graphml
+ddot.it/this ..created with.. yEd 3.14.3
+ddot.it/this ..license.. not stated (synthetic test graphs authored in this project; public domain unless otherwise stated)
+
+  gml.graphml                 ..content.. small directed test graph, 10 nodes / 7 edges
+  nested-sample-graph.graphml ..content.. sample graph with nested/group nodes, 55 nodes / 50 edges

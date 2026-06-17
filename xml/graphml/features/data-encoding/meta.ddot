@@ -1,0 +1,13 @@
+GraphML test files exercising XML data/character encoding edge cases.
+They check how a GraphML parser copes with tricky characters and whitespace in the markup.
+
+The diagram content is a trimmed-down excerpt of "FlexsimObject OnDraw Event Dispatching"
+(FlexsimObjectOnDrawDispatching.graphml), reduced to a single table node with two flowchart
+nodes so the encoding case under test is easy to see. The original diagrams come from the
+FlexSim Module SDK documentation.
+
+ddot.it/this ..kind.. synthetic (trimmed from collected source)
+ddot.it/this ..format.. format:graphml-1.1
+
+data-enc-apos.graphml.xml ..tests.. apostrophes (') inside node-label text content, plus raw line breaks within the label text
+data-linebreaks.graphml.xml ..tests.. line breaks between attributes inside an XML start tag (the <graphml> element split across multiple lines)
