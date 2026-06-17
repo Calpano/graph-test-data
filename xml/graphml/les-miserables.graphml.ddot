@@ -4,4 +4,4 @@ ddot.it/this ..content.. character co-occurrence network of Victor Hugo's novel 
 ddot.it/this ..depicts.. characters of Les Miserables connected when they co-appear in the same chapter
 ddot.it/this ..authored by.. originally encoded by Donald E. Knuth in The Stanford GraphBase (file jean.dat); widely redistributed (e.g. via Gephi sample datasets)
 ddot.it/this ..source url.. https://www-cs-faculty.stanford.edu/~knuth/sgb.html
-ddot.it/this ..license.. Stanford GraphBase data is freely available; not formally stated in this file (public domain unless otherwise stated)
+ddot.it/this ..license.. public domain -- the Stanford GraphBase explicitly states that all its programs and data (including jean.dat) are public-domain and freely available (https://www-cs-faculty.stanford.edu/~knuth/sgb.html); the underlying novel by Victor Hugo (1862) is itself public domain

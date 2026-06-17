@@ -9,3 +9,4 @@ ddot.it/this ..tests.. corrected (well-formed) version of greek2--INVALIDgraphml
 ddot.it/this ..source url.. https://github.com/ezyang/metromaps/blob/master/greek2.graphml
 ddot.it/this ..authored by.. Edward Z. Yang (ezyang) metromaps project
 ddot.it/this ..license.. no license file in source repo (public domain unless otherwise stated)
+ddot.it/this ..license note.. node labels are dated New York Times article headlines; the graph structure/layout is from the metromaps project, but the headline text is factual reference data ultimately derived from NYT coverage
