@@ -1,0 +1,45 @@
+= graph-test-data
+
+To help developing graph-handling applications, test data is needed.
+Here on https://github.com/Calpano/graph-test-data[graph-test-data] we collect it.
+
+== Organization
+
+.Category
+We categorize formats and their test files by category: `binary`, `text`, `xml` or `json`.
+
+.Format ID
+In the https://github.com/Calpano/graph-format-registry[graph-format-registry] we get stable identifiers for graph formats.
+New formats should first be added to the registry.
+
+Every graph format has an ID like `format:graphml-1.1` or `format:connected-json-8.0.0`.
+Graph format can be a __version of__ of a more general family of formats.
+In our case, `format:graphml-1.1` is a version of `format:graphml`.
+All are xml-based formats.
+So their test files are in `/xml/graphml/graphml-1.1` or `/json/connected-json/connected-json-8.0.0` respectively.
+This allows to load test data by simply filtering on pathname prefix.
+
+For test data, where the exact version is not determined, it might also be filed under the `/xml/graphml` path directly.
+
+.Kind
+Test files can be labeled as __synthetic__ (created with the purpose of testing) or __collected__ (created for various, often unknown purposes).
+
+.Datasets
+Furthermore, we often collect more than one test file forming sub-collections, for example all test files collected from a certain website.
+Datasets should state the source they have been collected from.
+Datasets have short, arbitrary names, but avoiding the reserved format ID names as defined in the graph registry.
+
+=== Metadata
+We use simple `meta.ddot` files.
+These are plain-text files with embedded, human&machine-readable https://ddot.it[ddot.it] triples.
+If we have more text, we use an `meta.adoc` (or `meta.md` if you prefer) file, also including ddot.it syntax.
+
+We are interested in
+
+  ..source url..       stating the URL where the data was collected from
+  ..download date..    ISO date when the data was downloaded.
+  ..license..          which is very often not stated at all. Public files on the web are considered public domain unless otherwise stated.
+
+
+== Legal
+If you want your data to be removed from the test collection, please https://github.com/Calpano/graph-test-data/issues[file an issue at the tracker].
