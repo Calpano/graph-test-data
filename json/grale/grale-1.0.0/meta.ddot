@@ -8,4 +8,4 @@ ddot.it/this ..authored by.. Calpano (graph-layout-api project)
 ddot.it/this ..format.. format:grale-1.0.0
 ddot.it/this ..content.. 20 input graphs: chain, binary tree, diamond, fan-out, fan-in, deep chain, LR pipeline, BT and RL rankdir, cycle, multigraph, compound (clusters), grid, bipartite, star, varied node sizes, weighted, disconnected, random DAGs (small and medium)
 ddot.it/this ..tests.. layout-engine input handling and layout-quality measurement across common graph shapes
-ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+ddot.it/this ..license.. MIT License, Copyright (c) Calpano (graph-layout-api project)
