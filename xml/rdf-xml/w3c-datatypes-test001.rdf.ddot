@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-xml
+ddot.it/this ..content.. W3C RDF/XML syntax test for datatyped literals. A single rdf:Description about http://example.org/foo with two properties using rdf:datatype="...XMLSchema#integer" (value 10); the second also carries xml:lang="fr".
+ddot.it/this ..tests.. RDF/XML typed-literal handling via rdf:datatype, and interaction of rdf:datatype with xml:lang.
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

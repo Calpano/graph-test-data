@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. Expected JSON-LD output (fully-expanded, context-free) for the matching fromRdf-0006-in.nq input (text/rdf-nquads/).
+ddot.it/this ..tests.. RDF->JSON-LD (fromRdf) conversion: @type arrays, IRI objects, plain/typed/language literals, native XSD datatypes, RDF collections->@list, named graphs->@graph, blank nodes, and edge cases (un-collapsed partial lists, rdf:nil as a normal node).
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

@@ -1,0 +1,7 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-json
+ddot.it/this ..content.. EasyRdf's non-standard "RDF/JSON Triples" output for the FOAF profile: a top-level {"triples":[{subject,predicate,object}, ...]} array. This is NOT standard RDF/JSON (the Talis subject-keyed form) and is not a registered graph format (EasyRdf is a library, not a format), so a conformant RDF/JSON parser rejects it (it reads "triples" as a relative IRI).
+ddot.it/this ..tests.. RDF/JSON parser rejection of EasyRdf's non-standard triples-array layout
+ddot.it/this ..invalid.. format:rdf-json -- EasyRdf "json-triples" layout, not the standard subject-keyed RDF/JSON
+ddot.it/this ..source url.. https://github.com/easyrdf/easyrdf
+ddot.it/this ..license.. BSD-3-Clause

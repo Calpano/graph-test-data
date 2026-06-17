@@ -1,0 +1,8 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-xml
+ddot.it/this ..content.. DBpedia link neighborhood of dbpedia:Berlin: ~40,335 rdf:Description subjects, dominated by dbo:wikiPageWikiLink relations pointing to http://dbpedia.org/resource/Berlin (~39,804), plus place relations (dbo/dbp birthPlace, deathPlace, location, headquarter, city, hometown, federalState, owl:sameAs, foaf:depiction, rdfs:label, ...) linking entities to Berlin
+ddot.it/this ..depicts.. Wikipedia/DBpedia pages and entities that link to or are located in Berlin
+ddot.it/this ..tests.. RDF/XML parsing (many namespaces, rdf:Description / rdf:about / rdf:resource), large-file handling (~8.3 MB)
+ddot.it/this ..source url.. https://dbpedia.org/resource/Berlin
+ddot.it/this ..download date.. 2026-02 (approx., from file timestamp)
+ddot.it/this ..license.. CC BY-SA 3.0 Unported -- https://creativecommons.org/licenses/by-sa/3.0/ AND GFDL -- https://www.gnu.org/licenses/fdl-1.3.html (DBpedia is derived from Wikipedia and shares its dual license)

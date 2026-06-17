@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. FOAF personal-profile fixture from EasyRdf: a PersonalProfileDocument whose primaryTopic is a Person (Joe Bloggs) with a current Project.
+ddot.it/this ..tests.. @context with @vocab default vocabulary, term aliasing, "@type":"@id" coercion, nested objects, and a language-tagged @value.
+ddot.it/this ..source url.. https://github.com/easyrdf/easyrdf
+ddot.it/this ..license.. BSD-3-Clause

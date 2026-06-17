@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:trix
+ddot.it/this ..content.. Minimal/degenerate TriX document: an empty <TriX> root element with no <graph> content, declared with XML version 1.1. A Jena-compatibility variant used as an empty-document edge case.
+ddot.it/this ..tests.. TriX parsing of an empty document (no graphs/triples) and XML 1.1 declaration handling.
+ddot.it/this ..source url.. https://github.com/RDFLib/rdflib
+ddot.it/this ..license.. BSD-3-Clause

@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. dcterms:created "1957-02-27"^^xsd:date defined through a context term.
+ddot.it/this ..tests.. Coerced typed literal via @context term with "@type": "xsd:date".
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

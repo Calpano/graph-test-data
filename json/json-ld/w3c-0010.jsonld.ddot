@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. foaf prefix in @context; foaf:knows -> node with @id and foaf:name "Manu Sporny".
+ddot.it/this ..tests.. @context prefix definition and compact-IRI (CURIE) term expansion; nested node with explicit @id.
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

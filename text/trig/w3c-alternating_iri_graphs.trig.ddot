@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:trig
+ddot.it/this ..content.. statements alternating between the default graph and an IRI-named graph :G
+ddot.it/this ..tests.. interleaved default-graph and named-graph blocks, repeated graph labels
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:trix
+ddot.it/this ..content.. TriX document with a named <graph> describing a bibliographic FOAF Document/Agent (rdf:type, foaf:primaryTopic, foaf:name). Lowercase <trix> root. A general-purpose TriX example.
+ddot.it/this ..tests.. TriX parsing of a typical named graph with <uri> and <plainLiteral> objects and FOAF/rdf:type predicates.
+ddot.it/this ..source url.. https://github.com/RDFLib/rdflib
+ddot.it/this ..license.. BSD-3-Clause

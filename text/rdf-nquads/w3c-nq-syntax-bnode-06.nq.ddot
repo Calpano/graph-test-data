@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-nquads
+ddot.it/this ..content.. N-Quads syntax test exercising blank nodes
+ddot.it/this ..tests.. blank node handling across positions
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

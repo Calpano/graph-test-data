@@ -1,0 +1,7 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. The complete current schema.org vocabulary (all terms, https variant).
+ddot.it/this ..depicts.. The schema.org vocabulary
+ddot.it/this ..tests.. Very large JSON-LD vocabulary document: big @context plus a large @graph of class/property definitions; stress-tests reader scale and @graph handling (~1.5 MB).
+ddot.it/this ..source url.. https://schema.org/
+ddot.it/this ..license.. CC BY-SA 3.0

@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:json-ld
+ddot.it/this ..content.. foaf:knows pointing at an anonymous node whose foaf:name is "Herman Iván"@hu.
+ddot.it/this ..tests.. Nested node (implicit blank node) and language-tagged literal (@value + @language "hu").
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

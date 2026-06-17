@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:trix
+ddot.it/this ..content.. TriX example from Ruby-RDF: a default (unnamed) <graph> with triples about example.org/Bob and example.org/Mary using <uri>, <plainLiteral> and xsd:integer <typedLiteral> objects. Includes an XML comment showing the equivalent N-Triples form.
+ddot.it/this ..tests.. TriX parsing of a default graph with <uri>, <plainLiteral> and xsd:integer <typedLiteral> objects.
+ddot.it/this ..source url.. https://github.com/ruby-rdf/rdf-trix
+ddot.it/this ..license.. Public Domain (Unlicense)

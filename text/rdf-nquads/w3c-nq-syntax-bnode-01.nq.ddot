@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-nquads
+ddot.it/this ..content.. a quad whose graph label is a blank node
+ddot.it/this ..tests.. blank node as graph name
+ddot.it/this ..source url.. https://w3c.github.io/rdf-tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

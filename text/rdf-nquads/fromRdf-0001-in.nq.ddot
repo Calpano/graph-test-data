@@ -1,0 +1,6 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-nquads
+ddot.it/this ..content.. N-Quads input for the JSON-LD fromRdf (RDF->JSON-LD) conversion test; matching expected output is json/json-ld/fromRdf-0001-out.jsonld.
+ddot.it/this ..tests.. plain/typed/language-tagged literals, rdf:type, blank nodes, lists, named graphs, datatype edge cases
+ddot.it/this ..source url.. https://w3c.github.io/json-ld-api/tests/
+ddot.it/this ..license.. W3C Software and Document License / W3C Test Suite License

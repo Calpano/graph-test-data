@@ -1,0 +1,8 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-json
+ddot.it/this ..content.. DBpedia entity data for the city of Karlsruhe, serialized as RDF/JSON. Intentionally-invalid fixture: some literal "value" fields are emitted as JSON numbers (e.g. "value": 49.0092...) instead of the JSON strings that RDF/JSON (Talis spec) requires, so a conformant RDF/JSON parser must reject it.
+ddot.it/this ..depicts.. dbr:Karlsruhe
+ddot.it/this ..tests.. RDF/JSON parser rejection of non-string literal values (numbers used where strings are required)
+ddot.it/this ..invalid.. format:rdf-json -- literal "value" given as a JSON number, not a string
+ddot.it/this ..source url.. https://dbpedia.org/
+ddot.it/this ..license.. CC BY-SA 3.0 + GNU FDL

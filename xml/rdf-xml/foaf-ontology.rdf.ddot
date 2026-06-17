@@ -1,0 +1,7 @@
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:rdf-xml
+ddot.it/this ..content.. The complete FOAF (Friend of a Friend) vocabulary definition in RDF/XML using RDFS and OWL: owl:Ontology, owl:Class, owl:ObjectProperty, owl:DatatypeProperty, rdfs:subClassOf/subPropertyOf, rdfs:domain/range, vs:term_status and dc metadata. Mixes namespaces rdf, rdfs, owl, vs, foaf, wot, dc.
+ddot.it/this ..depicts.. FOAF vocabulary terms (Person, Agent, Document, knows, mbox, ...).
+ddot.it/this ..tests.. RDF/XML parsing of a large real-world ontology: many namespace prefixes, OWL/RDFS class & property axioms, rdf:about / rdf:resource references, embedded XML comments.
+ddot.it/this ..source url.. http://xmlns.com/foaf/spec/
+ddot.it/this ..license.. Creative Commons Attribution 1.0 (CC BY 1.0)
