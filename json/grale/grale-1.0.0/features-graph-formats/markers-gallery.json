@@ -1,0 +1,175 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB",
+    "markers": {
+      "arrow": {
+        "width": 12,
+        "height": 9
+      },
+      "arrowBig": {
+        "width": 22,
+        "height": 16
+      },
+      "arrowSmall": {
+        "width": 7,
+        "height": 5
+      },
+      "arrowFlat": {
+        "width": 10,
+        "height": 16
+      },
+      "dot": {
+        "width": 8,
+        "height": 8
+      },
+      "dotBig": {
+        "width": 15,
+        "height": 15
+      },
+      "circle": {
+        "width": 12,
+        "height": 12,
+        "dock": "left"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "v": "a",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "b",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "c",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "d",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "e",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "f",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "g",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "h",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "a",
+      "w": "b",
+      "value": {
+        "endMarker": "arrow",
+        "meta": {
+          "label": "arrow"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "c",
+      "value": {
+        "endMarker": "arrowBig",
+        "meta": {
+          "label": "arrowBig"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "d",
+      "value": {
+        "endMarker": "arrowSmall",
+        "meta": {
+          "label": "arrowSmall"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "e",
+      "value": {
+        "endMarker": "arrowFlat",
+        "meta": {
+          "label": "arrowFlat"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "f",
+      "value": {
+        "startMarker": "dot",
+        "endMarker": "arrow",
+        "meta": {
+          "label": "dot→arrow"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "g",
+      "value": {
+        "startMarker": "circle",
+        "endMarker": "dotBig",
+        "meta": {
+          "label": "circle→dotBig"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "h",
+      "value": {
+        "startMarker": "dotBig",
+        "endMarker": "dotBig",
+        "lineWidth": 3,
+        "meta": {
+          "label": "dot…dot, lw3"
+        }
+      }
+    }
+  ]
+}

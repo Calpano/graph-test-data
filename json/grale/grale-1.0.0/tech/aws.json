@@ -1,0 +1,123 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "Public EC2"
+  }, {
+    "v" : "VPC Production ,, region: eu-central-1"
+  }, {
+    "v" : "IAM Role Webserver"
+  }, {
+    "v" : "SG Web Inbound"
+  }, {
+    "v" : "443 ,, quelle: 0.0.0.0/0"
+  }, {
+    "v" : "22 ,, quelle: Admin IP Range"
+  }, {
+    "v" : "S3 ReadOnly Access"
+  }, {
+    "v" : "s3:Get* ,, ressource: Customer Data Bucket"
+  }, {
+    "v" : "Customer Data Bucket"
+  }, {
+    "v" : "Personenbezogene Daten ,, klassifizierung: Streng Geheim"
+  }, {
+    "v" : "AES-256"
+  }, {
+    "v" : "Internet Gateway"
+  }, {
+    "v" : "Potenzielle Angreifer"
+  } ],
+  "edges" : [ {
+    "v" : "Public EC2",
+    "w" : "VPC Production ,, region: eu-central-1",
+    "value" : {
+      "meta" : {
+        "label" : "läuft in"
+      }
+    }
+  }, {
+    "v" : "Public EC2",
+    "w" : "IAM Role Webserver",
+    "value" : {
+      "meta" : {
+        "label" : "nutzt"
+      }
+    }
+  }, {
+    "v" : "Public EC2",
+    "w" : "SG Web Inbound",
+    "value" : {
+      "meta" : {
+        "label" : "hat SecurityGroup"
+      }
+    }
+  }, {
+    "v" : "SG Web Inbound",
+    "w" : "443 ,, quelle: 0.0.0.0/0",
+    "value" : {
+      "meta" : {
+        "label" : "erlaubt Port"
+      }
+    }
+  }, {
+    "v" : "SG Web Inbound",
+    "w" : "22 ,, quelle: Admin IP Range",
+    "value" : {
+      "meta" : {
+        "label" : "erlaubt Port"
+      }
+    }
+  }, {
+    "v" : "IAM Role Webserver",
+    "w" : "S3 ReadOnly Access",
+    "value" : {
+      "meta" : {
+        "label" : "hat Policy"
+      }
+    }
+  }, {
+    "v" : "S3 ReadOnly Access",
+    "w" : "s3:Get* ,, ressource: Customer Data Bucket",
+    "value" : {
+      "meta" : {
+        "label" : "erlaubt Aktion"
+      }
+    }
+  }, {
+    "v" : "Customer Data Bucket",
+    "w" : "Personenbezogene Daten ,, klassifizierung: Streng Geheim",
+    "value" : {
+      "meta" : {
+        "label" : "enthält"
+      }
+    }
+  }, {
+    "v" : "Customer Data Bucket",
+    "w" : "AES-256",
+    "value" : {
+      "meta" : {
+        "label" : "hat Verschlüsselung"
+      }
+    }
+  }, {
+    "v" : "Public EC2",
+    "w" : "Internet Gateway",
+    "value" : {
+      "meta" : {
+        "label" : "ist exponiert über"
+      }
+    }
+  }, {
+    "v" : "Internet Gateway",
+    "w" : "Potenzielle Angreifer",
+    "value" : {
+      "meta" : {
+        "label" : "ist Einstiegspunkt für"
+      }
+    }
+  } ]
+}

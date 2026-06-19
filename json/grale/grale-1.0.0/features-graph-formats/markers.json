@@ -1,0 +1,87 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB",
+    "markers": {
+      "arrow": {
+        "width": 12,
+        "height": 9
+      },
+      "dot": {
+        "width": 8,
+        "height": 8
+      },
+      "diamond": {
+        "width": 10,
+        "height": 10
+      }
+    }
+  },
+  "nodes": [
+    {
+      "v": "a",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "b",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "c",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "d",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "a",
+      "w": "b",
+      "value": {
+        "endMarker": "arrow",
+        "meta": {
+          "label": "arrow"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "c",
+      "value": {
+        "startMarker": "dot",
+        "endMarker": "arrow",
+        "meta": {
+          "label": "dot→arrow"
+        }
+      }
+    },
+    {
+      "v": "b",
+      "w": "d",
+      "value": {
+        "endMarker": "diamond",
+        "meta": {
+          "label": "diamond"
+        }
+      }
+    }
+  ]
+}

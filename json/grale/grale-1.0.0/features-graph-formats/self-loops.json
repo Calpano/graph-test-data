@@ -1,0 +1,61 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB"
+  },
+  "nodes": [
+    {
+      "v": "a",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "b",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "c",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "a",
+      "w": "a",
+      "value": {
+        "meta": {
+          "label": "loop a"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "b"
+    },
+    {
+      "v": "b",
+      "w": "b",
+      "value": {
+        "meta": {
+          "label": "loop b"
+        }
+      }
+    },
+    {
+      "v": "b",
+      "w": "c"
+    }
+  ]
+}

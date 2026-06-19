@@ -1,0 +1,70 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB"
+  },
+  "nodes": [
+    {
+      "v": "a",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "b",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "c",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "d",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "a",
+      "w": "b",
+      "value": {
+        "weight": 10,
+        "lineWidth": 5,
+        "meta": {
+          "label": "w10 lw5",
+          "color": "#dc2626"
+        }
+      }
+    },
+    {
+      "v": "a",
+      "w": "c",
+      "value": {
+        "weight": 1,
+        "lineWidth": 1
+      }
+    },
+    {
+      "v": "b",
+      "w": "d"
+    },
+    {
+      "v": "c",
+      "w": "d"
+    }
+  ]
+}

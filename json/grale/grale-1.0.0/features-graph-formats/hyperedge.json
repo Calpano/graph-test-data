@@ -1,0 +1,90 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB",
+    "markers": {
+      "arrow": {
+        "width": 12,
+        "height": 9
+      },
+      "dot": {
+        "width": 8,
+        "height": 8
+      }
+    }
+  },
+  "nodes": [
+    {
+      "v": "traveler",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "london",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "paris",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "rome",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "traveler",
+      "w": "london"
+    },
+    {
+      "v": "traveler",
+      "w": "paris"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "booking",
+      "endpoints": [
+        {
+          "node": "traveler",
+          "marker": "arrow"
+        },
+        {
+          "node": "london"
+        },
+        {
+          "node": "paris",
+          "marker": "dot"
+        },
+        {
+          "node": "rome"
+        }
+      ],
+      "value": {
+        "weight": 2,
+        "lineWidth": 2,
+        "prefDir": "right",
+        "meta": {
+          "label": "booking",
+          "color": "#9333ea"
+        }
+      }
+    }
+  ]
+}

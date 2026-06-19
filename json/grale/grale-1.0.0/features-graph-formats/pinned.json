@@ -1,0 +1,71 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB"
+  },
+  "nodes": [
+    {
+      "v": "ceo",
+      "value": {
+        "width": 60,
+        "height": 36,
+        "x": 200,
+        "y": 40,
+        "pinned": true,
+        "meta": {
+          "label": "CEO (pinned)"
+        }
+      }
+    },
+    {
+      "v": "cto",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "cfo",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "eng",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "fin",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "ceo",
+      "w": "cto"
+    },
+    {
+      "v": "ceo",
+      "w": "cfo"
+    },
+    {
+      "v": "cto",
+      "w": "eng"
+    },
+    {
+      "v": "cfo",
+      "w": "fin"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Backstage sample software-catalog graphs (the Backstage project's own demo
+entities), converted to grale via graphinout. All files
+here share the same provenance.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:grale-1.0.0
+ddot.it/this ..source url.. https://github.com/backstage/backstage (sample software catalog)
+ddot.it/this ..license.. Apache-2.0, Copyright 2020 The Backstage Authors
+ddot.it/this ..content.. Backstage demo catalog (domains/systems/components/groups/users/APIs): backstage-demo.json is the full sample, backstage-demo-simple.json a reduced variant.

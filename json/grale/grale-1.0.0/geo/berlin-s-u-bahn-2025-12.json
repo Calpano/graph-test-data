@@ -1,0 +1,6069 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "// triple form: StationA"
+  }, {
+    "v" : "StationB  = adjacent stations on LINE"
+  }, {
+    "v" : "S1"
+  }, {
+    "v" : "S-Bahn line"
+  }, {
+    "v" : "#DD6CA6"
+  }, {
+    "v" : "Oranienburg"
+  }, {
+    "v" : "Wannsee"
+  }, {
+    "v" : "S15"
+  }, {
+    "v" : "Gesundbrunnen"
+  }, {
+    "v" : "Hauptbahnhof"
+  }, {
+    "v" : "shown dashed/under construction on the 12/2025 map (opening announced for H1 2026); already in scheduled service in VBB GTFS as of 06/2026"
+  }, {
+    "v" : "S2"
+  }, {
+    "v" : "#007B3D"
+  }, {
+    "v" : "Bernau"
+  }, {
+    "v" : "Blankenfelde"
+  }, {
+    "v" : "S25"
+  }, {
+    "v" : "Hennigsdorf"
+  }, {
+    "v" : "Teltow Stadt"
+  }, {
+    "v" : "S26"
+  }, {
+    "v" : "Blankenburg"
+  }, {
+    "v" : "S3"
+  }, {
+    "v" : "#0065AE"
+  }, {
+    "v" : "Spandau"
+  }, {
+    "v" : "Erkner"
+  }, {
+    "v" : "S41"
+  }, {
+    "v" : "#AF5937"
+  }, {
+    "v" : "Ringbahn clockwise"
+  }, {
+    "v" : "S42"
+  }, {
+    "v" : "#CB621A"
+  }, {
+    "v" : "Ringbahn counterclockwise"
+  }, {
+    "v" : "S46"
+  }, {
+    "v" : "#CD9C54"
+  }, {
+    "v" : "Königs Wusterhausen"
+  }, {
+    "v" : "Westend"
+  }, {
+    "v" : "S47"
+  }, {
+    "v" : "Spindlersfeld"
+  }, {
+    "v" : "Südkreuz"
+  }, {
+    "v" : "S5"
+  }, {
+    "v" : "#EE7203"
+  }, {
+    "v" : "Westkreuz"
+  }, {
+    "v" : "Strausberg Nord"
+  }, {
+    "v" : "S7"
+  }, {
+    "v" : "#846DAA"
+  }, {
+    "v" : "Potsdam Hbf"
+  }, {
+    "v" : "Ahrensfelde"
+  }, {
+    "v" : "S75"
+  }, {
+    "v" : "Wartenberg"
+  }, {
+    "v" : "Warschauer Str."
+  }, {
+    "v" : "S8"
+  }, {
+    "v" : "#62AD2D"
+  }, {
+    "v" : "Birkenwerder"
+  }, {
+    "v" : "Wildau"
+  }, {
+    "v" : "S85"
+  }, {
+    "v" : "Frohnau"
+  }, {
+    "v" : "Flughafen BER"
+  }, {
+    "v" : "S9"
+  }, {
+    "v" : "#9B2B48"
+  }, {
+    "v" : "U1"
+  }, {
+    "v" : "U-Bahn line"
+  }, {
+    "v" : "Uhlandstr."
+  }, {
+    "v" : "U2"
+  }, {
+    "v" : "#E94E0F"
+  }, {
+    "v" : "Pankow"
+  }, {
+    "v" : "Ruhleben"
+  }, {
+    "v" : "U3"
+  }, {
+    "v" : "#00A092"
+  }, {
+    "v" : "Krumme Lanke"
+  }, {
+    "v" : "U4"
+  }, {
+    "v" : "#FFD500"
+  }, {
+    "v" : "Nollendorfplatz"
+  }, {
+    "v" : "Innsbrucker Platz"
+  }, {
+    "v" : "U5"
+  }, {
+    "v" : "#815238"
+  }, {
+    "v" : "Hönow"
+  }, {
+    "v" : "U6"
+  }, {
+    "v" : "Kurt-Schumacher-Platz"
+  }, {
+    "v" : "Alt-Mariendorf"
+  }, {
+    "v" : "U7"
+  }, {
+    "v" : "#009BD9"
+  }, {
+    "v" : "Rathaus Spandau"
+  }, {
+    "v" : "Rudow"
+  }, {
+    "v" : "U8"
+  }, {
+    "v" : "#00599A"
+  }, {
+    "v" : "Wittenau"
+  }, {
+    "v" : "Hermannstr."
+  }, {
+    "v" : "U9"
+  }, {
+    "v" : "#F18700"
+  }, {
+    "v" : "Osloer Str."
+  }, {
+    "v" : "Rathaus Steglitz"
+  }, {
+    "v" : "Lehnitz"
+  }, {
+    "v" : "Borgsdorf"
+  }, {
+    "v" : "Hohen Neuendorf"
+  }, {
+    "v" : "Hermsdorf"
+  }, {
+    "v" : "Waidmannslust"
+  }, {
+    "v" : "Wilhelmsruh"
+  }, {
+    "v" : "Schönholz"
+  }, {
+    "v" : "Wollankstr."
+  }, {
+    "v" : "Bornholmer Str."
+  }, {
+    "v" : "Humboldthain"
+  }, {
+    "v" : "Nordbahnhof"
+  }, {
+    "v" : "Oranienburger Str."
+  }, {
+    "v" : "Friedrichstr."
+  }, {
+    "v" : "Brandenburger Tor"
+  }, {
+    "v" : "Potsdamer Platz"
+  }, {
+    "v" : "Anhalter Bahnhof"
+  }, {
+    "v" : "Yorckstr. (Großgörschenstr.)"
+  }, {
+    "v" : "Julius-Leber-Brücke"
+  }, {
+    "v" : "Schöneberg"
+  }, {
+    "v" : "Friedenau"
+  }, {
+    "v" : "Feuerbachstr."
+  }, {
+    "v" : "Botanischer Garten"
+  }, {
+    "v" : "Lichterfelde West"
+  }, {
+    "v" : "Sundgauer Str."
+  }, {
+    "v" : "Zehlendorf"
+  }, {
+    "v" : "Mexikoplatz"
+  }, {
+    "v" : "Schlachtensee"
+  }, {
+    "v" : "Nikolassee"
+  }, {
+    "v" : "Wedding"
+  }, {
+    "v" : "Bernau-Friedenstal"
+  }, {
+    "v" : "Zepernick"
+  }, {
+    "v" : "Röntgental"
+  }, {
+    "v" : "Buch"
+  }, {
+    "v" : "Karow"
+  }, {
+    "v" : "Pankow-Heinersdorf"
+  }, {
+    "v" : "Yorckstr."
+  }, {
+    "v" : "Priesterweg"
+  }, {
+    "v" : "Attilastr."
+  }, {
+    "v" : "Marienfelde"
+  }, {
+    "v" : "Buckower Chaussee"
+  }, {
+    "v" : "Schichauweg"
+  }, {
+    "v" : "Lichtenrade"
+  }, {
+    "v" : "Mahlow"
+  }, {
+    "v" : "Heiligensee"
+  }, {
+    "v" : "Schulzendorf"
+  }, {
+    "v" : "Tegel"
+  }, {
+    "v" : "Eichborndamm"
+  }, {
+    "v" : "Karl-Bonhoeffer-Nervenklinik"
+  }, {
+    "v" : "Alt-Reinickendorf"
+  }, {
+    "v" : "Südende"
+  }, {
+    "v" : "Lankwitz"
+  }, {
+    "v" : "Lichterfelde Ost"
+  }, {
+    "v" : "Osdorfer Str."
+  }, {
+    "v" : "Lichterfelde Süd"
+  }, {
+    "v" : "Stresow"
+  }, {
+    "v" : "Pichelsberg"
+  }, {
+    "v" : "Olympiastadion"
+  }, {
+    "v" : "Heerstr."
+  }, {
+    "v" : "Messe Süd"
+  }, {
+    "v" : "Charlottenburg"
+  }, {
+    "v" : "Savignyplatz"
+  }, {
+    "v" : "Zoologischer Garten"
+  }, {
+    "v" : "Tiergarten"
+  }, {
+    "v" : "Bellevue"
+  }, {
+    "v" : "Hackescher Markt"
+  }, {
+    "v" : "Alexanderplatz"
+  }, {
+    "v" : "Jannowitzbrücke"
+  }, {
+    "v" : "Ostbahnhof"
+  }, {
+    "v" : "Ostkreuz"
+  }, {
+    "v" : "Rummelsburg"
+  }, {
+    "v" : "Betriebsbahnhof Rummelsburg"
+  }, {
+    "v" : "Karlshorst"
+  }, {
+    "v" : "Wuhlheide"
+  }, {
+    "v" : "Köpenick"
+  }, {
+    "v" : "Hirschgarten"
+  }, {
+    "v" : "Friedrichshagen"
+  }, {
+    "v" : "Rahnsdorf"
+  }, {
+    "v" : "Wilhelmshagen"
+  }, {
+    "v" : "Schönhauser Allee"
+  }, {
+    "v" : "Prenzlauer Allee"
+  }, {
+    "v" : "Greifswalder Str."
+  }, {
+    "v" : "Landsberger Allee"
+  }, {
+    "v" : "Storkower Str."
+  }, {
+    "v" : "Frankfurter Allee"
+  }, {
+    "v" : "Treptower Park"
+  }, {
+    "v" : "Sonnenallee"
+  }, {
+    "v" : "Neukölln"
+  }, {
+    "v" : "Tempelhof"
+  }, {
+    "v" : "Bundesplatz"
+  }, {
+    "v" : "Heidelberger Platz"
+  }, {
+    "v" : "Hohenzollerndamm"
+  }, {
+    "v" : "Halensee"
+  }, {
+    "v" : "Messe Nord/ZOB"
+  }, {
+    "v" : "Jungfernheide"
+  }, {
+    "v" : "Beusselstr."
+  }, {
+    "v" : "Westhafen"
+  }, {
+    "v" : "Zeuthen"
+  }, {
+    "v" : "Eichwalde"
+  }, {
+    "v" : "Grünau"
+  }, {
+    "v" : "Adlershof"
+  }, {
+    "v" : "Johannisthal"
+  }, {
+    "v" : "Schöneweide"
+  }, {
+    "v" : "Baumschulenweg"
+  }, {
+    "v" : "Köllnische Heide"
+  }, {
+    "v" : "Oberspree"
+  }, {
+    "v" : "Nöldnerplatz"
+  }, {
+    "v" : "Lichtenberg"
+  }, {
+    "v" : "Friedrichsfelde Ost"
+  }, {
+    "v" : "Biesdorf"
+  }, {
+    "v" : "Wuhletal"
+  }, {
+    "v" : "Kaulsdorf"
+  }, {
+    "v" : "Mahlsdorf"
+  }, {
+    "v" : "Birkenstein"
+  }, {
+    "v" : "Hoppegarten"
+  }, {
+    "v" : "Neuenhagen"
+  }, {
+    "v" : "Fredersdorf"
+  }, {
+    "v" : "Petershagen Nord"
+  }, {
+    "v" : "Strausberg"
+  }, {
+    "v" : "Hegermühle"
+  }, {
+    "v" : "Strausberg Stadt"
+  }, {
+    "v" : "Babelsberg"
+  }, {
+    "v" : "Griebnitzsee"
+  }, {
+    "v" : "Grunewald"
+  }, {
+    "v" : "Springpfuhl"
+  }, {
+    "v" : "Poelchaustr."
+  }, {
+    "v" : "Marzahn"
+  }, {
+    "v" : "Raoul-Wallenberg-Str."
+  }, {
+    "v" : "Mehrower Allee"
+  }, {
+    "v" : "Hohenschönhausen"
+  }, {
+    "v" : "Gehrenseestr."
+  }, {
+    "v" : "Bergfelde"
+  }, {
+    "v" : "Schönfließ"
+  }, {
+    "v" : "Mühlenbeck-Mönchmühle"
+  }, {
+    "v" : "Plänterwald"
+  }, {
+    "v" : "Altglienicke"
+  }, {
+    "v" : "Grünbergallee"
+  }, {
+    "v" : "Schönefeld"
+  }, {
+    "v" : "Waßmannsdorf"
+  }, {
+    "v" : "Kurfürstendamm"
+  }, {
+    "v" : "Wittenbergplatz"
+  }, {
+    "v" : "Kurfürstenstr."
+  }, {
+    "v" : "Gleisdreieck"
+  }, {
+    "v" : "Möckernbrücke"
+  }, {
+    "v" : "Hallesches Tor"
+  }, {
+    "v" : "Prinzenstr."
+  }, {
+    "v" : "Kottbusser Tor"
+  }, {
+    "v" : "Görlitzer Bahnhof"
+  }, {
+    "v" : "Schlesisches Tor"
+  }, {
+    "v" : "Vinetastr."
+  }, {
+    "v" : "Eberswalder Str."
+  }, {
+    "v" : "Senefelderplatz"
+  }, {
+    "v" : "Rosa-Luxemburg-Platz"
+  }, {
+    "v" : "Klosterstr."
+  }, {
+    "v" : "Märkisches Museum"
+  }, {
+    "v" : "Spittelmarkt"
+  }, {
+    "v" : "Hausvogteiplatz"
+  }, {
+    "v" : "Stadtmitte"
+  }, {
+    "v" : "Anton-Wilhelm-Amo-Str."
+  }, {
+    "v" : "Mendelssohn-Bartholdy-Park"
+  }, {
+    "v" : "Bülowstr."
+  }, {
+    "v" : "Ernst-Reuter-Platz"
+  }, {
+    "v" : "Deutsche Oper"
+  }, {
+    "v" : "Bismarckstr."
+  }, {
+    "v" : "Sophie-Charlotte-Platz"
+  }, {
+    "v" : "Kaiserdamm"
+  }, {
+    "v" : "Theodor-Heuss-Platz"
+  }, {
+    "v" : "Neu-Westend"
+  }, {
+    "v" : "Olympia-Stadion"
+  }, {
+    "v" : "Onkel Toms Hütte"
+  }, {
+    "v" : "Oskar-Helene-Heim"
+  }, {
+    "v" : "Freie Universität"
+  }, {
+    "v" : "Dahlem-Dorf"
+  }, {
+    "v" : "Podbielskiallee"
+  }, {
+    "v" : "Breitenbachplatz"
+  }, {
+    "v" : "Rüdesheimer Platz"
+  }, {
+    "v" : "Fehrbelliner Platz"
+  }, {
+    "v" : "Hohenzollernplatz"
+  }, {
+    "v" : "Spichernstr."
+  }, {
+    "v" : "Augsburger Str."
+  }, {
+    "v" : "Viktoria-Luise-Platz"
+  }, {
+    "v" : "Bayerischer Platz"
+  }, {
+    "v" : "Rathaus Schöneberg"
+  }, {
+    "v" : "Bundestag"
+  }, {
+    "v" : "Unter den Linden"
+  }, {
+    "v" : "Museumsinsel"
+  }, {
+    "v" : "Rotes Rathaus"
+  }, {
+    "v" : "Schillingstr."
+  }, {
+    "v" : "Strausberger Platz"
+  }, {
+    "v" : "Weberwiese"
+  }, {
+    "v" : "Frankfurter Tor"
+  }, {
+    "v" : "Samariterstr."
+  }, {
+    "v" : "Magdalenenstr."
+  }, {
+    "v" : "Friedrichsfelde"
+  }, {
+    "v" : "Tierpark"
+  }, {
+    "v" : "Biesdorf-Süd"
+  }, {
+    "v" : "Elsterwerdaer Platz"
+  }, {
+    "v" : "Kaulsdorf-Nord"
+  }, {
+    "v" : "Kienberg"
+  }, {
+    "v" : "Cottbusser Platz"
+  }, {
+    "v" : "Hellersdorf"
+  }, {
+    "v" : "Louis-Lewin-Str."
+  }, {
+    "v" : "Afrikanische Str."
+  }, {
+    "v" : "Rehberge"
+  }, {
+    "v" : "Seestr."
+  }, {
+    "v" : "Leopoldplatz"
+  }, {
+    "v" : "Reinickendorfer Str."
+  }, {
+    "v" : "Schwartzkopffstr."
+  }, {
+    "v" : "Naturkundemuseum"
+  }, {
+    "v" : "Oranienburger Tor"
+  }, {
+    "v" : "Kochstr."
+  }, {
+    "v" : "Mehringdamm"
+  }, {
+    "v" : "Platz der Luftbrücke"
+  }, {
+    "v" : "Paradestr."
+  }, {
+    "v" : "Alt-Tempelhof"
+  }, {
+    "v" : "Kaiserin-Augusta-Str."
+  }, {
+    "v" : "Ullsteinstr."
+  }, {
+    "v" : "Westphalweg"
+  }, {
+    "v" : "Altstadt Spandau"
+  }, {
+    "v" : "Zitadelle"
+  }, {
+    "v" : "Haselhorst"
+  }, {
+    "v" : "Paulsternstr."
+  }, {
+    "v" : "Rohrdamm"
+  }, {
+    "v" : "Siemensdamm"
+  }, {
+    "v" : "Halemweg"
+  }, {
+    "v" : "Jakob-Kaiser-Platz"
+  }, {
+    "v" : "Mierendorffplatz"
+  }, {
+    "v" : "Richard-Wagner-Platz"
+  }, {
+    "v" : "Wilmersdorfer Str."
+  }, {
+    "v" : "Adenauerplatz"
+  }, {
+    "v" : "Konstanzer Str."
+  }, {
+    "v" : "Blissestr."
+  }, {
+    "v" : "Berliner Str."
+  }, {
+    "v" : "Eisenacher Str."
+  }, {
+    "v" : "Kleistpark"
+  }, {
+    "v" : "Gneisenaustr."
+  }, {
+    "v" : "Südstern"
+  }, {
+    "v" : "Hermannplatz"
+  }, {
+    "v" : "Rathaus Neukölln"
+  }, {
+    "v" : "Karl-Marx-Str."
+  }, {
+    "v" : "Grenzallee"
+  }, {
+    "v" : "Blaschkoallee"
+  }, {
+    "v" : "Parchimer Allee"
+  }, {
+    "v" : "Britz-Süd"
+  }, {
+    "v" : "Johannisthaler Chaussee"
+  }, {
+    "v" : "Lipschitzallee"
+  }, {
+    "v" : "Wutzkyallee"
+  }, {
+    "v" : "Zwickauer Damm"
+  }, {
+    "v" : "Rathaus Reinickendorf"
+  }, {
+    "v" : "Lindauer Allee"
+  }, {
+    "v" : "Paracelsus-Bad"
+  }, {
+    "v" : "Residenzstr."
+  }, {
+    "v" : "Franz-Neumann-Platz"
+  }, {
+    "v" : "Pankstr."
+  }, {
+    "v" : "Voltastr."
+  }, {
+    "v" : "Bernauer Str."
+  }, {
+    "v" : "Rosenthaler Platz"
+  }, {
+    "v" : "Weinmeisterstr."
+  }, {
+    "v" : "Heinrich-Heine-Str."
+  }, {
+    "v" : "Moritzplatz"
+  }, {
+    "v" : "Schönleinstr."
+  }, {
+    "v" : "Boddinstr."
+  }, {
+    "v" : "Leinestr."
+  }, {
+    "v" : "Nauener Platz"
+  }, {
+    "v" : "Amrumer Str."
+  }, {
+    "v" : "Birkenstr."
+  }, {
+    "v" : "Turmstr."
+  }, {
+    "v" : "Hansaplatz"
+  }, {
+    "v" : "Güntzelstr."
+  }, {
+    "v" : "Friedrich-Wilhelm-Platz"
+  }, {
+    "v" : "Walther-Schreiber-Platz"
+  }, {
+    "v" : "Schloßstr."
+  }, {
+    "v" : "Alt-Tegel"
+  }, {
+    "v" : "Borsigwerke ,, closed - construction, rail replacement bus"
+  }, {
+    "v" : "Borsigwerke"
+  }, {
+    "v" : "Holzhauser Str. ,, closed - construction, rail replacement bus"
+  }, {
+    "v" : "Holzhauser Str."
+  }, {
+    "v" : "Otisstr. ,, closed - construction, rail replacement bus"
+  }, {
+    "v" : "Otisstr."
+  }, {
+    "v" : "Scharnweberstr. ,, closed - construction, rail replacement bus"
+  }, {
+    "v" : "Scharnweberstr."
+  }, {
+    "v" : "Kurt-Schumacher-Platz ,, closed - construction, rail replacement bus"
+  } ],
+  "edges" : [ {
+    "v" : "// triple form: StationA",
+    "w" : "StationB  = adjacent stations on LINE",
+    "value" : {
+      "meta" : {
+        "label" : "LINE"
+      }
+    }
+  }, {
+    "v" : "S1",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S1",
+    "w" : "#DD6CA6",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S1",
+    "w" : "Oranienburg",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S1",
+    "w" : "Wannsee",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S15",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S15",
+    "w" : "#DD6CA6",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S15",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S15",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S15",
+    "w" : "shown dashed/under construction on the 12/2025 map (opening announced for H1 2026); already in scheduled service in VBB GTFS as of 06/2026",
+    "value" : {
+      "meta" : {
+        "label" : "status"
+      }
+    }
+  }, {
+    "v" : "S2",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S2",
+    "w" : "#007B3D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S2",
+    "w" : "Bernau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S2",
+    "w" : "Blankenfelde",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S25",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S25",
+    "w" : "#007B3D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S25",
+    "w" : "Hennigsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S25",
+    "w" : "Teltow Stadt",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S26",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S26",
+    "w" : "#007B3D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S26",
+    "w" : "Blankenburg",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S26",
+    "w" : "Teltow Stadt",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S3",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S3",
+    "w" : "#0065AE",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S3",
+    "w" : "Spandau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S3",
+    "w" : "Erkner",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S41",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S41",
+    "w" : "#AF5937",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S41",
+    "w" : "Ringbahn clockwise",
+    "value" : {
+      "meta" : {
+        "label" : "route"
+      }
+    }
+  }, {
+    "v" : "S42",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S42",
+    "w" : "#CB621A",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S42",
+    "w" : "Ringbahn counterclockwise",
+    "value" : {
+      "meta" : {
+        "label" : "route"
+      }
+    }
+  }, {
+    "v" : "S46",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S46",
+    "w" : "#CD9C54",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S46",
+    "w" : "Königs Wusterhausen",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S46",
+    "w" : "Westend",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S47",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S47",
+    "w" : "#CD9C54",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S47",
+    "w" : "Spindlersfeld",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S47",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S5",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S5",
+    "w" : "#EE7203",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S5",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S5",
+    "w" : "Strausberg Nord",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S7",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S7",
+    "w" : "#846DAA",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S7",
+    "w" : "Potsdam Hbf",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S7",
+    "w" : "Ahrensfelde",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S75",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S75",
+    "w" : "#846DAA",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S75",
+    "w" : "Wartenberg",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S75",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S8",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S8",
+    "w" : "#62AD2D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S8",
+    "w" : "Birkenwerder",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S8",
+    "w" : "Wildau",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S85",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S85",
+    "w" : "#62AD2D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S85",
+    "w" : "Frohnau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S85",
+    "w" : "Flughafen BER",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "S9",
+    "w" : "S-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "S9",
+    "w" : "#9B2B48",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "S9",
+    "w" : "Spandau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "S9",
+    "w" : "Flughafen BER",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U1",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U1",
+    "w" : "#62AD2D",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U1",
+    "w" : "Uhlandstr.",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U1",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U2",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U2",
+    "w" : "#E94E0F",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U2",
+    "w" : "Pankow",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U2",
+    "w" : "Ruhleben",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U3",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U3",
+    "w" : "#00A092",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U3",
+    "w" : "Krumme Lanke",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U3",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U4",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U4",
+    "w" : "#FFD500",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U4",
+    "w" : "Nollendorfplatz",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U4",
+    "w" : "Innsbrucker Platz",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U5",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U5",
+    "w" : "#815238",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U5",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U5",
+    "w" : "Hönow",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U6",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U6",
+    "w" : "#846DAA",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U6",
+    "w" : "Kurt-Schumacher-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U6",
+    "w" : "Alt-Mariendorf",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U7",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U7",
+    "w" : "#009BD9",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U7",
+    "w" : "Rathaus Spandau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U7",
+    "w" : "Rudow",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U8",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U8",
+    "w" : "#00599A",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U8",
+    "w" : "Wittenau",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U8",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "U9",
+    "w" : "U-Bahn line",
+    "value" : {
+      "meta" : {
+        "label" : "is a"
+      }
+    }
+  }, {
+    "v" : "U9",
+    "w" : "#F18700",
+    "value" : {
+      "meta" : {
+        "label" : "color"
+      }
+    }
+  }, {
+    "v" : "U9",
+    "w" : "Osloer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "from"
+      }
+    }
+  }, {
+    "v" : "U9",
+    "w" : "Rathaus Steglitz",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "Oranienburg",
+    "w" : "Lehnitz",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Lehnitz",
+    "w" : "Borgsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Borgsdorf",
+    "w" : "Birkenwerder",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Birkenwerder",
+    "w" : "Hohen Neuendorf",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Hohen Neuendorf",
+    "w" : "Frohnau",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Frohnau",
+    "w" : "Hermsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Hermsdorf",
+    "w" : "Waidmannslust",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Waidmannslust",
+    "w" : "Wittenau",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Wittenau",
+    "w" : "Wilhelmsruh",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Wilhelmsruh",
+    "w" : "Schönholz",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Schönholz",
+    "w" : "Wollankstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Wollankstr.",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Humboldthain",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Humboldthain",
+    "w" : "Nordbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Nordbahnhof",
+    "w" : "Oranienburger Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Oranienburger Str.",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Brandenburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Brandenburger Tor",
+    "w" : "Potsdamer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Potsdamer Platz",
+    "w" : "Anhalter Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Anhalter Bahnhof",
+    "w" : "Yorckstr. (Großgörschenstr.)",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Yorckstr. (Großgörschenstr.)",
+    "w" : "Julius-Leber-Brücke",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Julius-Leber-Brücke",
+    "w" : "Schöneberg",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Schöneberg",
+    "w" : "Friedenau",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Friedenau",
+    "w" : "Feuerbachstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Feuerbachstr.",
+    "w" : "Rathaus Steglitz",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Rathaus Steglitz",
+    "w" : "Botanischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Botanischer Garten",
+    "w" : "Lichterfelde West",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Lichterfelde West",
+    "w" : "Sundgauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Sundgauer Str.",
+    "w" : "Zehlendorf",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Zehlendorf",
+    "w" : "Mexikoplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Mexikoplatz",
+    "w" : "Schlachtensee",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Schlachtensee",
+    "w" : "Nikolassee",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Nikolassee",
+    "w" : "Wannsee",
+    "value" : {
+      "meta" : {
+        "label" : "S1"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Wedding",
+    "value" : {
+      "meta" : {
+        "label" : "S15"
+      }
+    }
+  }, {
+    "v" : "Wedding",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S15"
+      }
+    }
+  }, {
+    "v" : "Bernau",
+    "w" : "Bernau-Friedenstal",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Bernau-Friedenstal",
+    "w" : "Zepernick",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Zepernick",
+    "w" : "Röntgental",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Röntgental",
+    "w" : "Buch",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Buch",
+    "w" : "Karow",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Karow",
+    "w" : "Blankenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Blankenburg",
+    "w" : "Pankow-Heinersdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Pankow-Heinersdorf",
+    "w" : "Pankow",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Pankow",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Humboldthain",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Humboldthain",
+    "w" : "Nordbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Nordbahnhof",
+    "w" : "Oranienburger Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Oranienburger Str.",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Brandenburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Brandenburger Tor",
+    "w" : "Potsdamer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Potsdamer Platz",
+    "w" : "Anhalter Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Anhalter Bahnhof",
+    "w" : "Yorckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Yorckstr.",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Priesterweg",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Priesterweg",
+    "w" : "Attilastr.",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Attilastr.",
+    "w" : "Marienfelde",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Marienfelde",
+    "w" : "Buckower Chaussee",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Buckower Chaussee",
+    "w" : "Schichauweg",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Schichauweg",
+    "w" : "Lichtenrade",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Lichtenrade",
+    "w" : "Mahlow",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Mahlow",
+    "w" : "Blankenfelde",
+    "value" : {
+      "meta" : {
+        "label" : "S2"
+      }
+    }
+  }, {
+    "v" : "Hennigsdorf",
+    "w" : "Heiligensee",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Heiligensee",
+    "w" : "Schulzendorf",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Schulzendorf",
+    "w" : "Tegel",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Tegel",
+    "w" : "Eichborndamm",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Eichborndamm",
+    "w" : "Karl-Bonhoeffer-Nervenklinik",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Karl-Bonhoeffer-Nervenklinik",
+    "w" : "Alt-Reinickendorf",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Alt-Reinickendorf",
+    "w" : "Schönholz",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Schönholz",
+    "w" : "Wollankstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Wollankstr.",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Humboldthain",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Humboldthain",
+    "w" : "Nordbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Nordbahnhof",
+    "w" : "Oranienburger Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Oranienburger Str.",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Brandenburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Brandenburger Tor",
+    "w" : "Potsdamer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Potsdamer Platz",
+    "w" : "Anhalter Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Anhalter Bahnhof",
+    "w" : "Yorckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Yorckstr.",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Priesterweg",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Priesterweg",
+    "w" : "Südende",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Südende",
+    "w" : "Lankwitz",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Lankwitz",
+    "w" : "Lichterfelde Ost",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Lichterfelde Ost",
+    "w" : "Osdorfer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Osdorfer Str.",
+    "w" : "Lichterfelde Süd",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Lichterfelde Süd",
+    "w" : "Teltow Stadt",
+    "value" : {
+      "meta" : {
+        "label" : "S25"
+      }
+    }
+  }, {
+    "v" : "Blankenburg",
+    "w" : "Pankow-Heinersdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Pankow-Heinersdorf",
+    "w" : "Pankow",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Pankow",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Humboldthain",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Humboldthain",
+    "w" : "Nordbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Nordbahnhof",
+    "w" : "Oranienburger Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Oranienburger Str.",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Brandenburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Brandenburger Tor",
+    "w" : "Potsdamer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Potsdamer Platz",
+    "w" : "Anhalter Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Anhalter Bahnhof",
+    "w" : "Yorckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Yorckstr.",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Priesterweg",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Priesterweg",
+    "w" : "Südende",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Südende",
+    "w" : "Lankwitz",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Lankwitz",
+    "w" : "Lichterfelde Ost",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Lichterfelde Ost",
+    "w" : "Osdorfer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Osdorfer Str.",
+    "w" : "Lichterfelde Süd",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Lichterfelde Süd",
+    "w" : "Teltow Stadt",
+    "value" : {
+      "meta" : {
+        "label" : "S26"
+      }
+    }
+  }, {
+    "v" : "Spandau",
+    "w" : "Stresow",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Stresow",
+    "w" : "Pichelsberg",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Pichelsberg",
+    "w" : "Olympiastadion",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Olympiastadion",
+    "w" : "Heerstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Heerstr.",
+    "w" : "Messe Süd",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Messe Süd",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Charlottenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Charlottenburg",
+    "w" : "Savignyplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Savignyplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Tiergarten",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Tiergarten",
+    "w" : "Bellevue",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Bellevue",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Hauptbahnhof",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Hackescher Markt",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Hackescher Markt",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Jannowitzbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Jannowitzbrücke",
+    "w" : "Ostbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Ostbahnhof",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Warschauer Str.",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Rummelsburg",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Rummelsburg",
+    "w" : "Betriebsbahnhof Rummelsburg",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Betriebsbahnhof Rummelsburg",
+    "w" : "Karlshorst",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Karlshorst",
+    "w" : "Wuhlheide",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Wuhlheide",
+    "w" : "Köpenick",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Köpenick",
+    "w" : "Hirschgarten",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Hirschgarten",
+    "w" : "Friedrichshagen",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Friedrichshagen",
+    "w" : "Rahnsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Rahnsdorf",
+    "w" : "Wilhelmshagen",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Wilhelmshagen",
+    "w" : "Erkner",
+    "value" : {
+      "meta" : {
+        "label" : "S3"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Schönhauser Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Schönhauser Allee",
+    "w" : "Prenzlauer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Prenzlauer Allee",
+    "w" : "Greifswalder Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Greifswalder Str.",
+    "w" : "Landsberger Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Landsberger Allee",
+    "w" : "Storkower Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Storkower Str.",
+    "w" : "Frankfurter Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Allee",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Treptower Park",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Treptower Park",
+    "w" : "Sonnenallee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Sonnenallee",
+    "w" : "Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Neukölln",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Hermannstr.",
+    "w" : "Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Tempelhof",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Schöneberg",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Schöneberg",
+    "w" : "Innsbrucker Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Innsbrucker Platz",
+    "w" : "Bundesplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Bundesplatz",
+    "w" : "Heidelberger Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Heidelberger Platz",
+    "w" : "Hohenzollerndamm",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Hohenzollerndamm",
+    "w" : "Halensee",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Halensee",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Messe Nord/ZOB",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Messe Nord/ZOB",
+    "w" : "Westend",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Westend",
+    "w" : "Jungfernheide",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Jungfernheide",
+    "w" : "Beusselstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Beusselstr.",
+    "w" : "Westhafen",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Westhafen",
+    "w" : "Wedding",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Wedding",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S41"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Wedding",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Wedding",
+    "w" : "Westhafen",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Westhafen",
+    "w" : "Beusselstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Beusselstr.",
+    "w" : "Jungfernheide",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Jungfernheide",
+    "w" : "Westend",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Westend",
+    "w" : "Messe Nord/ZOB",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Messe Nord/ZOB",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Halensee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Halensee",
+    "w" : "Hohenzollerndamm",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Hohenzollerndamm",
+    "w" : "Heidelberger Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Heidelberger Platz",
+    "w" : "Bundesplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Bundesplatz",
+    "w" : "Innsbrucker Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Innsbrucker Platz",
+    "w" : "Schöneberg",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Schöneberg",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Tempelhof",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Hermannstr.",
+    "w" : "Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Neukölln",
+    "w" : "Sonnenallee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Sonnenallee",
+    "w" : "Treptower Park",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Treptower Park",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Frankfurter Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Allee",
+    "w" : "Storkower Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Storkower Str.",
+    "w" : "Landsberger Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Landsberger Allee",
+    "w" : "Greifswalder Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Greifswalder Str.",
+    "w" : "Prenzlauer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Prenzlauer Allee",
+    "w" : "Schönhauser Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Schönhauser Allee",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "S42"
+      }
+    }
+  }, {
+    "v" : "Königs Wusterhausen",
+    "w" : "Wildau",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Wildau",
+    "w" : "Zeuthen",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Zeuthen",
+    "w" : "Eichwalde",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Eichwalde",
+    "w" : "Grünau",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Grünau",
+    "w" : "Adlershof",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Adlershof",
+    "w" : "Johannisthal",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Johannisthal",
+    "w" : "Schöneweide",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Schöneweide",
+    "w" : "Baumschulenweg",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Baumschulenweg",
+    "w" : "Köllnische Heide",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Köllnische Heide",
+    "w" : "Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Neukölln",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Hermannstr.",
+    "w" : "Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Tempelhof",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Südkreuz",
+    "w" : "Schöneberg",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Schöneberg",
+    "w" : "Innsbrucker Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Innsbrucker Platz",
+    "w" : "Bundesplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Bundesplatz",
+    "w" : "Heidelberger Platz",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Heidelberger Platz",
+    "w" : "Hohenzollerndamm",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Hohenzollerndamm",
+    "w" : "Halensee",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Halensee",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Messe Nord/ZOB",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Messe Nord/ZOB",
+    "w" : "Westend",
+    "value" : {
+      "meta" : {
+        "label" : "S46"
+      }
+    }
+  }, {
+    "v" : "Spindlersfeld",
+    "w" : "Oberspree",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Oberspree",
+    "w" : "Schöneweide",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Schöneweide",
+    "w" : "Baumschulenweg",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Baumschulenweg",
+    "w" : "Köllnische Heide",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Köllnische Heide",
+    "w" : "Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Neukölln",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Hermannstr.",
+    "w" : "Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Tempelhof",
+    "w" : "Südkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S47"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Charlottenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Charlottenburg",
+    "w" : "Savignyplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Savignyplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Tiergarten",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Tiergarten",
+    "w" : "Bellevue",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Bellevue",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Hauptbahnhof",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Hackescher Markt",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Hackescher Markt",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Jannowitzbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Jannowitzbrücke",
+    "w" : "Ostbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Ostbahnhof",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Warschauer Str.",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Nöldnerplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Nöldnerplatz",
+    "w" : "Lichtenberg",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Lichtenberg",
+    "w" : "Friedrichsfelde Ost",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Friedrichsfelde Ost",
+    "w" : "Biesdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Biesdorf",
+    "w" : "Wuhletal",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Wuhletal",
+    "w" : "Kaulsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Kaulsdorf",
+    "w" : "Mahlsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Mahlsdorf",
+    "w" : "Birkenstein",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Birkenstein",
+    "w" : "Hoppegarten",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Hoppegarten",
+    "w" : "Neuenhagen",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Neuenhagen",
+    "w" : "Fredersdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Fredersdorf",
+    "w" : "Petershagen Nord",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Petershagen Nord",
+    "w" : "Strausberg",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Strausberg",
+    "w" : "Hegermühle",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Hegermühle",
+    "w" : "Strausberg Stadt",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Strausberg Stadt",
+    "w" : "Strausberg Nord",
+    "value" : {
+      "meta" : {
+        "label" : "S5"
+      }
+    }
+  }, {
+    "v" : "Potsdam Hbf",
+    "w" : "Babelsberg",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Babelsberg",
+    "w" : "Griebnitzsee",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Griebnitzsee",
+    "w" : "Wannsee",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Wannsee",
+    "w" : "Nikolassee",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Nikolassee",
+    "w" : "Grunewald",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Grunewald",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Charlottenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Charlottenburg",
+    "w" : "Savignyplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Savignyplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Tiergarten",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Tiergarten",
+    "w" : "Bellevue",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Bellevue",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Hauptbahnhof",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Hackescher Markt",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Hackescher Markt",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Jannowitzbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Jannowitzbrücke",
+    "w" : "Ostbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Ostbahnhof",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Warschauer Str.",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Nöldnerplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Nöldnerplatz",
+    "w" : "Lichtenberg",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Lichtenberg",
+    "w" : "Friedrichsfelde Ost",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Friedrichsfelde Ost",
+    "w" : "Springpfuhl",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Springpfuhl",
+    "w" : "Poelchaustr.",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Poelchaustr.",
+    "w" : "Marzahn",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Marzahn",
+    "w" : "Raoul-Wallenberg-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Raoul-Wallenberg-Str.",
+    "w" : "Mehrower Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Mehrower Allee",
+    "w" : "Ahrensfelde",
+    "value" : {
+      "meta" : {
+        "label" : "S7"
+      }
+    }
+  }, {
+    "v" : "Wartenberg",
+    "w" : "Hohenschönhausen",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Hohenschönhausen",
+    "w" : "Gehrenseestr.",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Gehrenseestr.",
+    "w" : "Springpfuhl",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Springpfuhl",
+    "w" : "Friedrichsfelde Ost",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Friedrichsfelde Ost",
+    "w" : "Lichtenberg",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Lichtenberg",
+    "w" : "Nöldnerplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Nöldnerplatz",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S75"
+      }
+    }
+  }, {
+    "v" : "Birkenwerder",
+    "w" : "Hohen Neuendorf",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Hohen Neuendorf",
+    "w" : "Bergfelde",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Bergfelde",
+    "w" : "Schönfließ",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Schönfließ",
+    "w" : "Mühlenbeck-Mönchmühle",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Mühlenbeck-Mönchmühle",
+    "w" : "Blankenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Blankenburg",
+    "w" : "Pankow-Heinersdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Pankow-Heinersdorf",
+    "w" : "Pankow",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Pankow",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Schönhauser Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Schönhauser Allee",
+    "w" : "Prenzlauer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Prenzlauer Allee",
+    "w" : "Greifswalder Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Greifswalder Str.",
+    "w" : "Landsberger Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Landsberger Allee",
+    "w" : "Storkower Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Storkower Str.",
+    "w" : "Frankfurter Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Allee",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Treptower Park",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Treptower Park",
+    "w" : "Plänterwald",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Plänterwald",
+    "w" : "Baumschulenweg",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Baumschulenweg",
+    "w" : "Schöneweide",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Schöneweide",
+    "w" : "Johannisthal",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Johannisthal",
+    "w" : "Adlershof",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Adlershof",
+    "w" : "Grünau",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Grünau",
+    "w" : "Eichwalde",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Eichwalde",
+    "w" : "Zeuthen",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Zeuthen",
+    "w" : "Wildau",
+    "value" : {
+      "meta" : {
+        "label" : "S8"
+      }
+    }
+  }, {
+    "v" : "Frohnau",
+    "w" : "Hermsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Hermsdorf",
+    "w" : "Waidmannslust",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Waidmannslust",
+    "w" : "Wittenau",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Wittenau",
+    "w" : "Wilhelmsruh",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Wilhelmsruh",
+    "w" : "Schönholz",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Schönholz",
+    "w" : "Wollankstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Wollankstr.",
+    "w" : "Bornholmer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Bornholmer Str.",
+    "w" : "Schönhauser Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Schönhauser Allee",
+    "w" : "Prenzlauer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Prenzlauer Allee",
+    "w" : "Greifswalder Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Greifswalder Str.",
+    "w" : "Landsberger Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Landsberger Allee",
+    "w" : "Storkower Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Storkower Str.",
+    "w" : "Frankfurter Allee",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Allee",
+    "w" : "Ostkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Ostkreuz",
+    "w" : "Treptower Park",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Treptower Park",
+    "w" : "Plänterwald",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Plänterwald",
+    "w" : "Baumschulenweg",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Baumschulenweg",
+    "w" : "Schöneweide",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Schöneweide",
+    "w" : "Johannisthal",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Johannisthal",
+    "w" : "Adlershof",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Adlershof",
+    "w" : "Altglienicke",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Altglienicke",
+    "w" : "Grünbergallee",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Grünbergallee",
+    "w" : "Schönefeld",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Schönefeld",
+    "w" : "Waßmannsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Waßmannsdorf",
+    "w" : "Flughafen BER",
+    "value" : {
+      "meta" : {
+        "label" : "S85"
+      }
+    }
+  }, {
+    "v" : "Spandau",
+    "w" : "Stresow",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Stresow",
+    "w" : "Pichelsberg",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Pichelsberg",
+    "w" : "Olympiastadion",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Olympiastadion",
+    "w" : "Heerstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Heerstr.",
+    "w" : "Messe Süd",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Messe Süd",
+    "w" : "Westkreuz",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Westkreuz",
+    "w" : "Charlottenburg",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Charlottenburg",
+    "w" : "Savignyplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Savignyplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Tiergarten",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Tiergarten",
+    "w" : "Bellevue",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Bellevue",
+    "w" : "Hauptbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Hauptbahnhof",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Hackescher Markt",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Hackescher Markt",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Jannowitzbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Jannowitzbrücke",
+    "w" : "Ostbahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Ostbahnhof",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Warschauer Str.",
+    "w" : "Treptower Park",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Treptower Park",
+    "w" : "Plänterwald",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Plänterwald",
+    "w" : "Baumschulenweg",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Baumschulenweg",
+    "w" : "Schöneweide",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Schöneweide",
+    "w" : "Johannisthal",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Johannisthal",
+    "w" : "Adlershof",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Adlershof",
+    "w" : "Altglienicke",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Altglienicke",
+    "w" : "Grünbergallee",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Grünbergallee",
+    "w" : "Schönefeld",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Schönefeld",
+    "w" : "Waßmannsdorf",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Waßmannsdorf",
+    "w" : "Flughafen BER",
+    "value" : {
+      "meta" : {
+        "label" : "S9"
+      }
+    }
+  }, {
+    "v" : "Uhlandstr.",
+    "w" : "Kurfürstendamm",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Kurfürstendamm",
+    "w" : "Wittenbergplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Wittenbergplatz",
+    "w" : "Nollendorfplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Nollendorfplatz",
+    "w" : "Kurfürstenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Kurfürstenstr.",
+    "w" : "Gleisdreieck",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Gleisdreieck",
+    "w" : "Möckernbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Möckernbrücke",
+    "w" : "Hallesches Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Hallesches Tor",
+    "w" : "Prinzenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Prinzenstr.",
+    "w" : "Kottbusser Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Kottbusser Tor",
+    "w" : "Görlitzer Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Görlitzer Bahnhof",
+    "w" : "Schlesisches Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Schlesisches Tor",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U1"
+      }
+    }
+  }, {
+    "v" : "Pankow",
+    "w" : "Vinetastr.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Vinetastr.",
+    "w" : "Schönhauser Allee",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Schönhauser Allee",
+    "w" : "Eberswalder Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Eberswalder Str.",
+    "w" : "Senefelderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Senefelderplatz",
+    "w" : "Rosa-Luxemburg-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Rosa-Luxemburg-Platz",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Klosterstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Klosterstr.",
+    "w" : "Märkisches Museum",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Märkisches Museum",
+    "w" : "Spittelmarkt",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Spittelmarkt",
+    "w" : "Hausvogteiplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Hausvogteiplatz",
+    "w" : "Stadtmitte",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Stadtmitte",
+    "w" : "Anton-Wilhelm-Amo-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Anton-Wilhelm-Amo-Str.",
+    "w" : "Potsdamer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Potsdamer Platz",
+    "w" : "Mendelssohn-Bartholdy-Park",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Mendelssohn-Bartholdy-Park",
+    "w" : "Gleisdreieck",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Gleisdreieck",
+    "w" : "Bülowstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Bülowstr.",
+    "w" : "Nollendorfplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Nollendorfplatz",
+    "w" : "Wittenbergplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Wittenbergplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Ernst-Reuter-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Ernst-Reuter-Platz",
+    "w" : "Deutsche Oper",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Deutsche Oper",
+    "w" : "Bismarckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Bismarckstr.",
+    "w" : "Sophie-Charlotte-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Sophie-Charlotte-Platz",
+    "w" : "Kaiserdamm",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Kaiserdamm",
+    "w" : "Theodor-Heuss-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Theodor-Heuss-Platz",
+    "w" : "Neu-Westend",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Neu-Westend",
+    "w" : "Olympia-Stadion",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Olympia-Stadion",
+    "w" : "Ruhleben",
+    "value" : {
+      "meta" : {
+        "label" : "U2"
+      }
+    }
+  }, {
+    "v" : "Krumme Lanke",
+    "w" : "Onkel Toms Hütte",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Onkel Toms Hütte",
+    "w" : "Oskar-Helene-Heim",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Oskar-Helene-Heim",
+    "w" : "Freie Universität",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Freie Universität",
+    "w" : "Dahlem-Dorf",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Dahlem-Dorf",
+    "w" : "Podbielskiallee",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Podbielskiallee",
+    "w" : "Breitenbachplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Breitenbachplatz",
+    "w" : "Rüdesheimer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Rüdesheimer Platz",
+    "w" : "Heidelberger Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Heidelberger Platz",
+    "w" : "Fehrbelliner Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Fehrbelliner Platz",
+    "w" : "Hohenzollernplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Hohenzollernplatz",
+    "w" : "Spichernstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Spichernstr.",
+    "w" : "Augsburger Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Augsburger Str.",
+    "w" : "Wittenbergplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Wittenbergplatz",
+    "w" : "Nollendorfplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Nollendorfplatz",
+    "w" : "Kurfürstenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Kurfürstenstr.",
+    "w" : "Gleisdreieck",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Gleisdreieck",
+    "w" : "Möckernbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Möckernbrücke",
+    "w" : "Hallesches Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Hallesches Tor",
+    "w" : "Prinzenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Prinzenstr.",
+    "w" : "Kottbusser Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Kottbusser Tor",
+    "w" : "Görlitzer Bahnhof",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Görlitzer Bahnhof",
+    "w" : "Schlesisches Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Schlesisches Tor",
+    "w" : "Warschauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U3"
+      }
+    }
+  }, {
+    "v" : "Nollendorfplatz",
+    "w" : "Viktoria-Luise-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U4"
+      }
+    }
+  }, {
+    "v" : "Viktoria-Luise-Platz",
+    "w" : "Bayerischer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U4"
+      }
+    }
+  }, {
+    "v" : "Bayerischer Platz",
+    "w" : "Rathaus Schöneberg",
+    "value" : {
+      "meta" : {
+        "label" : "U4"
+      }
+    }
+  }, {
+    "v" : "Rathaus Schöneberg",
+    "w" : "Innsbrucker Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U4"
+      }
+    }
+  }, {
+    "v" : "Hauptbahnhof",
+    "w" : "Bundestag",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Bundestag",
+    "w" : "Brandenburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Brandenburger Tor",
+    "w" : "Unter den Linden",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Unter den Linden",
+    "w" : "Museumsinsel",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Museumsinsel",
+    "w" : "Rotes Rathaus",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Rotes Rathaus",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Schillingstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Schillingstr.",
+    "w" : "Strausberger Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Strausberger Platz",
+    "w" : "Weberwiese",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Weberwiese",
+    "w" : "Frankfurter Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Tor",
+    "w" : "Samariterstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Samariterstr.",
+    "w" : "Frankfurter Allee",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Frankfurter Allee",
+    "w" : "Magdalenenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Magdalenenstr.",
+    "w" : "Lichtenberg",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Lichtenberg",
+    "w" : "Friedrichsfelde",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Friedrichsfelde",
+    "w" : "Tierpark",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Tierpark",
+    "w" : "Biesdorf-Süd",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Biesdorf-Süd",
+    "w" : "Elsterwerdaer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Elsterwerdaer Platz",
+    "w" : "Wuhletal",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Wuhletal",
+    "w" : "Kaulsdorf-Nord",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Kaulsdorf-Nord",
+    "w" : "Kienberg",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Kienberg",
+    "w" : "Cottbusser Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Cottbusser Platz",
+    "w" : "Hellersdorf",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Hellersdorf",
+    "w" : "Louis-Lewin-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Louis-Lewin-Str.",
+    "w" : "Hönow",
+    "value" : {
+      "meta" : {
+        "label" : "U5"
+      }
+    }
+  }, {
+    "v" : "Kurt-Schumacher-Platz",
+    "w" : "Afrikanische Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Afrikanische Str.",
+    "w" : "Rehberge",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Rehberge",
+    "w" : "Seestr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Seestr.",
+    "w" : "Leopoldplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Leopoldplatz",
+    "w" : "Wedding",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Wedding",
+    "w" : "Reinickendorfer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Reinickendorfer Str.",
+    "w" : "Schwartzkopffstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Schwartzkopffstr.",
+    "w" : "Naturkundemuseum",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Naturkundemuseum",
+    "w" : "Oranienburger Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Oranienburger Tor",
+    "w" : "Friedrichstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Friedrichstr.",
+    "w" : "Unter den Linden",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Unter den Linden",
+    "w" : "Stadtmitte",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Stadtmitte",
+    "w" : "Kochstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Kochstr.",
+    "w" : "Hallesches Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Hallesches Tor",
+    "w" : "Mehringdamm",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Mehringdamm",
+    "w" : "Platz der Luftbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Platz der Luftbrücke",
+    "w" : "Paradestr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Paradestr.",
+    "w" : "Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Tempelhof",
+    "w" : "Alt-Tempelhof",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Alt-Tempelhof",
+    "w" : "Kaiserin-Augusta-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Kaiserin-Augusta-Str.",
+    "w" : "Ullsteinstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Ullsteinstr.",
+    "w" : "Westphalweg",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Westphalweg",
+    "w" : "Alt-Mariendorf",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Rathaus Spandau",
+    "w" : "Altstadt Spandau",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Altstadt Spandau",
+    "w" : "Zitadelle",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Zitadelle",
+    "w" : "Haselhorst",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Haselhorst",
+    "w" : "Paulsternstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Paulsternstr.",
+    "w" : "Rohrdamm",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Rohrdamm",
+    "w" : "Siemensdamm",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Siemensdamm",
+    "w" : "Halemweg",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Halemweg",
+    "w" : "Jakob-Kaiser-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Jakob-Kaiser-Platz",
+    "w" : "Jungfernheide",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Jungfernheide",
+    "w" : "Mierendorffplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Mierendorffplatz",
+    "w" : "Richard-Wagner-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Richard-Wagner-Platz",
+    "w" : "Bismarckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Bismarckstr.",
+    "w" : "Wilmersdorfer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Wilmersdorfer Str.",
+    "w" : "Adenauerplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Adenauerplatz",
+    "w" : "Konstanzer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Konstanzer Str.",
+    "w" : "Fehrbelliner Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Fehrbelliner Platz",
+    "w" : "Blissestr.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Blissestr.",
+    "w" : "Berliner Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Berliner Str.",
+    "w" : "Bayerischer Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Bayerischer Platz",
+    "w" : "Eisenacher Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Eisenacher Str.",
+    "w" : "Kleistpark",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Kleistpark",
+    "w" : "Yorckstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Yorckstr.",
+    "w" : "Möckernbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Möckernbrücke",
+    "w" : "Mehringdamm",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Mehringdamm",
+    "w" : "Gneisenaustr.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Gneisenaustr.",
+    "w" : "Südstern",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Südstern",
+    "w" : "Hermannplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Hermannplatz",
+    "w" : "Rathaus Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Rathaus Neukölln",
+    "w" : "Karl-Marx-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Karl-Marx-Str.",
+    "w" : "Neukölln",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Neukölln",
+    "w" : "Grenzallee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Grenzallee",
+    "w" : "Blaschkoallee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Blaschkoallee",
+    "w" : "Parchimer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Parchimer Allee",
+    "w" : "Britz-Süd",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Britz-Süd",
+    "w" : "Johannisthaler Chaussee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Johannisthaler Chaussee",
+    "w" : "Lipschitzallee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Lipschitzallee",
+    "w" : "Wutzkyallee",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Wutzkyallee",
+    "w" : "Zwickauer Damm",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Zwickauer Damm",
+    "w" : "Rudow",
+    "value" : {
+      "meta" : {
+        "label" : "U7"
+      }
+    }
+  }, {
+    "v" : "Wittenau",
+    "w" : "Rathaus Reinickendorf",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Rathaus Reinickendorf",
+    "w" : "Karl-Bonhoeffer-Nervenklinik",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Karl-Bonhoeffer-Nervenklinik",
+    "w" : "Lindauer Allee",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Lindauer Allee",
+    "w" : "Paracelsus-Bad",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Paracelsus-Bad",
+    "w" : "Residenzstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Residenzstr.",
+    "w" : "Franz-Neumann-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Franz-Neumann-Platz",
+    "w" : "Osloer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Osloer Str.",
+    "w" : "Pankstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Pankstr.",
+    "w" : "Gesundbrunnen",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Gesundbrunnen",
+    "w" : "Voltastr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Voltastr.",
+    "w" : "Bernauer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Bernauer Str.",
+    "w" : "Rosenthaler Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Rosenthaler Platz",
+    "w" : "Weinmeisterstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Weinmeisterstr.",
+    "w" : "Alexanderplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Alexanderplatz",
+    "w" : "Jannowitzbrücke",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Jannowitzbrücke",
+    "w" : "Heinrich-Heine-Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Heinrich-Heine-Str.",
+    "w" : "Moritzplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Moritzplatz",
+    "w" : "Kottbusser Tor",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Kottbusser Tor",
+    "w" : "Schönleinstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Schönleinstr.",
+    "w" : "Hermannplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Hermannplatz",
+    "w" : "Boddinstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Boddinstr.",
+    "w" : "Leinestr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Leinestr.",
+    "w" : "Hermannstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U8"
+      }
+    }
+  }, {
+    "v" : "Osloer Str.",
+    "w" : "Nauener Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Nauener Platz",
+    "w" : "Leopoldplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Leopoldplatz",
+    "w" : "Amrumer Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Amrumer Str.",
+    "w" : "Westhafen",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Westhafen",
+    "w" : "Birkenstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Birkenstr.",
+    "w" : "Turmstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Turmstr.",
+    "w" : "Hansaplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Hansaplatz",
+    "w" : "Zoologischer Garten",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Zoologischer Garten",
+    "w" : "Kurfürstendamm",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Kurfürstendamm",
+    "w" : "Spichernstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Spichernstr.",
+    "w" : "Güntzelstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Güntzelstr.",
+    "w" : "Berliner Str.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Berliner Str.",
+    "w" : "Bundesplatz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Bundesplatz",
+    "w" : "Friedrich-Wilhelm-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Friedrich-Wilhelm-Platz",
+    "w" : "Walther-Schreiber-Platz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Walther-Schreiber-Platz",
+    "w" : "Schloßstr.",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Schloßstr.",
+    "w" : "Rathaus Steglitz",
+    "value" : {
+      "meta" : {
+        "label" : "U9"
+      }
+    }
+  }, {
+    "v" : "Alt-Tegel",
+    "w" : "Borsigwerke ,, closed - construction, rail replacement bus",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Borsigwerke",
+    "w" : "Holzhauser Str. ,, closed - construction, rail replacement bus",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Holzhauser Str.",
+    "w" : "Otisstr. ,, closed - construction, rail replacement bus",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Otisstr.",
+    "w" : "Scharnweberstr. ,, closed - construction, rail replacement bus",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  }, {
+    "v" : "Scharnweberstr.",
+    "w" : "Kurt-Schumacher-Platz ,, closed - construction, rail replacement bus",
+    "value" : {
+      "meta" : {
+        "label" : "U6"
+      }
+    }
+  } ]
+}

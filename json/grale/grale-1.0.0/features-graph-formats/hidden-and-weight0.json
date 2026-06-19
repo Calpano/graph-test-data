@@ -1,0 +1,76 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB"
+  },
+  "nodes": [
+    {
+      "v": "yes",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "no",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "q",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "end",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "q",
+      "w": "yes"
+    },
+    {
+      "v": "q",
+      "w": "no"
+    },
+    {
+      "v": "yes",
+      "w": "no",
+      "value": {
+        "hidden": true,
+        "prefDir": "right",
+        "meta": {
+          "label": "hidden: yes left of no"
+        }
+      }
+    },
+    {
+      "v": "yes",
+      "w": "end",
+      "value": {
+        "weight": 0,
+        "meta": {
+          "label": "weight 0",
+          "dashed": true
+        }
+      }
+    },
+    {
+      "v": "no",
+      "w": "end"
+    }
+  ]
+}

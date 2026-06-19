@@ -1,0 +1,8 @@
+Example graphs from the dagre layout library, converted
+to grale via graphinout. All files here share the same provenance.
+
+ddot.it/this ..kind.. collected
+ddot.it/this ..format.. format:grale-1.0.0
+ddot.it/this ..source url.. https://github.com/dagrejs/dagre (dagre demo graphs)
+ddot.it/this ..license.. MIT (dagre / dagrejs)
+ddot.it/this ..content.. dagre-sentence-tok.json (sentence-tokenization DAG) and dagre-tcp-state.json (TCP state machine) -- classic dagre demo graphs.

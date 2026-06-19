@@ -1,0 +1,10 @@
+Synthetic grale inputs exercising individual grale features (pinned nodes,
+focus, prefDir, hidden links, weight/lineWidth, ports, markers, hyperedges,
+self-loops, compound/cross-cluster, multigraph, cornerRadius/zIndex/meta).
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..authored by.. Calpano (graph-layout-api project)
+ddot.it/this ..format.. format:grale-1.0.0
+ddot.it/this ..content.. 15 feature-focused grale request graphs
+ddot.it/this ..tests.. per-feature handling by grale layout engines and renderers
+ddot.it/this ..license.. MIT License, Copyright (c) Calpano (graph-layout-api project)

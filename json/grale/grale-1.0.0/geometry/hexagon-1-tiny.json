@@ -1,0 +1,113 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "A"
+  }, {
+    "v" : "B"
+  }, {
+    "v" : "C"
+  }, {
+    "v" : "Center"
+  } ],
+  "edges" : [ {
+    "v" : "A",
+    "w" : "B",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "A",
+    "w" : "C",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "A",
+    "w" : "Center",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "B",
+    "w" : "A",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "B",
+    "w" : "C",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "B",
+    "w" : "Center",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "C",
+    "w" : "A",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "C",
+    "w" : "B",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "C",
+    "w" : "Center",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "Center",
+    "w" : "A",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "Center",
+    "w" : "B",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  }, {
+    "v" : "Center",
+    "w" : "C",
+    "value" : {
+      "meta" : {
+        "label" : "to"
+      }
+    }
+  } ]
+}

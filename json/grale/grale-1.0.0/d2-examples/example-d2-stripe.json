@@ -1,0 +1,113 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "👤 Customer"
+  }, {
+    "v" : "US Company ,, Customers buy iPhone cases from the US company"
+  }, {
+    "v" : "US Company"
+  }, {
+    "v" : "Hong Kong Company"
+  }, {
+    "v" : "US Company ,, US company buys cases, services, and IP from Hong Kong company"
+  }, {
+    "v" : "Expenses (US)"
+  }, {
+    "v" : "Income (US)"
+  }, {
+    "v" : "Tax (US) ,, US Company pays taxes on US income"
+  }, {
+    "v" : "Expenses (HK)"
+  }, {
+    "v" : "Wages"
+  }, {
+    "v" : "Income (Hong Kong)"
+  }, {
+    "v" : "Tax (Hong Kong)"
+  } ],
+  "edges" : [ {
+    "v" : "👤 Customer",
+    "w" : "US Company ,, Customers buy iPhone cases from the US company",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "US Company",
+    "w" : "Hong Kong Company",
+    "value" : {
+      "meta" : {
+        "label" : "Royalties + price of cases"
+      }
+    }
+  }, {
+    "v" : "Hong Kong Company",
+    "w" : "US Company ,, US company buys cases, services, and IP from Hong Kong company",
+    "value" : {
+      "meta" : {
+        "label" : "Cases, services, and IP"
+      }
+    }
+  }, {
+    "v" : "US Company",
+    "w" : "Expenses (US)",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "US Company",
+    "w" : "Income (US)",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "Income (US)",
+    "w" : "Tax (US) ,, US Company pays taxes on US income",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "Hong Kong Company",
+    "w" : "Expenses (HK)",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "Hong Kong Company",
+    "w" : "Wages",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "Hong Kong Company",
+    "w" : "Income (Hong Kong)",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  }, {
+    "v" : "Income (Hong Kong)",
+    "w" : "Tax (Hong Kong)",
+    "value" : {
+      "meta" : {
+        "label" : "$"
+      }
+    }
+  } ]
+}

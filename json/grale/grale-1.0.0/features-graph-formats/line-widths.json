@@ -1,0 +1,141 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB",
+    "markers": {
+      "arrow": {
+        "width": 11,
+        "height": 8
+      }
+    }
+  },
+  "nodes": [
+    {
+      "v": "hub",
+      "value": {
+        "width": 70,
+        "height": 40,
+        "meta": {
+          "label": "hub"
+        }
+      }
+    },
+    {
+      "v": "w1",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "w2",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "w3",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "w5",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "w8",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "w12",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "hub",
+      "w": "w1",
+      "value": {
+        "lineWidth": 1,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 1"
+        }
+      }
+    },
+    {
+      "v": "hub",
+      "w": "w2",
+      "value": {
+        "lineWidth": 2,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 2"
+        }
+      }
+    },
+    {
+      "v": "hub",
+      "w": "w3",
+      "value": {
+        "lineWidth": 3,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 3"
+        }
+      }
+    },
+    {
+      "v": "hub",
+      "w": "w5",
+      "value": {
+        "lineWidth": 5,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 5",
+          "color": "#ea580c"
+        }
+      }
+    },
+    {
+      "v": "hub",
+      "w": "w8",
+      "value": {
+        "lineWidth": 8,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 8",
+          "color": "#dc2626"
+        }
+      }
+    },
+    {
+      "v": "hub",
+      "w": "w12",
+      "value": {
+        "lineWidth": 12,
+        "endMarker": "arrow",
+        "meta": {
+          "label": "lw 12",
+          "color": "#9333ea"
+        }
+      }
+    }
+  ]
+}

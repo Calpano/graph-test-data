@@ -1,0 +1,81 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "value": {
+    "rankdir": "TB"
+  },
+  "nodes": [
+    {
+      "v": "fn",
+      "value": {
+        "width": 60,
+        "height": 36,
+        "ports": {
+          "top": 1,
+          "bottom": 2,
+          "left": 1,
+          "right": 1
+        },
+        "meta": {
+          "label": "fn"
+        }
+      }
+    },
+    {
+      "v": "in",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "out0",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "v": "out1",
+      "value": {
+        "width": 60,
+        "height": 36
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "in",
+      "w": "fn",
+      "value": {
+        "toPort": {
+          "side": "top",
+          "index": 0
+        }
+      }
+    },
+    {
+      "v": "fn",
+      "w": "out0",
+      "value": {
+        "fromPort": {
+          "side": "bottom",
+          "index": 0
+        }
+      }
+    },
+    {
+      "v": "fn",
+      "w": "out1",
+      "value": {
+        "fromPort": {
+          "side": "bottom",
+          "index": 1
+        }
+      }
+    }
+  ]
+}
