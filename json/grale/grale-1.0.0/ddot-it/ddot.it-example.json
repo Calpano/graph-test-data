@@ -1,0 +1,36 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "Project Eagle"
+  }, {
+    "v" : "2024"
+  }, {
+    "v" : "example.com/docbase/8dcjsid"
+  }, {
+    "v" : "Moonshot"
+  } ],
+  "edges" : [ {
+    "v" : "Project Eagle",
+    "w" : "2024",
+    "value" : {
+      "meta" : {
+        "label" : "started in"
+      }
+    }
+  }, {
+    "v" : "Project Eagle",
+    "w" : "example.com/docbase/8dcjsid",
+    "value" : {
+      "meta" : {
+        "label" : "doc site"
+      }
+    }
+  }, {
+    "v" : "Project Eagle",
+    "w" : "Moonshot"
+  } ]
+}

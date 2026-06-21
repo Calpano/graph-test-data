@@ -1,0 +1,134 @@
+{
+  "options" : {
+    "directed" : true,
+    "multigraph" : false,
+    "compound" : false
+  },
+  "nodes" : [ {
+    "v" : "Project Eagle"
+  }, {
+    "v" : "2024"
+  }, {
+    "v" : "Alice"
+  }, {
+    "v" : "MegaCorp"
+  }, {
+    "v" : "Person"
+  }, {
+    "v" : "Bob"
+  }, {
+    "v" : "Carol"
+  }, {
+    "v" : "Team Alpha"
+  }, {
+    "v" : "Team"
+  } ],
+  "edges" : [ {
+    "v" : "Project Eagle",
+    "w" : "2024",
+    "value" : {
+      "meta" : {
+        "label" : "started in"
+      }
+    }
+  }, {
+    "v" : "Project Eagle",
+    "w" : "Alice",
+    "value" : {
+      "meta" : {
+        "label" : "led by"
+      }
+    }
+  }, {
+    "v" : "Project Eagle",
+    "w" : "MegaCorp",
+    "value" : {
+      "meta" : {
+        "label" : "funded by"
+      }
+    }
+  }, {
+    "v" : "Alice",
+    "w" : "Person",
+    "value" : {
+      "meta" : {
+        "label" : "has type"
+      }
+    }
+  }, {
+    "v" : "Alice",
+    "w" : "MegaCorp",
+    "value" : {
+      "meta" : {
+        "label" : "works at"
+      }
+    }
+  }, {
+    "v" : "Alice",
+    "w" : "Bob",
+    "value" : {
+      "meta" : {
+        "label" : "knows"
+      }
+    }
+  }, {
+    "v" : "Alice",
+    "w" : "Carol",
+    "value" : {
+      "meta" : {
+        "label" : "knows"
+      }
+    }
+  }, {
+    "v" : "Bob",
+    "w" : "Person",
+    "value" : {
+      "meta" : {
+        "label" : "has type"
+      }
+    }
+  }, {
+    "v" : "Bob",
+    "w" : "Carol"
+  }, {
+    "v" : "Bob",
+    "w" : "Team Alpha",
+    "value" : {
+      "meta" : {
+        "label" : "member of"
+      }
+    }
+  }, {
+    "v" : "Carol",
+    "w" : "Person",
+    "value" : {
+      "meta" : {
+        "label" : "has type"
+      }
+    }
+  }, {
+    "v" : "Team Alpha",
+    "w" : "Team",
+    "value" : {
+      "meta" : {
+        "label" : "has type"
+      }
+    }
+  }, {
+    "v" : "Team Alpha",
+    "w" : "Project Eagle",
+    "value" : {
+      "meta" : {
+        "label" : "develops"
+      }
+    }
+  }, {
+    "v" : "Team Alpha",
+    "w" : "MegaCorp",
+    "value" : {
+      "meta" : {
+        "label" : "reports to"
+      }
+    }
+  } ]
+}
