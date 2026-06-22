@@ -1,0 +1,46 @@
+= ddot.it feature cases
+
+One `.ddot` file per feature of the https://ddot.it[ddot.it] triple-text syntax (simple triples, untyped
+links, inline / multi-line per-link metadata, commands, off/on toggles, continuations, HTML escaping,
+comma blocks, dotted subjects, shorthand commands, the `ddot.it/label` command, …). These are the *inputs*
+graphinout's ddot reader is tested against; provenance is in `meta.ddot`.
+
+== Source of truth
+
+These files are mirrored from the canonical corpus
+`ddot.it/test-data/cases/<NN-name>/input.ddot` (the cross-implementation golden corpus). Each case there
+*also* ships generated `expected.tokens.json`, `expected.events.jsonl` and `expected.body.html`.
+
+IMPORTANT: those `expected.*` files are **generated, never hand-edited** — they are the contract for
+ddot.it's tokenizer / parser / renderer. Regenerate them with the toolchains documented in
+`ddot.it/test-data/README.md`:
+
+* `ruby test-data/regenerate-html.rb` — `expected.body.html`
+* `(cd ../ddot.it-syntax-tools && npm run regenerate:tokens)` — `expected.tokens.json`
+* `(cd ../ddot.it-intellij && mvn test -Dgolden.regen=true)` — `expected.events.jsonl`
+
+Here in graph-test-data we keep **only the input** (renamed `<NN-name>.ddot`); graphinout does not consume
+the ddot.it `expected.*` golden files.
+
+== How graphinout uses these
+
+Read via `-Dgraph.test.data.dir` / `GRAPH_TEST_DATA_DIR` (see the repo root `README`). In the graphinout
+`reader-ddot` module:
+
+* `DDotReaderTest` / `DDotRoundtripTest` — every `.ddot` here is parsed (no fatal errors) and round-tripped
+  faithfully (`ddot -> cj -> ddot -> cj`, asserting the two CJ documents are equal).
+* `DDotLinkMetadataTest` — the `,,` metadata cases (`03`, `04`, `13`, `14`).
+* `DDotLabelCommandTest` — the `ddot.it/label` / `!!label` case (`15`).
+
+The engine's cross-format tests also discover these via classpath scanning.
+
+== Adding / changing a case
+
+1. Add or edit the case in the canonical corpus `ddot.it/test-data/cases/<NN-name>/` and regenerate its
+   `expected.*` files (commands above). Review them — they are the contract.
+2. Copy `input.ddot` here as `<NN-name>.ddot` (keep the number/name in sync).
+3. Bump the `..content.. N feature cases` count in `meta.ddot`.
+4. If the case exercises new reader behaviour, add/extend a test in graphinout `reader-ddot`.
+
+One concern per case. Keep these minimal and synthetic (they are Calpano-authored, freely usable — see
+`meta.ddot`).
