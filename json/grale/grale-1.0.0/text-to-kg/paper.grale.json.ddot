@@ -1,0 +1,23 @@
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..format.. format:grale-1.0.0
+ddot.it/this ..authored by.. Calpano
+ddot.it/this ..license.. MIT License, Copyright (c) Calpano
+
+ddot.it/this ..nodes.. 40
+ddot.it/this ..edges.. 57
+ddot.it/this ..uses feature.. attributes-on-edges
+ddot.it/this ..uses feature.. attributes-on-graphs
+ddot.it/this ..uses feature.. directed-edges
+ddot.it/this ..uses feature.. edge-labels
+ddot.it/this ..does not use feature.. attributes-on-nodes
+ddot.it/this ..does not use feature.. edges-on-edges
+ddot.it/this ..does not use feature.. hyperedges
+ddot.it/this ..does not use feature.. mixed-directionality-edges
+ddot.it/this ..does not use feature.. multiple-graphs-per-document
+ddot.it/this ..does not use feature.. nested-graphs-in-edges
+ddot.it/this ..does not use feature.. nested-graphs-in-graphs
+ddot.it/this ..does not use feature.. nested-graphs-in-nodes
+ddot.it/this ..does not use feature.. node-labels
+ddot.it/this ..does not use feature.. nodes
+ddot.it/this ..does not use feature.. typed-edges
+ddot.it/this ..does not use feature.. undirected-edges

@@ -1,0 +1,326 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "TOP",
+      "value": {
+        "width": 47,
+        "height": 27
+      }
+    },
+    {
+      "v": "S",
+      "value": {
+        "width": 26,
+        "height": 27
+      }
+    },
+    {
+      "v": "NP_1",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    },
+    {
+      "v": "VP",
+      "value": {
+        "width": 36,
+        "height": 27
+      }
+    },
+    {
+      "v": ".",
+      "value": {
+        "width": 20,
+        "height": 27
+      }
+    },
+    {
+      "v": "NP",
+      "value": {
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "v": "DT_1",
+      "value": {
+        "width": 52,
+        "height": 27
+      }
+    },
+    {
+      "v": "DT",
+      "value": {
+        "width": 36,
+        "height": 27
+      }
+    },
+    {
+      "v": "This",
+      "value": {
+        "width": 47,
+        "height": 27
+      }
+    },
+    {
+      "v": "type-TK",
+      "value": {
+        "width": 72,
+        "height": 27
+      }
+    },
+    {
+      "v": "VBZ",
+      "value": {
+        "width": 46,
+        "height": 27
+      }
+    },
+    {
+      "v": "NP_2",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    },
+    {
+      "v": "is",
+      "value": {
+        "width": 28,
+        "height": 27
+      }
+    },
+    {
+      "v": "DT_2",
+      "value": {
+        "width": 52,
+        "height": 27
+      }
+    },
+    {
+      "v": "NN",
+      "value": {
+        "width": 39,
+        "height": 27
+      }
+    },
+    {
+      "v": "an",
+      "value": {
+        "width": 34,
+        "height": 27
+      }
+    },
+    {
+      "v": "example",
+      "value": {
+        "width": 76,
+        "height": 27
+      }
+    },
+    {
+      "v": "sentence",
+      "value": {
+        "width": 82,
+        "height": 27
+      }
+    },
+    {
+      "v": "ddot.it/diagram",
+      "value": {
+        "width": 127,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "TOP",
+      "w": "S"
+    },
+    {
+      "v": "S",
+      "w": "NP_1"
+    },
+    {
+      "v": "S",
+      "w": "VP"
+    },
+    {
+      "v": "S",
+      "w": "."
+    },
+    {
+      "v": "NP_1",
+      "w": "NP",
+      "value": {
+        "meta": {
+          "label": "!!label"
+        }
+      }
+    },
+    {
+      "v": "NP_1",
+      "w": "DT_1"
+    },
+    {
+      "v": "DT_1",
+      "w": "DT",
+      "value": {
+        "meta": {
+          "label": "!!label"
+        }
+      }
+    },
+    {
+      "v": "DT_1",
+      "w": "This"
+    },
+    {
+      "v": "This",
+      "w": "type-TK",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "VP",
+      "w": "VBZ"
+    },
+    {
+      "v": "VP",
+      "w": "NP_2"
+    },
+    {
+      "v": "VBZ",
+      "w": "is"
+    },
+    {
+      "v": "is",
+      "w": "type-TK",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "NP_2",
+      "w": "NP",
+      "value": {
+        "meta": {
+          "label": "!!label"
+        }
+      }
+    },
+    {
+      "v": "NP_2",
+      "w": "DT_2"
+    },
+    {
+      "v": "NP_2",
+      "w": "NN"
+    },
+    {
+      "v": "DT_2",
+      "w": "DT",
+      "value": {
+        "meta": {
+          "label": "!!label"
+        }
+      }
+    },
+    {
+      "v": "DT_2",
+      "w": "an"
+    },
+    {
+      "v": "an",
+      "w": "type-TK",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "NN",
+      "w": "example"
+    },
+    {
+      "v": "example",
+      "w": "type-TK",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": ".",
+      "w": "sentence"
+    },
+    {
+      "v": "sentence",
+      "w": "type-TK",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "This",
+      "w": "is",
+      "value": {
+        "meta": {
+          "label": "hidden"
+        }
+      }
+    },
+    {
+      "v": "is",
+      "w": "an",
+      "value": {
+        "meta": {
+          "label": "hidden"
+        }
+      }
+    },
+    {
+      "v": "an",
+      "w": "example",
+      "value": {
+        "meta": {
+          "label": "hidden"
+        }
+      }
+    },
+    {
+      "v": "example",
+      "w": "sentence",
+      "value": {
+        "meta": {
+          "label": "hidden"
+        }
+      }
+    },
+    {
+      "v": "ddot.it/diagram",
+      "w": "TOP",
+      "value": {
+        "meta": {
+          "label": "focus"
+        }
+      }
+    }
+  ]
+}

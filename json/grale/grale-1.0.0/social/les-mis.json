@@ -1,9 +1,0 @@
-{
-  "options" : {
-    "directed" : true,
-    "multigraph" : false,
-    "compound" : false
-  },
-  "nodes" : [ ],
-  "edges" : [ ]
-}

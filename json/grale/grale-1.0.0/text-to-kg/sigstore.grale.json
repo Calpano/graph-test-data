@@ -1,0 +1,532 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Sigstore",
+      "value": {
+        "width": 76,
+        "height": 27
+      }
+    },
+    {
+      "v": "supply chain security ,,",
+      "value": {
+        "width": 179,
+        "height": 27
+      }
+    },
+    {
+      "v": "OpenSSF ,,",
+      "value": {
+        "width": 96,
+        "height": 27
+      }
+    },
+    {
+      "v": "Fulcio",
+      "value": {
+        "width": 59,
+        "height": 27
+      }
+    },
+    {
+      "v": "service ,,",
+      "value": {
+        "width": 80,
+        "height": 27
+      }
+    },
+    {
+      "v": "Short-lived Certificate ,,",
+      "value": {
+        "width": 185,
+        "height": 27
+      }
+    },
+    {
+      "v": "Identity Token ,,",
+      "value": {
+        "width": 131,
+        "height": 27
+      }
+    },
+    {
+      "v": "Rekor",
+      "value": {
+        "width": 58,
+        "height": 27
+      }
+    },
+    {
+      "v": "Transparency Log ,,",
+      "value": {
+        "width": 158,
+        "height": 27
+      }
+    },
+    {
+      "v": "Signing Event ,,",
+      "value": {
+        "width": 127,
+        "height": 27
+      }
+    },
+    {
+      "v": "Cosign",
+      "value": {
+        "width": 65,
+        "height": 27
+      }
+    },
+    {
+      "v": "Keyless Signing ,,",
+      "value": {
+        "width": 142,
+        "height": 27
+      }
+    },
+    {
+      "v": "Signer",
+      "value": {
+        "width": 62,
+        "height": 27
+      }
+    },
+    {
+      "v": "actor ,,",
+      "value": {
+        "width": 66,
+        "height": 27
+      }
+    },
+    {
+      "v": "Verifier",
+      "value": {
+        "width": 68,
+        "height": 27
+      }
+    },
+    {
+      "v": "Identity Provider",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "Short-lived Certificate",
+      "value": {
+        "width": 172,
+        "height": 27
+      }
+    },
+    {
+      "v": "trust element ,,",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Verifier ,,",
+      "value": {
+        "width": 81,
+        "height": 27
+      }
+    },
+    {
+      "v": "Ephemeral Key",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Transparency Log",
+      "value": {
+        "width": 145,
+        "height": 27
+      }
+    },
+    {
+      "v": "Root of Trust",
+      "value": {
+        "width": 110,
+        "height": 27
+      }
+    },
+    {
+      "v": "TUF ,,",
+      "value": {
+        "width": 58,
+        "height": 27
+      }
+    },
+    {
+      "v": "Keyless Signing",
+      "value": {
+        "width": 129,
+        "height": 27
+      }
+    },
+    {
+      "v": "process ,,",
+      "value": {
+        "width": 86,
+        "height": 27
+      }
+    },
+    {
+      "v": "Ephemeral Key ,,",
+      "value": {
+        "width": 136,
+        "height": 27
+      }
+    },
+    {
+      "v": "TUF",
+      "value": {
+        "width": 46,
+        "height": 27
+      }
+    },
+    {
+      "v": "standard ,,",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "Root of Trust ,,",
+      "value": {
+        "width": 123,
+        "height": 27
+      }
+    },
+    {
+      "v": "OIDC",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    },
+    {
+      "v": "Signer ,,",
+      "value": {
+        "width": 75,
+        "height": 27
+      }
+    },
+    {
+      "v": "SLSA",
+      "value": {
+        "width": 55,
+        "height": 27
+      }
+    },
+    {
+      "v": "Identity Token",
+      "value": {
+        "width": 118,
+        "height": 27
+      }
+    },
+    {
+      "v": "OIDC Token ,,",
+      "value": {
+        "width": 114,
+        "height": 27
+      }
+    },
+    {
+      "v": "Signing Event",
+      "value": {
+        "width": 114,
+        "height": 27
+      }
+    },
+    {
+      "v": "Immutable Ledger Entry ,,",
+      "value": {
+        "width": 201,
+        "height": 27
+      }
+    },
+    {
+      "v": "Public Good Instance",
+      "value": {
+        "width": 168,
+        "height": 27
+      }
+    },
+    {
+      "v": "Sigstore Infrastructure ,,",
+      "value": {
+        "width": 191,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Sigstore",
+      "w": "supply chain security ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Sigstore",
+      "w": "OpenSSF ,,",
+      "value": {
+        "meta": {
+          "label": "part of"
+        }
+      }
+    },
+    {
+      "v": "Fulcio",
+      "w": "service ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Fulcio",
+      "w": "Short-lived Certificate ,,",
+      "value": {
+        "meta": {
+          "label": "produces"
+        }
+      }
+    },
+    {
+      "v": "Fulcio",
+      "w": "Identity Token ,,",
+      "value": {
+        "meta": {
+          "label": "verifies"
+        }
+      }
+    },
+    {
+      "v": "Rekor",
+      "w": "service ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Rekor",
+      "w": "Transparency Log ,,",
+      "value": {
+        "meta": {
+          "label": "contains"
+        }
+      }
+    },
+    {
+      "v": "Rekor",
+      "w": "Signing Event ,,",
+      "value": {
+        "meta": {
+          "label": "records"
+        }
+      }
+    },
+    {
+      "v": "Cosign",
+      "w": "service ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Cosign",
+      "w": "Keyless Signing ,,",
+      "value": {
+        "meta": {
+          "label": "performs"
+        }
+      }
+    },
+    {
+      "v": "Signer",
+      "w": "actor ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Verifier",
+      "w": "actor ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Identity Provider",
+      "w": "service ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Identity Provider",
+      "w": "Identity Token ,,",
+      "value": {
+        "meta": {
+          "label": "produces"
+        }
+      }
+    },
+    {
+      "v": "Short-lived Certificate",
+      "w": "trust element ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Short-lived Certificate",
+      "w": "Verifier ,,",
+      "value": {
+        "meta": {
+          "label": "verified by"
+        }
+      }
+    },
+    {
+      "v": "Ephemeral Key",
+      "w": "trust element ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Transparency Log",
+      "w": "trust element ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Root of Trust",
+      "w": "trust element ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Root of Trust",
+      "w": "TUF ,,",
+      "value": {
+        "meta": {
+          "label": "distributed by"
+        }
+      }
+    },
+    {
+      "v": "Keyless Signing",
+      "w": "process ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Keyless Signing",
+      "w": "Ephemeral Key ,,",
+      "value": {
+        "meta": {
+          "label": "uses"
+        }
+      }
+    },
+    {
+      "v": "TUF",
+      "w": "standard ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "TUF",
+      "w": "Root of Trust ,,",
+      "value": {
+        "meta": {
+          "label": "verifies"
+        }
+      }
+    },
+    {
+      "v": "OIDC",
+      "w": "standard ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "OIDC",
+      "w": "Signer ,,",
+      "value": {
+        "meta": {
+          "label": "authenticates"
+        }
+      }
+    },
+    {
+      "v": "SLSA",
+      "w": "standard ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Identity Token",
+      "w": "OIDC Token ,,"
+    },
+    {
+      "v": "Signing Event",
+      "w": "Immutable Ledger Entry ,,"
+    },
+    {
+      "v": "Public Good Instance",
+      "w": "Sigstore Infrastructure ,,"
+    }
+  ]
+}

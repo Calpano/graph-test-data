@@ -1,0 +1,425 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Afrika",
+      "value": {
+        "width": 59,
+        "height": 27
+      }
+    },
+    {
+      "v": "Savannen",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "Kontinent",
+      "value": {
+        "width": 85,
+        "height": 27
+      }
+    },
+    {
+      "v": "Asien",
+      "value": {
+        "width": 56,
+        "height": 27
+      }
+    },
+    {
+      "v": "Regenwälder",
+      "value": {
+        "width": 109,
+        "height": 27
+      }
+    },
+    {
+      "v": "Elefanten",
+      "value": {
+        "width": 84,
+        "height": 27
+      }
+    },
+    {
+      "v": "Stoßzähne",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "Rüsseltiere",
+      "value": {
+        "width": 96,
+        "height": 27
+      }
+    },
+    {
+      "v": "Europa",
+      "value": {
+        "width": 67,
+        "height": 27
+      }
+    },
+    {
+      "v": "Herden",
+      "value": {
+        "width": 68,
+        "height": 27
+      }
+    },
+    {
+      "v": "Lebensräume",
+      "value": {
+        "width": 114,
+        "height": 27
+      }
+    },
+    {
+      "v": "Kälber",
+      "value": {
+        "width": 62,
+        "height": 27
+      }
+    },
+    {
+      "v": "Mammuts",
+      "value": {
+        "width": 88,
+        "height": 27
+      }
+    },
+    {
+      "v": "Rinder",
+      "value": {
+        "width": 62,
+        "height": 27
+      }
+    },
+    {
+      "v": "Elfenbein",
+      "value": {
+        "width": 83,
+        "height": 27
+      }
+    },
+    {
+      "v": "Wilderer",
+      "value": {
+        "width": 76,
+        "height": 27
+      }
+    },
+    {
+      "v": "Klimawandel",
+      "value": {
+        "width": 107,
+        "height": 27
+      }
+    },
+    {
+      "v": "Welt",
+      "value": {
+        "width": 48,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Afrika",
+      "w": "Savannen",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Afrika",
+      "w": "Kontinent",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Asien",
+      "w": "Regenwälder",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Asien",
+      "w": "Kontinent",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Elefanten",
+      "w": "Stoßzähne",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Elefanten",
+      "w": "Afrika",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Elefanten",
+      "w": "Asien",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Elefanten",
+      "w": "Savannen",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Elefanten",
+      "w": "Rüsseltiere",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Europa",
+      "w": "Kontinent",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Herden",
+      "w": "Lebensräume",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Herden",
+      "w": "Kälber",
+      "value": {
+        "meta": {
+          "label": "schützen"
+        }
+      }
+    },
+    {
+      "v": "Mammuts",
+      "w": "Stoßzähne",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Mammuts",
+      "w": "Rüsseltiere",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Mammuts",
+      "w": "Elefanten",
+      "value": {
+        "meta": {
+          "label": "sind Vorfahren von"
+        }
+      }
+    },
+    {
+      "v": "Afrika",
+      "w": "Regenwälder",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Regenwälder",
+      "w": "Lebensräume",
+      "value": {
+        "meta": {
+          "label": "bilden"
+        }
+      }
+    },
+    {
+      "v": "Regenwälder",
+      "w": "Rinder",
+      "value": {
+        "meta": {
+          "label": "werden abgeholzt für"
+        }
+      }
+    },
+    {
+      "v": "Rinder",
+      "w": "Afrika",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Rinder",
+      "w": "Asien",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Rinder",
+      "w": "Europa",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Rinder",
+      "w": "Herden",
+      "value": {
+        "meta": {
+          "label": "bilden"
+        }
+      }
+    },
+    {
+      "v": "Rüsseltiere",
+      "w": "Kälber",
+      "value": {
+        "meta": {
+          "label": "besitzt"
+        }
+      }
+    },
+    {
+      "v": "Rüsseltiere",
+      "w": "Lebensräume",
+      "value": {
+        "meta": {
+          "label": "bewohnen"
+        }
+      }
+    },
+    {
+      "v": "Rüsseltiere",
+      "w": "Herden",
+      "value": {
+        "meta": {
+          "label": "bilden"
+        }
+      }
+    },
+    {
+      "v": "Savannen",
+      "w": "Lebensräume",
+      "value": {
+        "meta": {
+          "label": "bilden"
+        }
+      }
+    },
+    {
+      "v": "Stoßzähne",
+      "w": "Elfenbein",
+      "value": {
+        "meta": {
+          "label": "bestehen aus"
+        }
+      }
+    },
+    {
+      "v": "Elfenbein",
+      "w": "Wilderer",
+      "value": {
+        "meta": {
+          "label": "wird gehandelt von"
+        }
+      }
+    },
+    {
+      "v": "Wilderer",
+      "w": "Elefanten",
+      "value": {
+        "meta": {
+          "label": "bedrohen"
+        }
+      }
+    },
+    {
+      "v": "Lebensräume",
+      "w": "Klimawandel",
+      "value": {
+        "meta": {
+          "label": "werden bedroht durch"
+        }
+      }
+    },
+    {
+      "v": "Rüsseltiere",
+      "w": "Klimawandel",
+      "value": {
+        "meta": {
+          "label": "werden bedroht durch"
+        }
+      }
+    },
+    {
+      "v": "Welt",
+      "w": "Klimawandel",
+      "value": {
+        "meta": {
+          "label": "werden bedroht durch"
+        }
+      }
+    }
+  ]
+}

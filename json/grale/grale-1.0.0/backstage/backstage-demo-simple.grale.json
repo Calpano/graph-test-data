@@ -1,0 +1,1489 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Artists",
+      "value": {
+        "width": 63,
+        "height": 27
+      }
+    },
+    {
+      "v": "domain",
+      "value": {
+        "width": 69,
+        "height": 27
+      }
+    },
+    {
+      "v": "system:default/artist-engagement-portal",
+      "value": {
+        "width": 308,
+        "height": 27
+      }
+    },
+    {
+      "v": "system",
+      "value": {
+        "width": 68,
+        "height": 27
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "value": {
+        "width": 169,
+        "height": 27
+      }
+    },
+    {
+      "v": "group",
+      "value": {
+        "width": 58,
+        "height": 27
+      }
+    },
+    {
+      "v": "domain:default/audio",
+      "value": {
+        "width": 170,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/artist-lookup",
+      "value": {
+        "width": 248,
+        "height": 27
+      }
+    },
+    {
+      "v": "component",
+      "value": {
+        "width": 97,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/www-artist",
+      "value": {
+        "width": 236,
+        "height": 27
+      }
+    },
+    {
+      "v": "resource:default/artists-db",
+      "value": {
+        "width": 209,
+        "height": 27
+      }
+    },
+    {
+      "v": "resource",
+      "value": {
+        "width": 79,
+        "height": 27
+      }
+    },
+    {
+      "v": "Backstage",
+      "value": {
+        "width": 91,
+        "height": 27
+      }
+    },
+    {
+      "v": "user:default/breanna.davison",
+      "value": {
+        "width": 227,
+        "height": 27
+      }
+    },
+    {
+      "v": "user",
+      "value": {
+        "width": 48,
+        "height": 27
+      }
+    },
+    {
+      "v": "Guest User (default)",
+      "value": {
+        "width": 160,
+        "height": 27
+      }
+    },
+    {
+      "v": "Janelle Dawe",
+      "value": {
+        "width": 111,
+        "height": 27
+      }
+    },
+    {
+      "v": "Nigel Manning",
+      "value": {
+        "width": 119,
+        "height": 27
+      }
+    },
+    {
+      "v": "Guest User (development)",
+      "value": {
+        "width": 203,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/spotify",
+      "value": {
+        "width": 148,
+        "height": 27
+      }
+    },
+    {
+      "v": "api",
+      "value": {
+        "width": 37,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/wayback-archive",
+      "value": {
+        "width": 219,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/wayback-search",
+      "value": {
+        "width": 215,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/wayback-archive",
+      "value": {
+        "width": 278,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/wayback-archive-storage",
+      "value": {
+        "width": 338,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/wayback-search",
+      "value": {
+        "width": 274,
+        "height": 27
+      }
+    },
+    {
+      "v": "domain:default/playback",
+      "value": {
+        "width": 194,
+        "height": 27
+      }
+    },
+    {
+      "v": "ACME Corp",
+      "value": {
+        "width": 99,
+        "height": 27
+      }
+    },
+    {
+      "v": "group:default/infrastructure",
+      "value": {
+        "width": 217,
+        "height": 27
+      }
+    },
+    {
+      "v": "Backstage API",
+      "value": {
+        "width": 120,
+        "height": 27
+      }
+    },
+    {
+      "v": "Team B",
+      "value": {
+        "width": 71,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/playback-order",
+      "value": {
+        "width": 265,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/searcher",
+      "value": {
+        "width": 221,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/shuffle-api",
+      "value": {
+        "width": 235,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/wayback-archive-ingestion",
+      "value": {
+        "width": 349,
+        "height": 27
+      }
+    },
+    {
+      "v": "system:default/audio-playback",
+      "value": {
+        "width": 237,
+        "height": 27
+      }
+    },
+    {
+      "v": "system:default/podcast",
+      "value": {
+        "width": 187,
+        "height": 27
+      }
+    },
+    {
+      "v": "Frank Tiernan",
+      "value": {
+        "width": 115,
+        "height": 27
+      }
+    },
+    {
+      "v": "Box Office",
+      "value": {
+        "width": 90,
+        "height": 27
+      }
+    },
+    {
+      "v": "Amelia Park",
+      "value": {
+        "width": 102,
+        "height": 27
+      }
+    },
+    {
+      "v": "Colette Brock",
+      "value": {
+        "width": 113,
+        "height": 27
+      }
+    },
+    {
+      "v": "Jenny Doe",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "Jonathon Page",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Justine Barrow",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/starwars-graphql",
+      "value": {
+        "width": 220,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/podcast-api",
+      "value": {
+        "width": 242,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/queue-proxy",
+      "value": {
+        "width": 247,
+        "height": 27
+      }
+    },
+    {
+      "v": "Team D",
+      "value": {
+        "width": 71,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/playback-sdk",
+      "value": {
+        "width": 252,
+        "height": 27
+      }
+    },
+    {
+      "v": "Team C",
+      "value": {
+        "width": 71,
+        "height": 27
+      }
+    },
+    {
+      "v": "Eva MacDowell",
+      "value": {
+        "width": 125,
+        "height": 27
+      }
+    },
+    {
+      "v": "Lucy Sheehan",
+      "value": {
+        "width": 117,
+        "height": 27
+      }
+    },
+    {
+      "v": "Calum Leavy",
+      "value": {
+        "width": 108,
+        "height": 27
+      }
+    },
+    {
+      "v": "Peadar MacMahon",
+      "value": {
+        "width": 151,
+        "height": 27
+      }
+    },
+    {
+      "v": "Sarah Gilroy",
+      "value": {
+        "width": 103,
+        "height": 27
+      }
+    },
+    {
+      "v": "Tara MacGovern",
+      "value": {
+        "width": 135,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/hello-world",
+      "value": {
+        "width": 177,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/hello-world-trpc",
+      "value": {
+        "width": 211,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/petstore",
+      "value": {
+        "width": 159,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/petstore-webhook",
+      "value": {
+        "width": 228,
+        "height": 27
+      }
+    },
+    {
+      "v": "api:default/streetlights",
+      "value": {
+        "width": 180,
+        "height": 27
+      }
+    },
+    {
+      "v": "component:default/petstore",
+      "value": {
+        "width": 218,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Artists",
+      "w": "domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "system:default/artist-engagement-portal",
+      "w": "system",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "domain:default/audio",
+      "w": "domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/artist-lookup",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/www-artist",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "resource:default/artists-db",
+      "w": "resource",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Backstage",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "user:default/breanna.davison",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Guest User (default)",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Janelle Dawe",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Nigel Manning",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Guest User (development)",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/spotify",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/wayback-archive",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/wayback-search",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/wayback-archive",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/wayback-archive-storage",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/wayback-search",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "domain:default/playback",
+      "w": "domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "ACME Corp",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "group:default/infrastructure",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Backstage API",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/playback-order",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/searcher",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/shuffle-api",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/wayback-archive-ingestion",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "system:default/audio-playback",
+      "w": "system",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "system:default/podcast",
+      "w": "system",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Frank Tiernan",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Box Office",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Amelia Park",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Colette Brock",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Jenny Doe",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Jonathon Page",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Justine Barrow",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/starwars-graphql",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/podcast-api",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/queue-proxy",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Team D",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/playback-sdk",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "group",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Eva MacDowell",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Lucy Sheehan",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Calum Leavy",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Peadar MacMahon",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Sarah Gilroy",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Tara MacGovern",
+      "w": "user",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/hello-world",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/hello-world-trpc",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/petstore",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/petstore-webhook",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "api:default/streetlights",
+      "w": "api",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "component:default/petstore",
+      "w": "component",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Artists",
+      "w": "system:default/artist-engagement-portal",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "Artists",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "domain:default/audio",
+      "w": "Artists",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "domain:default/audio",
+      "w": "domain:default/playback",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "ACME Corp",
+      "w": "domain:default/audio",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "ACME Corp",
+      "w": "group:default/infrastructure",
+      "value": {
+        "meta": {
+          "label": "parent of"
+        }
+      }
+    },
+    {
+      "v": "group:default/infrastructure",
+      "w": "Backstage",
+      "value": {
+        "meta": {
+          "label": "parent of"
+        }
+      }
+    },
+    {
+      "v": "group:default/infrastructure",
+      "w": "Box Office",
+      "value": {
+        "meta": {
+          "label": "parent of"
+        }
+      }
+    },
+    {
+      "v": "Team D",
+      "w": "Eva MacDowell",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team D",
+      "w": "Lucy Sheehan",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team D",
+      "w": "component:default/wayback-archive-ingestion",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "component:default/wayback-archive",
+      "w": "component:default/wayback-archive-ingestion",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "component:default/wayback-archive",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "api:default/wayback-archive",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "component:default/wayback-search",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "api:default/wayback-search",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "component:default/wayback-archive-storage",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "Calum Leavy",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "Frank Tiernan",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "Peadar MacMahon",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "Sarah Gilroy",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "Tara MacGovern",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "api:default/hello-world",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "api:default/hello-world-trpc",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "api:default/petstore",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "api:default/petstore-webhook",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "api:default/streetlights",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "component:default/petstore",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team C",
+      "w": "system:default/audio-playback",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "system:default/audio-playback",
+      "w": "component:default/playback-sdk",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "domain:default/playback",
+      "w": "system:default/audio-playback",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "Guest User (default)",
+      "w": "component:default/shuffle-api",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "Guest User (default)",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Guest User (default)",
+      "w": "component:default/playback-order",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Guest User (default)",
+      "w": "component:default/searcher",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Frank Tiernan",
+      "w": "domain:default/playback",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Backstage",
+      "w": "Backstage API",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Backstage",
+      "w": "group:default/team-a",
+      "value": {
+        "meta": {
+          "label": "parent of"
+        }
+      }
+    },
+    {
+      "v": "Backstage",
+      "w": "Team B",
+      "value": {
+        "meta": {
+          "label": "parent of"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "Amelia Park",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "Colette Brock",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "Jenny Doe",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "Jonathon Page",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "Justine Barrow",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "api:default/starwars-graphql",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "component:default/podcast-api",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "Team B",
+      "w": "component:default/queue-proxy",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "system:default/podcast",
+      "w": "component:default/podcast-api",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "system:default/podcast",
+      "w": "component:default/queue-proxy",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "domain:default/playback",
+      "w": "system:default/podcast",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "user:default/breanna.davison",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "Janelle Dawe",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "Nigel Manning",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "Guest User (development)",
+      "value": {
+        "meta": {
+          "label": "has member"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "api:default/spotify",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "component:default/artist-lookup",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "component:default/www-artist",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "group:default/team-a",
+      "w": "resource:default/artists-db",
+      "value": {
+        "meta": {
+          "label": "owner of"
+        }
+      }
+    },
+    {
+      "v": "system:default/artist-engagement-portal",
+      "w": "resource:default/artists-db",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "system:default/artist-engagement-portal",
+      "w": "component:default/www-artist",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    },
+    {
+      "v": "system:default/artist-engagement-portal",
+      "w": "component:default/artist-lookup",
+      "value": {
+        "meta": {
+          "label": "has part"
+        }
+      }
+    }
+  ]
+}

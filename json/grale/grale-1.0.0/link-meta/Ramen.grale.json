@@ -1,0 +1,274 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "value": {
+        "width": 243,
+        "height": 27
+      }
+    },
+    {
+      "v": "Recipe",
+      "value": {
+        "width": 65,
+        "height": 27
+      }
+    },
+    {
+      "v": "https://www.themealdb.com/meal/53383",
+      "value": {
+        "width": 314,
+        "height": 27
+      }
+    },
+    {
+      "v": "1 Packet Noodles",
+      "value": {
+        "width": 141,
+        "height": 27
+      }
+    },
+    {
+      "v": "2 cups Water",
+      "value": {
+        "width": 110,
+        "height": 27
+      }
+    },
+    {
+      "v": "1 large Egg",
+      "value": {
+        "width": 96,
+        "height": 27
+      }
+    },
+    {
+      "v": "1 tbsp Soy Sauce",
+      "value": {
+        "width": 140,
+        "height": 27
+      }
+    },
+    {
+      "v": "1/2 tsp Chilli Sauce",
+      "value": {
+        "width": 154,
+        "height": 27
+      }
+    },
+    {
+      "v": "1 tbls Spring Onions",
+      "value": {
+        "width": 160,
+        "height": 27
+      }
+    },
+    {
+      "v": "1/2 tsp Salt",
+      "value": {
+        "width": 99,
+        "height": 27
+      }
+    },
+    {
+      "v": "1/2 tbs Pepper",
+      "value": {
+        "width": 122,
+        "height": 27
+      }
+    },
+    {
+      "v": "2 tbsp Mirin (for marinade)",
+      "value": {
+        "width": 207,
+        "height": 27
+      }
+    },
+    {
+      "v": "1 tsp Sugar (for marinade)",
+      "value": {
+        "width": 204,
+        "height": 27
+      }
+    },
+    {
+      "v": "Boil: Bring water to a boil, gently add eggs, and cook for exactly 6½ to 7 minutes.",
+      "value": {
+        "width": 350,
+        "height": 46
+      }
+    },
+    {
+      "v": "Ice Bath: Immediately transfer the eggs to a bowl of ice water for 3–5 minutes to stop cooking.",
+      "value": {
+        "width": 367,
+        "height": 46
+      }
+    },
+    {
+      "v": "Marinate: Peel the eggs and marinate in a mix of 2 tbsp soy sauce, 2 tbsp mirin, 1 tsp sugar, and 4 tbsp water for at least 4 hours (or overnight).",
+      "value": {
+        "width": 373,
+        "height": 66
+      }
+    },
+    {
+      "v": "Serve: Slice in half, letting the yolk flow into the broth.",
+      "value": {
+        "width": 327,
+        "height": 46
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "Recipe",
+      "value": {
+        "meta": {
+          "label": "is a"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "https://www.themealdb.com/meal/53383",
+      "value": {
+        "meta": {
+          "label": "source"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1 Packet Noodles",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "2 cups Water",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1 large Egg",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1 tbsp Soy Sauce",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1/2 tsp Chilli Sauce",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1 tbls Spring Onions",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1/2 tsp Salt",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1/2 tbs Pepper",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "2 tbsp Mirin (for marinade)",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "1 tsp Sugar (for marinade)",
+      "value": {
+        "meta": {
+          "label": "ingredient"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "Boil: Bring water to a boil, gently add eggs, and cook for exactly 6½ to 7 minutes.",
+      "value": {
+        "meta": {
+          "label": "step 1"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "Ice Bath: Immediately transfer the eggs to a bowl of ice water for 3–5 minutes to stop cooking.",
+      "value": {
+        "meta": {
+          "label": "step 2"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "Marinate: Peel the eggs and marinate in a mix of 2 tbsp soy sauce, 2 tbsp mirin, 1 tsp sugar, and 4 tbsp water for at least 4 hours (or overnight).",
+      "value": {
+        "meta": {
+          "label": "step 3"
+        }
+      }
+    },
+    {
+      "v": "Ramen Noodles with Boiled Egg",
+      "w": "Serve: Slice in half, letting the yolk flow into the broth.",
+      "value": {
+        "meta": {
+          "label": "step 4"
+        }
+      }
+    }
+  ]
+}

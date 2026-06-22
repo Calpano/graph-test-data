@@ -1,0 +1,822 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "CAB",
+      "value": {
+        "width": 47,
+        "height": 27
+      }
+    },
+    {
+      "v": "Supply",
+      "value": {
+        "width": 65,
+        "height": 27
+      }
+    },
+    {
+      "v": "WAF",
+      "value": {
+        "width": 50,
+        "height": 27
+      }
+    },
+    {
+      "v": "RIDER",
+      "value": {
+        "width": 61,
+        "height": 27
+      }
+    },
+    {
+      "v": "Demand",
+      "value": {
+        "width": 76,
+        "height": 27
+      }
+    },
+    {
+      "v": "Web Application Firewall",
+      "value": {
+        "width": 192,
+        "height": 27
+      }
+    },
+    {
+      "v": "LB",
+      "value": {
+        "width": 35,
+        "height": 27
+      }
+    },
+    {
+      "v": "Load Balancer",
+      "value": {
+        "width": 118,
+        "height": 27
+      }
+    },
+    {
+      "v": "KAFKA REST API",
+      "value": {
+        "width": 139,
+        "height": 27
+      }
+    },
+    {
+      "v": "HTTP REST",
+      "value": {
+        "width": 100,
+        "height": 27
+      }
+    },
+    {
+      "v": "WEB SOCKETS NODE",
+      "value": {
+        "width": 172,
+        "height": 27
+      }
+    },
+    {
+      "v": "RDBMS",
+      "value": {
+        "width": 71,
+        "height": 27
+      }
+    },
+    {
+      "v": "Service Adapter",
+      "value": {
+        "width": 130,
+        "height": 27
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "value": {
+        "width": 140,
+        "height": 27
+      }
+    },
+    {
+      "v": "DISCO SUPPLY",
+      "value": {
+        "width": 127,
+        "height": 27
+      }
+    },
+    {
+      "v": "DISCO DEMAND",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "Message Queue",
+      "value": {
+        "width": 132,
+        "height": 27
+      }
+    },
+    {
+      "v": "BATCH PROCESSING",
+      "value": {
+        "width": 171,
+        "height": 27
+      }
+    },
+    {
+      "v": "STREAM PROCESSING",
+      "value": {
+        "width": 182,
+        "height": 27
+      }
+    },
+    {
+      "v": "HADOOP",
+      "value": {
+        "width": 81,
+        "height": 27
+      }
+    },
+    {
+      "v": "ML FRAUD DETECTION",
+      "value": {
+        "width": 185,
+        "height": 27
+      }
+    },
+    {
+      "v": "MAPS CREATION",
+      "value": {
+        "width": 142,
+        "height": 27
+      }
+    },
+    {
+      "v": "PRICING SURGING",
+      "value": {
+        "width": 152,
+        "height": 27
+      }
+    },
+    {
+      "v": "SPARK AND STORM",
+      "value": {
+        "width": 162,
+        "height": 27
+      }
+    },
+    {
+      "v": "ANALYTICS ELK JUPYTER",
+      "value": {
+        "width": 208,
+        "height": 27
+      }
+    },
+    {
+      "v": "HIVE, HDFS, PIG",
+      "value": {
+        "width": 136,
+        "height": 27
+      }
+    },
+    {
+      "v": "FRAUD DETECTION, ROUTING",
+      "value": {
+        "width": 236,
+        "height": 27
+      }
+    },
+    {
+      "v": "ETA CALCULATION",
+      "value": {
+        "width": 157,
+        "height": 27
+      }
+    },
+    {
+      "v": "STREAMS",
+      "value": {
+        "width": 90,
+        "height": 27
+      }
+    },
+    {
+      "v": "DISCO",
+      "value": {
+        "width": 63,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 1",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 5",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 4",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 1, REGION 2, REGION 3, REGION 4, REGION 5",
+      "value": {
+        "width": 404,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 2 ,, CELL 57",
+      "value": {
+        "width": 163,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 2",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 3 ,, CELL 2089",
+      "value": {
+        "width": 181,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 3",
+      "value": {
+        "width": 87,
+        "height": 27
+      }
+    },
+    {
+      "v": "REGION 4 ,, CELL 187",
+      "value": {
+        "width": 172,
+        "height": 27
+      }
+    },
+    {
+      "v": "Database",
+      "value": {
+        "width": 84,
+        "height": 27
+      }
+    },
+    {
+      "v": "NODE REGION 1",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "NODE REGION 2",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "NODE REGION 3",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "NODE REGION 4",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "LOGS FROM ALL SERVICES",
+      "value": {
+        "width": 217,
+        "height": 27
+      }
+    },
+    {
+      "v": "LOGGING KAFKA",
+      "value": {
+        "width": 140,
+        "height": 27
+      }
+    },
+    {
+      "v": "ELK LOGSTASH",
+      "value": {
+        "width": 131,
+        "height": 27
+      }
+    },
+    {
+      "v": "LOG ANALYSIS",
+      "value": {
+        "width": 127,
+        "height": 27
+      }
+    },
+    {
+      "v": "VISUALIZATIONS",
+      "value": {
+        "width": 143,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "CAB",
+      "w": "Supply",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "CAB",
+      "w": "WAF",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "RIDER",
+      "w": "Demand",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "RIDER",
+      "w": "WAF",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "WAF",
+      "w": "Web Application Firewall",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "WAF",
+      "w": "LB",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LB",
+      "w": "Load Balancer",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "LB",
+      "w": "KAFKA REST API",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LB",
+      "w": "HTTP REST",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LB",
+      "w": "WEB SOCKETS NODE",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LB",
+      "w": "RDBMS",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA REST API",
+      "w": "Service Adapter",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "KAFKA REST API",
+      "w": "KAFKA CLUSTER",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "HTTP REST",
+      "w": "Service Adapter",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "HTTP REST",
+      "w": "DISCO SUPPLY",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "HTTP REST",
+      "w": "DISCO DEMAND",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "WEB SOCKETS NODE",
+      "w": "Service Adapter",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "WEB SOCKETS NODE",
+      "w": "DISCO SUPPLY",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "WEB SOCKETS NODE",
+      "w": "DISCO DEMAND",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "Message Queue",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "BATCH PROCESSING",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "STREAM PROCESSING",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "HADOOP",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "ML FRAUD DETECTION",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "MAPS CREATION",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "PRICING SURGING",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "SPARK AND STORM",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "KAFKA CLUSTER",
+      "w": "ANALYTICS ELK JUPYTER",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "HADOOP",
+      "w": "HIVE, HDFS, PIG",
+      "value": {
+        "meta": {
+          "label": "contains"
+        }
+      }
+    },
+    {
+      "v": "ML FRAUD DETECTION",
+      "w": "FRAUD DETECTION, ROUTING",
+      "value": {
+        "meta": {
+          "label": "performs"
+        }
+      }
+    },
+    {
+      "v": "MAPS CREATION",
+      "w": "ETA CALCULATION",
+      "value": {
+        "meta": {
+          "label": "performs"
+        }
+      }
+    },
+    {
+      "v": "SPARK AND STORM",
+      "w": "STREAMS",
+      "value": {
+        "meta": {
+          "label": "processes"
+        }
+      }
+    },
+    {
+      "v": "DISCO SUPPLY",
+      "w": "DISCO",
+      "value": {
+        "meta": {
+          "label": "part of"
+        }
+      }
+    },
+    {
+      "v": "DISCO SUPPLY",
+      "w": "REGION 1",
+      "value": {
+        "meta": {
+          "label": "updates"
+        }
+      }
+    },
+    {
+      "v": "DISCO SUPPLY",
+      "w": "REGION 5",
+      "value": {
+        "meta": {
+          "label": "matches"
+        }
+      }
+    },
+    {
+      "v": "DISCO DEMAND",
+      "w": "DISCO",
+      "value": {
+        "meta": {
+          "label": "part of"
+        }
+      }
+    },
+    {
+      "v": "DISCO DEMAND",
+      "w": "REGION 4",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "DISCO",
+      "w": "REGION 1, REGION 2, REGION 3, REGION 4, REGION 5",
+      "value": {
+        "meta": {
+          "label": "contains"
+        }
+      }
+    },
+    {
+      "v": "REGION 1",
+      "w": "REGION 2 ,, CELL 57",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "REGION 2",
+      "w": "REGION 3 ,, CELL 2089",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "REGION 3",
+      "w": "REGION 4 ,, CELL 187",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "REGION 4",
+      "w": "REGION 5",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "REGION 5",
+      "w": "REGION 1",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "RDBMS",
+      "w": "Database",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "RDBMS",
+      "w": "NODE REGION 1",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "RDBMS",
+      "w": "NODE REGION 2",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "RDBMS",
+      "w": "NODE REGION 3",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "RDBMS",
+      "w": "NODE REGION 4",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LOGS FROM ALL SERVICES",
+      "w": "LOGGING KAFKA",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "LOGGING KAFKA",
+      "w": "ELK LOGSTASH",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "ELK LOGSTASH",
+      "w": "LOG ANALYSIS",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "ELK LOGSTASH",
+      "w": "VISUALIZATIONS",
+      "value": {
+        "meta": {
+          "label": "produces"
+        }
+      }
+    }
+  ]
+}

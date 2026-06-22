@@ -1,0 +1,293 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "CLOSED",
+      "value": {
+        "width": 77,
+        "height": 27
+      }
+    },
+    {
+      "v": "LISTEN,,opem",
+      "value": {
+        "width": 119,
+        "height": 27
+      }
+    },
+    {
+      "v": "LISTEN",
+      "value": {
+        "width": 70,
+        "height": 27
+      }
+    },
+    {
+      "v": "SYN RCVD,,rcv SYN",
+      "value": {
+        "width": 159,
+        "height": 27
+      }
+    },
+    {
+      "v": "SYN SENT,,send",
+      "value": {
+        "width": 135,
+        "height": 27
+      }
+    },
+    {
+      "v": "SYN RCVD",
+      "value": {
+        "width": 93,
+        "height": 27
+      }
+    },
+    {
+      "v": "FINWAIT-1,,close",
+      "value": {
+        "width": 141,
+        "height": 27
+      }
+    },
+    {
+      "v": "ESTAB,,rcv ACK of SYN",
+      "value": {
+        "width": 186,
+        "height": 27
+      }
+    },
+    {
+      "v": "SYN SENT",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "ESTAB,,rcv SYN, ACK",
+      "value": {
+        "width": 171,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSED,,close",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "ESTAB",
+      "value": {
+        "width": 66,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSE WAIT,,rcv FIN",
+      "value": {
+        "width": 170,
+        "height": 27
+      }
+    },
+    {
+      "v": "FINWAIT-1",
+      "value": {
+        "width": 95,
+        "height": 27
+      }
+    },
+    {
+      "v": "FINWAIT-2,,rcv ACK of FIN",
+      "value": {
+        "width": 209,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSING,,rcv FIN",
+      "value": {
+        "width": 144,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSE WAIT",
+      "value": {
+        "width": 110,
+        "height": 27
+      }
+    },
+    {
+      "v": "LAST-ACK,,close",
+      "value": {
+        "width": 138,
+        "height": 27
+      }
+    },
+    {
+      "v": "FINWAIT-2",
+      "value": {
+        "width": 95,
+        "height": 27
+      }
+    },
+    {
+      "v": "TIME WAIT,,rcv FIN",
+      "value": {
+        "width": 157,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSING",
+      "value": {
+        "width": 84,
+        "height": 27
+      }
+    },
+    {
+      "v": "TIME WAIT,,rcv ACK of FIN",
+      "value": {
+        "width": 211,
+        "height": 27
+      }
+    },
+    {
+      "v": "LAST-ACK",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSED,,rcv ACK of FIN",
+      "value": {
+        "width": 191,
+        "height": 27
+      }
+    },
+    {
+      "v": "TIME WAIT",
+      "value": {
+        "width": 97,
+        "height": 27
+      }
+    },
+    {
+      "v": "CLOSED,,timeout=2MSL",
+      "value": {
+        "width": 191,
+        "height": 27
+      }
+    },
+    {
+      "v": "RED ,, #f77",
+      "value": {
+        "width": 95,
+        "height": 27
+      }
+    },
+    {
+      "v": "GREEN ,, #7f7\"",
+      "value": {
+        "width": 122,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "CLOSED",
+      "w": "LISTEN,,opem"
+    },
+    {
+      "v": "LISTEN",
+      "w": "SYN RCVD,,rcv SYN"
+    },
+    {
+      "v": "LISTEN",
+      "w": "SYN SENT,,send"
+    },
+    {
+      "v": "SYN RCVD",
+      "w": "FINWAIT-1,,close"
+    },
+    {
+      "v": "SYN RCVD",
+      "w": "ESTAB,,rcv ACK of SYN"
+    },
+    {
+      "v": "SYN SENT",
+      "w": "SYN RCVD,,rcv SYN"
+    },
+    {
+      "v": "SYN SENT",
+      "w": "ESTAB,,rcv SYN, ACK"
+    },
+    {
+      "v": "SYN SENT",
+      "w": "CLOSED,,close"
+    },
+    {
+      "v": "ESTAB",
+      "w": "FINWAIT-1,,close"
+    },
+    {
+      "v": "ESTAB",
+      "w": "CLOSE WAIT,,rcv FIN"
+    },
+    {
+      "v": "FINWAIT-1",
+      "w": "FINWAIT-2,,rcv ACK of FIN"
+    },
+    {
+      "v": "FINWAIT-1",
+      "w": "CLOSING,,rcv FIN"
+    },
+    {
+      "v": "CLOSE WAIT",
+      "w": "LAST-ACK,,close"
+    },
+    {
+      "v": "FINWAIT-2",
+      "w": "TIME WAIT,,rcv FIN"
+    },
+    {
+      "v": "CLOSING",
+      "w": "TIME WAIT,,rcv ACK of FIN"
+    },
+    {
+      "v": "LAST-ACK",
+      "w": "CLOSED,,rcv ACK of FIN"
+    },
+    {
+      "v": "TIME WAIT",
+      "w": "CLOSED,,timeout=2MSL"
+    },
+    {
+      "v": "CLOSED",
+      "w": "RED ,, #f77",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "ESTAB",
+      "w": "GREEN ,, #7f7\"",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    }
+  ]
+}

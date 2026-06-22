@@ -1,0 +1,799 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Structured Decomposition",
+      "value": {
+        "width": 204,
+        "height": 27
+      }
+    },
+    {
+      "v": "Framework",
+      "value": {
+        "width": 97,
+        "height": 27
+      }
+    },
+    {
+      "v": "Neural-Symbolic Integration",
+      "value": {
+        "width": 216,
+        "height": 27
+      }
+    },
+    {
+      "v": "Large Language Models",
+      "value": {
+        "width": 188,
+        "height": 27
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "value": {
+        "width": 120,
+        "height": 27
+      }
+    },
+    {
+      "v": "Audit Trail",
+      "value": {
+        "width": 89,
+        "height": 27
+      }
+    },
+    {
+      "v": "Interpretability",
+      "value": {
+        "width": 121,
+        "height": 27
+      }
+    },
+    {
+      "v": "Few-shot Prompting",
+      "value": {
+        "width": 161,
+        "height": 27
+      }
+    },
+    {
+      "v": "Chain-of-Thought",
+      "value": {
+        "width": 142,
+        "height": 27
+      }
+    },
+    {
+      "v": "Legal Hearsay Determination",
+      "value": {
+        "width": 224,
+        "height": 27
+      }
+    },
+    {
+      "v": "Scientific Method Application",
+      "value": {
+        "width": 226,
+        "height": 27
+      }
+    },
+    {
+      "v": "Clinical Trial Eligibility",
+      "value": {
+        "width": 172,
+        "height": 27
+      }
+    },
+    {
+      "v": "Technology",
+      "value": {
+        "width": 99,
+        "height": 27
+      }
+    },
+    {
+      "v": "Ontology Population Engine",
+      "value": {
+        "width": 214,
+        "height": 27
+      }
+    },
+    {
+      "v": "Unstructured Text",
+      "value": {
+        "width": 146,
+        "height": 27
+      }
+    },
+    {
+      "v": "ABox assertions",
+      "value": {
+        "width": 132,
+        "height": 27
+      }
+    },
+    {
+      "v": "OWL 2",
+      "value": {
+        "width": 64,
+        "height": 27
+      }
+    },
+    {
+      "v": "SWRL",
+      "value": {
+        "width": 60,
+        "height": 27
+      }
+    },
+    {
+      "v": "TBox",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    },
+    {
+      "v": "ABox",
+      "value": {
+        "width": 54,
+        "height": 27
+      }
+    },
+    {
+      "v": "Data Model",
+      "value": {
+        "width": 98,
+        "height": 27
+      }
+    },
+    {
+      "v": "TBox specifications",
+      "value": {
+        "width": 156,
+        "height": 27
+      }
+    },
+    {
+      "v": "Logic",
+      "value": {
+        "width": 55,
+        "height": 27
+      }
+    },
+    {
+      "v": "Symbolic Verification",
+      "value": {
+        "width": 168,
+        "height": 27
+      }
+    },
+    {
+      "v": "Deterministic Guarantees",
+      "value": {
+        "width": 198,
+        "height": 27
+      }
+    },
+    {
+      "v": "Reasoning Trace",
+      "value": {
+        "width": 136,
+        "height": 27
+      }
+    },
+    {
+      "v": "Assertion Extraction",
+      "value": {
+        "width": 161,
+        "height": 27
+      }
+    },
+    {
+      "v": "Expert-authored Specifications",
+      "value": {
+        "width": 237,
+        "height": 27
+      }
+    },
+    {
+      "v": "Process",
+      "value": {
+        "width": 74,
+        "height": 27
+      }
+    },
+    {
+      "v": "Entity Identification",
+      "value": {
+        "width": 155,
+        "height": 27
+      }
+    },
+    {
+      "v": "Entities ,, from Unstructured Text",
+      "value": {
+        "width": 255,
+        "height": 27
+      }
+    },
+    {
+      "v": "Domain Rules",
+      "value": {
+        "width": 115,
+        "height": 27
+      }
+    },
+    {
+      "v": "Rule Fidelity",
+      "value": {
+        "width": 104,
+        "height": 27
+      }
+    },
+    {
+      "v": "Domain",
+      "value": {
+        "width": 71,
+        "height": 27
+      }
+    },
+    {
+      "v": "F1 Score",
+      "value": {
+        "width": 80,
+        "height": 27
+      }
+    },
+    {
+      "v": "Metric",
+      "value": {
+        "width": 62,
+        "height": 27
+      }
+    },
+    {
+      "v": "Auxiliary",
+      "value": {
+        "width": 77,
+        "height": 27
+      }
+    },
+    {
+      "v": "Justifiability",
+      "value": {
+        "width": 103,
+        "height": 27
+      }
+    },
+    {
+      "v": "Systematic Review",
+      "value": {
+        "width": 151,
+        "height": 27
+      }
+    },
+    {
+      "v": "Input",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Structured Decomposition",
+      "w": "Framework",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Neural-Symbolic Integration",
+      "value": {
+        "meta": {
+          "label": "part of"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Large Language Models",
+      "value": {
+        "meta": {
+          "label": "uses"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Semantic Web",
+      "value": {
+        "meta": {
+          "label": "uses"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Audit Trail",
+      "value": {
+        "meta": {
+          "label": "produces"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Interpretability",
+      "value": {
+        "meta": {
+          "label": "improves"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Few-shot Prompting",
+      "value": {
+        "meta": {
+          "label": "compared to"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Chain-of-Thought",
+      "value": {
+        "meta": {
+          "label": "compared to"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Legal Hearsay Determination",
+      "value": {
+        "meta": {
+          "label": "validates"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Scientific Method Application",
+      "value": {
+        "meta": {
+          "label": "validates"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Clinical Trial Eligibility",
+      "value": {
+        "meta": {
+          "label": "validates"
+        }
+      }
+    },
+    {
+      "v": "Large Language Models",
+      "w": "Technology",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Large Language Models",
+      "w": "Ontology Population Engine",
+      "value": {
+        "meta": {
+          "label": "role"
+        }
+      }
+    },
+    {
+      "v": "Large Language Models",
+      "w": "Unstructured Text",
+      "value": {
+        "meta": {
+          "label": "processes"
+        }
+      }
+    },
+    {
+      "v": "Large Language Models",
+      "w": "ABox assertions",
+      "value": {
+        "meta": {
+          "label": "generates"
+        }
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "w": "Technology",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "w": "OWL 2",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "w": "SWRL",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "w": "TBox",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Semantic Web",
+      "w": "ABox",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "OWL 2",
+      "w": "Data Model",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "OWL 2",
+      "w": "TBox specifications",
+      "value": {
+        "meta": {
+          "label": "defines"
+        }
+      }
+    },
+    {
+      "v": "SWRL",
+      "w": "Logic",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "SWRL",
+      "w": "Symbolic Verification",
+      "value": {
+        "meta": {
+          "label": "supports"
+        }
+      }
+    },
+    {
+      "v": "SWRL",
+      "w": "Deterministic Guarantees",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "ABox",
+      "w": "Data Model",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "ABox",
+      "w": "Reasoning Trace",
+      "value": {
+        "meta": {
+          "label": "stores"
+        }
+      }
+    },
+    {
+      "v": "ABox",
+      "w": "Assertion Extraction",
+      "value": {
+        "meta": {
+          "label": "consists of"
+        }
+      }
+    },
+    {
+      "v": "TBox",
+      "w": "Data Model",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "TBox",
+      "w": "Expert-authored Specifications",
+      "value": {
+        "meta": {
+          "label": "defines"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Process"
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Entity Identification",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Assertion Extraction",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Structured Decomposition",
+      "w": "Symbolic Verification",
+      "value": {
+        "meta": {
+          "label": "includes"
+        }
+      }
+    },
+    {
+      "v": "Entity Identification",
+      "w": "Process",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Entity Identification",
+      "w": "Entities ,, from Unstructured Text",
+      "value": {
+        "meta": {
+          "label": "extracts"
+        }
+      }
+    },
+    {
+      "v": "Assertion Extraction",
+      "w": "Process",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Assertion Extraction",
+      "w": "TBox specifications",
+      "value": {
+        "meta": {
+          "label": "follows"
+        }
+      }
+    },
+    {
+      "v": "Assertion Extraction",
+      "w": "ABox assertions",
+      "value": {
+        "meta": {
+          "label": "populates"
+        }
+      }
+    },
+    {
+      "v": "Symbolic Verification",
+      "w": "Process",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Symbolic Verification",
+      "w": "Domain Rules",
+      "value": {
+        "meta": {
+          "label": "applies"
+        }
+      }
+    },
+    {
+      "v": "Symbolic Verification",
+      "w": "Rule Fidelity",
+      "value": {
+        "meta": {
+          "label": "ensures"
+        }
+      }
+    },
+    {
+      "v": "Symbolic Verification",
+      "w": "Deterministic Guarantees",
+      "value": {
+        "meta": {
+          "label": "results in"
+        }
+      }
+    },
+    {
+      "v": "Legal Hearsay Determination",
+      "w": "Domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Scientific Method Application",
+      "w": "Domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Clinical Trial Eligibility",
+      "w": "Domain",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "F1 Score",
+      "w": "Metric",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "F1 Score",
+      "w": "Structured Decomposition",
+      "value": {
+        "meta": {
+          "label": "measures"
+        }
+      }
+    },
+    {
+      "v": "Audit Trail",
+      "w": "Auxiliary",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Audit Trail",
+      "w": "Justifiability",
+      "value": {
+        "meta": {
+          "label": "improves"
+        }
+      }
+    },
+    {
+      "v": "Audit Trail",
+      "w": "Systematic Review",
+      "value": {
+        "meta": {
+          "label": "enables"
+        }
+      }
+    },
+    {
+      "v": "Unstructured Text",
+      "w": "Input",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Unstructured Text",
+      "w": "Assertion Extraction",
+      "value": {
+        "meta": {
+          "label": "source for"
+        }
+      }
+    },
+    {
+      "v": "Deterministic Guarantees",
+      "w": "Auxiliary",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Justifiability",
+      "w": "Auxiliary",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Rule Fidelity",
+      "w": "Auxiliary",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Interpretability",
+      "w": "Auxiliary",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    }
+  ]
+}

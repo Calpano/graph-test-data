@@ -1,0 +1,393 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "European Energy Market",
+      "value": {
+        "width": 193,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market System",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Regulators",
+      "value": {
+        "width": 94,
+        "height": 27
+      }
+    },
+    {
+      "v": "Oversight ,, ACER, NRAs, EC ,,",
+      "value": {
+        "width": 232,
+        "height": 27
+      }
+    },
+    {
+      "v": "Grid Operators",
+      "value": {
+        "width": 121,
+        "height": 27
+      }
+    },
+    {
+      "v": "Infrastructure ,, TSOs, DSOs, ENTSOs ,,",
+      "value": {
+        "width": 300,
+        "height": 27
+      }
+    },
+    {
+      "v": "Power Exchanges",
+      "value": {
+        "width": 143,
+        "height": 27
+      }
+    },
+    {
+      "v": "Trading ,, EPEX, Nord Pool, SDAC, SIDC ,,",
+      "value": {
+        "width": 313,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Participants",
+      "value": {
+        "width": 156,
+        "height": 27
+      }
+    },
+    {
+      "v": "Actor ,, Utilities, Traders ,,",
+      "value": {
+        "width": 202,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Integrity ,, REMIT, Transparency ,,",
+      "value": {
+        "width": 314,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Integrity",
+      "value": {
+        "width": 130,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Manipulation",
+      "value": {
+        "width": 163,
+        "height": 27
+      }
+    },
+    {
+      "v": "Balancing Markets",
+      "value": {
+        "width": 149,
+        "height": 27
+      }
+    },
+    {
+      "v": "Grid Stability ,, Frequency, Capacity ,,",
+      "value": {
+        "width": 283,
+        "height": 27
+      }
+    },
+    {
+      "v": "Grid Stability",
+      "value": {
+        "width": 108,
+        "height": 27
+      }
+    },
+    {
+      "v": "Balancing Services",
+      "value": {
+        "width": 152,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Prices ,, Clearing, Convergence ,,",
+      "value": {
+        "width": 306,
+        "height": 27
+      }
+    },
+    {
+      "v": "Coupling Algorithms ,, EUPHEMIA, FBMC ,,",
+      "value": {
+        "width": 323,
+        "height": 27
+      }
+    },
+    {
+      "v": "Carbon & Gas Markets ,, EU ETS, Gas ,,",
+      "value": {
+        "width": 295,
+        "height": 27
+      }
+    },
+    {
+      "v": "Carbon & Gas Markets",
+      "value": {
+        "width": 176,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Prices",
+      "value": {
+        "width": 115,
+        "height": 27
+      }
+    },
+    {
+      "v": "Generation Mix",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Supply ,, Renewables, Fossil, Nuclear ,,",
+      "value": {
+        "width": 295,
+        "height": 27
+      }
+    },
+    {
+      "v": "Market Prices ,, Merit Order ,,",
+      "value": {
+        "width": 226,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "European Energy Market",
+      "w": "Market System",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Regulators",
+      "w": "Oversight ,, ACER, NRAs, EC ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Grid Operators",
+      "w": "Infrastructure ,, TSOs, DSOs, ENTSOs ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Power Exchanges",
+      "w": "Trading ,, EPEX, Nord Pool, SDAC, SIDC ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Market Participants",
+      "w": "Actor ,, Utilities, Traders ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Regulators",
+      "w": "Power Exchanges",
+      "value": {
+        "meta": {
+          "label": "manages"
+        }
+      }
+    },
+    {
+      "v": "Regulators",
+      "w": "Grid Operators",
+      "value": {
+        "meta": {
+          "label": "manages"
+        }
+      }
+    },
+    {
+      "v": "Regulators",
+      "w": "Market Integrity ,, REMIT, Transparency ,,",
+      "value": {
+        "meta": {
+          "label": "enforces"
+        }
+      }
+    },
+    {
+      "v": "Market Integrity",
+      "w": "Market Manipulation",
+      "value": {
+        "meta": {
+          "label": "prevents"
+        }
+      }
+    },
+    {
+      "v": "Market Participants",
+      "w": "Market Integrity",
+      "value": {
+        "meta": {
+          "label": "complies with"
+        }
+      }
+    },
+    {
+      "v": "Grid Operators",
+      "w": "Balancing Markets",
+      "value": {
+        "meta": {
+          "label": "manages"
+        }
+      }
+    },
+    {
+      "v": "Grid Operators",
+      "w": "Grid Stability ,, Frequency, Capacity ,,",
+      "value": {
+        "meta": {
+          "label": "optimizes"
+        }
+      }
+    },
+    {
+      "v": "Balancing Markets",
+      "w": "Grid Stability",
+      "value": {
+        "meta": {
+          "label": "ensures"
+        }
+      }
+    },
+    {
+      "v": "Market Participants",
+      "w": "Balancing Services",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "Power Exchanges",
+      "w": "Market Prices ,, Clearing, Convergence ,,",
+      "value": {
+        "meta": {
+          "label": "determines"
+        }
+      }
+    },
+    {
+      "v": "Power Exchanges",
+      "w": "Coupling Algorithms ,, EUPHEMIA, FBMC ,,",
+      "value": {
+        "meta": {
+          "label": "uses"
+        }
+      }
+    },
+    {
+      "v": "Market Participants",
+      "w": "Power Exchanges",
+      "value": {
+        "meta": {
+          "label": "trades on"
+        }
+      }
+    },
+    {
+      "v": "Market Participants",
+      "w": "Carbon & Gas Markets ,, EU ETS, Gas ,,",
+      "value": {
+        "meta": {
+          "label": "trades on"
+        }
+      }
+    },
+    {
+      "v": "Carbon & Gas Markets",
+      "w": "Market Prices",
+      "value": {
+        "meta": {
+          "label": "impacts"
+        }
+      }
+    },
+    {
+      "v": "Generation Mix",
+      "w": "Supply ,, Renewables, Fossil, Nuclear ,,",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Generation Mix",
+      "w": "Market Prices ,, Merit Order ,,",
+      "value": {
+        "meta": {
+          "label": "determines"
+        }
+      }
+    },
+    {
+      "v": "Generation Mix",
+      "w": "Carbon & Gas Markets",
+      "value": {
+        "meta": {
+          "label": "drives"
+        }
+      }
+    },
+    {
+      "v": "Carbon & Gas Markets",
+      "w": "Generation Mix",
+      "value": {
+        "meta": {
+          "label": "influences"
+        }
+      }
+    }
+  ]
+}

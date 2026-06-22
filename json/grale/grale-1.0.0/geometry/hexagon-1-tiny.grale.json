@@ -1,0 +1,147 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "A",
+      "value": {
+        "width": 27,
+        "height": 27
+      }
+    },
+    {
+      "v": "B",
+      "value": {
+        "width": 26,
+        "height": 27
+      }
+    },
+    {
+      "v": "C",
+      "value": {
+        "width": 27,
+        "height": 27
+      }
+    },
+    {
+      "v": "Center",
+      "value": {
+        "width": 64,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "A",
+      "w": "B",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "A",
+      "w": "C",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "A",
+      "w": "Center",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "B",
+      "w": "A",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "B",
+      "w": "C",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "B",
+      "w": "Center",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "C",
+      "w": "A",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "C",
+      "w": "B",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "C",
+      "w": "Center",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "Center",
+      "w": "A",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "Center",
+      "w": "B",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    },
+    {
+      "v": "Center",
+      "w": "C",
+      "value": {
+        "meta": {
+          "label": "to"
+        }
+      }
+    }
+  ]
+}

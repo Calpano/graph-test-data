@@ -1,0 +1,493 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Client Devices",
+      "value": {
+        "width": 118,
+        "height": 27
+      }
+    },
+    {
+      "v": "Open Connect",
+      "value": {
+        "width": 118,
+        "height": 27
+      }
+    },
+    {
+      "v": "ELB",
+      "value": {
+        "width": 44,
+        "height": 27
+      }
+    },
+    {
+      "v": "Client",
+      "value": {
+        "width": 57,
+        "height": 27
+      }
+    },
+    {
+      "v": "CDN",
+      "value": {
+        "width": 49,
+        "height": 27
+      }
+    },
+    {
+      "v": "Content Delivery",
+      "value": {
+        "width": 134,
+        "height": 27
+      }
+    },
+    {
+      "v": "Zuul",
+      "value": {
+        "width": 48,
+        "height": 27
+      }
+    },
+    {
+      "v": "Load Balancer",
+      "value": {
+        "width": 118,
+        "height": 27
+      }
+    },
+    {
+      "v": "Microservices",
+      "value": {
+        "width": 116,
+        "height": 27
+      }
+    },
+    {
+      "v": "API Gateway",
+      "value": {
+        "width": 107,
+        "height": 27
+      }
+    },
+    {
+      "v": "Eureka",
+      "value": {
+        "width": 66,
+        "height": 27
+      }
+    },
+    {
+      "v": "Archaius",
+      "value": {
+        "width": 79,
+        "height": 27
+      }
+    },
+    {
+      "v": "EV Cache",
+      "value": {
+        "width": 85,
+        "height": 27
+      }
+    },
+    {
+      "v": "Cassandra",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "MySQL",
+      "value": {
+        "width": 68,
+        "height": 27
+      }
+    },
+    {
+      "v": "Service Cluster",
+      "value": {
+        "width": 124,
+        "height": 27
+      }
+    },
+    {
+      "v": "Data Store",
+      "value": {
+        "width": 92,
+        "height": 27
+      }
+    },
+    {
+      "v": "Service Discovery",
+      "value": {
+        "width": 144,
+        "height": 27
+      }
+    },
+    {
+      "v": "App Config",
+      "value": {
+        "width": 95,
+        "height": 27
+      }
+    },
+    {
+      "v": "Atlas",
+      "value": {
+        "width": 53,
+        "height": 27
+      }
+    },
+    {
+      "v": "Intelligence/Analysis",
+      "value": {
+        "width": 166,
+        "height": 27
+      }
+    },
+    {
+      "v": "Edda",
+      "value": {
+        "width": 52,
+        "height": 27
+      }
+    },
+    {
+      "v": "Hystrix",
+      "value": {
+        "width": 67,
+        "height": 27
+      }
+    },
+    {
+      "v": "Fault Tolerance",
+      "value": {
+        "width": 128,
+        "height": 27
+      }
+    },
+    {
+      "v": "Billing Service",
+      "value": {
+        "width": 116,
+        "height": 27
+      }
+    },
+    {
+      "v": "Auth Service",
+      "value": {
+        "width": 107,
+        "height": 27
+      }
+    },
+    {
+      "v": "Profile Service",
+      "value": {
+        "width": 120,
+        "height": 27
+      }
+    },
+    {
+      "v": "Search Service",
+      "value": {
+        "width": 123,
+        "height": 27
+      }
+    },
+    {
+      "v": "Video Service",
+      "value": {
+        "width": 114,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Client Devices",
+      "w": "Open Connect",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Client Devices",
+      "w": "ELB",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Client Devices",
+      "w": "Client",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Open Connect",
+      "w": "CDN",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Open Connect",
+      "w": "Content Delivery",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "ELB",
+      "w": "Zuul",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "ELB",
+      "w": "Load Balancer",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Zuul",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Zuul",
+      "w": "API Gateway",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Zuul",
+      "w": "Eureka",
+      "value": {
+        "meta": {
+          "label": "interacts with"
+        }
+      }
+    },
+    {
+      "v": "Zuul",
+      "w": "Archaius",
+      "value": {
+        "meta": {
+          "label": "interacts with"
+        }
+      }
+    },
+    {
+      "v": "Microservices",
+      "w": "EV Cache",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Microservices",
+      "w": "Cassandra",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Microservices",
+      "w": "MySQL",
+      "value": {
+        "meta": {
+          "label": "connects"
+        }
+      }
+    },
+    {
+      "v": "Microservices",
+      "w": "Service Cluster",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "EV Cache",
+      "w": "Data Store",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Cassandra",
+      "w": "Data Store",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "MySQL",
+      "w": "Data Store",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Eureka",
+      "w": "Service Discovery",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Archaius",
+      "w": "App Config",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Atlas",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "monitors"
+        }
+      }
+    },
+    {
+      "v": "Atlas",
+      "w": "Intelligence/Analysis",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Edda",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "monitors"
+        }
+      }
+    },
+    {
+      "v": "Edda",
+      "w": "Intelligence/Analysis",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Hystrix",
+      "w": "Fault Tolerance",
+      "value": {
+        "meta": {
+          "label": "provides"
+        }
+      }
+    },
+    {
+      "v": "Hystrix",
+      "w": "Intelligence/Analysis",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Billing Service",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "belongs to"
+        }
+      }
+    },
+    {
+      "v": "Auth Service",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "belongs to"
+        }
+      }
+    },
+    {
+      "v": "Profile Service",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "belongs to"
+        }
+      }
+    },
+    {
+      "v": "Search Service",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "belongs to"
+        }
+      }
+    },
+    {
+      "v": "Video Service",
+      "w": "Microservices",
+      "value": {
+        "meta": {
+          "label": "belongs to"
+        }
+      }
+    }
+  ]
+}

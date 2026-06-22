@@ -1,0 +1,664 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Stiftung Familienunternehmen",
+      "value": {
+        "width": 234,
+        "height": 27
+      }
+    },
+    {
+      "v": "Brunhagen Hanncke ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m51s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Mittelstand (kleine Familienbetriebe) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m48s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m30s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=7m29s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Große Unternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m56s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Politik ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m30s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Verschonungsbedarfsprüfung ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m2s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Hotel Adlon ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m5s",
+      "value": {
+        "width": 447,
+        "height": 46
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche",
+      "value": {
+        "width": 213,
+        "height": 27
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=4m27s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m1s",
+      "value": {
+        "width": 447,
+        "height": 46
+      }
+    },
+    {
+      "v": "Große Unternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m0s",
+      "value": {
+        "width": 447,
+        "height": 46
+      }
+    },
+    {
+      "v": "Verschonungsbedarfsprüfung ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=7m59s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Große Unternehmen",
+      "value": {
+        "width": 161,
+        "height": 27
+      }
+    },
+    {
+      "v": "Rossmann ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m9s",
+      "value": {
+        "width": 447,
+        "height": 46
+      }
+    },
+    {
+      "v": "Deichmann ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m9s",
+      "value": {
+        "width": 447,
+        "height": 46
+      }
+    },
+    {
+      "v": "Schwarzgruppe (Lidl, Kaufland) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m18s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Brunhagen Hanncke",
+      "value": {
+        "width": 161,
+        "height": 27
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m51s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "CSU",
+      "value": {
+        "width": 47,
+        "height": 27
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m24s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m46s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Horst Seehofer",
+      "value": {
+        "width": 125,
+        "height": 27
+      }
+    },
+    {
+      "v": "CSU ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m24s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m35s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Norbert Walter-Borjans",
+      "value": {
+        "width": 181,
+        "height": 27
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m51s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "CSU ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m14s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Wolfgang Schäuble",
+      "value": {
+        "width": 155,
+        "height": 27
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m0s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Friedrich Merz",
+      "value": {
+        "width": 120,
+        "height": 27
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m26s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Bundesverfassungsgericht",
+      "value": {
+        "width": 208,
+        "height": 27
+      }
+    },
+    {
+      "v": "Erbschaftsteuer Ausnahmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m8s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m17s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "value": {
+        "width": 230,
+        "height": 27
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=16m39s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=9m49s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Andrea (Gesellschafterin) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=3m36s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Lea (Gesellschafterin) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=9m10s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Max (Milliardenerbe) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=15m17s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "Finanzwende",
+      "value": {
+        "width": 111,
+        "height": 27
+      }
+    },
+    {
+      "v": "Video \"Mythos Familienunternehmen\" ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=19m6s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Zivilgesellschaft ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=18m22s",
+      "value": {
+        "width": 464,
+        "height": 46
+      }
+    },
+    {
+      "v": "gerechte Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=18m1s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=19m6s",
+      "value": {
+        "width": 456,
+        "height": 46
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Brunhagen Hanncke ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m51s",
+      "value": {
+        "meta": {
+          "label": "gegründet von"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Mittelstand (kleine Familienbetriebe) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m48s",
+      "value": {
+        "meta": {
+          "label": "gibt vor zu vertreten"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Milliardäre und Superreiche ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m30s",
+      "value": {
+        "meta": {
+          "label": "vertritt tatsächlich"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=7m29s",
+      "value": {
+        "meta": {
+          "label": "betreibt Lobbyarbeit gegen"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Große Unternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m56s",
+      "value": {
+        "meta": {
+          "label": "schützt"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Politik ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m30s",
+      "value": {
+        "meta": {
+          "label": "beeinflusst"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Verschonungsbedarfsprüfung ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m2s",
+      "value": {
+        "meta": {
+          "label": "nutzt Schlupfloch"
+        }
+      }
+    },
+    {
+      "v": "Stiftung Familienunternehmen",
+      "w": "Hotel Adlon ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m5s",
+      "value": {
+        "meta": {
+          "label": "veranstaltet Events im"
+        }
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=4m27s",
+      "value": {
+        "meta": {
+          "label": "finanzieren"
+        }
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=0m1s",
+      "value": {
+        "meta": {
+          "label": "vermeiden"
+        }
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche",
+      "w": "Große Unternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m0s",
+      "value": {
+        "meta": {
+          "label": "besitzen"
+        }
+      }
+    },
+    {
+      "v": "Milliardäre und Superreiche",
+      "w": "Verschonungsbedarfsprüfung ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=7m59s",
+      "value": {
+        "meta": {
+          "label": "profitieren von"
+        }
+      }
+    },
+    {
+      "v": "Große Unternehmen",
+      "w": "Rossmann ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m9s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Große Unternehmen",
+      "w": "Deichmann ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m9s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Große Unternehmen",
+      "w": "Schwarzgruppe (Lidl, Kaufland) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=5m18s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Brunhagen Hanncke",
+      "w": "Milliardäre und Superreiche ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m51s",
+      "value": {
+        "meta": {
+          "label": "berät"
+        }
+      }
+    },
+    {
+      "v": "CSU",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m24s",
+      "value": {
+        "meta": {
+          "label": "beeinflusst von"
+        }
+      }
+    },
+    {
+      "v": "CSU",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m46s",
+      "value": {
+        "meta": {
+          "label": "blockierte Reform der"
+        }
+      }
+    },
+    {
+      "v": "Horst Seehofer",
+      "w": "CSU ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m24s",
+      "value": {
+        "meta": {
+          "label": "führte"
+        }
+      }
+    },
+    {
+      "v": "Horst Seehofer",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m35s",
+      "value": {
+        "meta": {
+          "label": "traf sich persönlich mit"
+        }
+      }
+    },
+    {
+      "v": "Norbert Walter-Borjans",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m51s",
+      "value": {
+        "meta": {
+          "label": "verhandelte Reform der"
+        }
+      }
+    },
+    {
+      "v": "Norbert Walter-Borjans",
+      "w": "CSU ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m14s",
+      "value": {
+        "meta": {
+          "label": "bekämpft von"
+        }
+      }
+    },
+    {
+      "v": "Wolfgang Schäuble",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m0s",
+      "value": {
+        "meta": {
+          "label": "schlug Kompromiss vor für"
+        }
+      }
+    },
+    {
+      "v": "Wolfgang Schäuble",
+      "w": "CSU ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=12m14s",
+      "value": {
+        "meta": {
+          "label": "bekämpft von"
+        }
+      }
+    },
+    {
+      "v": "Friedrich Merz",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=6m26s",
+      "value": {
+        "meta": {
+          "label": "war geladener Redner bei"
+        }
+      }
+    },
+    {
+      "v": "Bundesverfassungsgericht",
+      "w": "Erbschaftsteuer Ausnahmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m8s",
+      "value": {
+        "meta": {
+          "label": "urteilte gegen"
+        }
+      }
+    },
+    {
+      "v": "Bundesverfassungsgericht",
+      "w": "Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=11m17s",
+      "value": {
+        "meta": {
+          "label": "forderte Reform der"
+        }
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=16m39s",
+      "value": {
+        "meta": {
+          "label": "widersprechen"
+        }
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=9m49s",
+      "value": {
+        "meta": {
+          "label": "kritisieren Steuerschlupflöcher der"
+        }
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "w": "Andrea (Gesellschafterin) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=3m36s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "w": "Lea (Gesellschafterin) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=9m10s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Kritische Unternehmenserben",
+      "w": "Max (Milliardenerbe) ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=15m17s",
+      "value": {
+        "meta": {
+          "label": "umfassen"
+        }
+      }
+    },
+    {
+      "v": "Finanzwende",
+      "w": "Video \"Mythos Familienunternehmen\" ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=19m6s",
+      "value": {
+        "meta": {
+          "label": "veröffentlichte"
+        }
+      }
+    },
+    {
+      "v": "Finanzwende",
+      "w": "Zivilgesellschaft ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=18m22s",
+      "value": {
+        "meta": {
+          "label": "vertritt"
+        }
+      }
+    },
+    {
+      "v": "Finanzwende",
+      "w": "gerechte Erbschaftsteuer ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=18m1s",
+      "value": {
+        "meta": {
+          "label": "kämpft für"
+        }
+      }
+    },
+    {
+      "v": "Finanzwende",
+      "w": "Stiftung Familienunternehmen ,, https://www.youtube.com/watch?v=JvGCDwGsbns#t=19m6s",
+      "value": {
+        "meta": {
+          "label": "stellt sich gegen Lobbyarbeit der"
+        }
+      }
+    }
+  ]
+}

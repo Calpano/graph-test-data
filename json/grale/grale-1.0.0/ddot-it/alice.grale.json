@@ -1,0 +1,195 @@
+{
+  "options": {
+    "directed": true,
+    "multigraph": false,
+    "compound": false
+  },
+  "nodes": [
+    {
+      "v": "Project Eagle",
+      "value": {
+        "width": 111,
+        "height": 27
+      }
+    },
+    {
+      "v": "2024",
+      "value": {
+        "width": 51,
+        "height": 27
+      }
+    },
+    {
+      "v": "Alice",
+      "value": {
+        "width": 51,
+        "height": 27
+      }
+    },
+    {
+      "v": "MegaCorp",
+      "value": {
+        "width": 90,
+        "height": 27
+      }
+    },
+    {
+      "v": "Person",
+      "value": {
+        "width": 66,
+        "height": 27
+      }
+    },
+    {
+      "v": "Bob",
+      "value": {
+        "width": 44,
+        "height": 27
+      }
+    },
+    {
+      "v": "Carol",
+      "value": {
+        "width": 54,
+        "height": 27
+      }
+    },
+    {
+      "v": "Team Alpha",
+      "value": {
+        "width": 102,
+        "height": 27
+      }
+    },
+    {
+      "v": "Team",
+      "value": {
+        "width": 57,
+        "height": 27
+      }
+    }
+  ],
+  "edges": [
+    {
+      "v": "Project Eagle",
+      "w": "2024",
+      "value": {
+        "meta": {
+          "label": "started in"
+        }
+      }
+    },
+    {
+      "v": "Project Eagle",
+      "w": "Alice",
+      "value": {
+        "meta": {
+          "label": "led by"
+        }
+      }
+    },
+    {
+      "v": "Project Eagle",
+      "w": "MegaCorp",
+      "value": {
+        "meta": {
+          "label": "funded by"
+        }
+      }
+    },
+    {
+      "v": "Alice",
+      "w": "Person",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Alice",
+      "w": "MegaCorp",
+      "value": {
+        "meta": {
+          "label": "works at"
+        }
+      }
+    },
+    {
+      "v": "Alice",
+      "w": "Bob",
+      "value": {
+        "meta": {
+          "label": "knows"
+        }
+      }
+    },
+    {
+      "v": "Alice",
+      "w": "Carol",
+      "value": {
+        "meta": {
+          "label": "knows"
+        }
+      }
+    },
+    {
+      "v": "Bob",
+      "w": "Person",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Bob",
+      "w": "Carol"
+    },
+    {
+      "v": "Bob",
+      "w": "Team Alpha",
+      "value": {
+        "meta": {
+          "label": "member of"
+        }
+      }
+    },
+    {
+      "v": "Carol",
+      "w": "Person",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Team Alpha",
+      "w": "Team",
+      "value": {
+        "meta": {
+          "label": "has type"
+        }
+      }
+    },
+    {
+      "v": "Team Alpha",
+      "w": "Project Eagle",
+      "value": {
+        "meta": {
+          "label": "develops"
+        }
+      }
+    },
+    {
+      "v": "Team Alpha",
+      "w": "MegaCorp",
+      "value": {
+        "meta": {
+          "label": "reports to"
+        }
+      }
+    }
+  ]
+}
