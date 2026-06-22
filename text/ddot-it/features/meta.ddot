@@ -8,6 +8,6 @@ conformance "cases"; here grouped as "features".
 ddot.it/this ..kind.. synthetic
 ddot.it/this ..authored by.. Calpano (ddot.it project)
 ddot.it/this ..format.. format:ddot
-ddot.it/this ..content.. 12 feature cases of the ddot.it triple-text format
-ddot.it/this ..tests.. ddot syntax features incl. per-link metadata (inline ,, and multi-line meta blocks)
+ddot.it/this ..content.. 19 feature cases of the ddot.it triple-text format
+ddot.it/this ..tests.. ddot syntax features including inline and multi-line per-link metadata
 ddot.it/this ..license.. freely usable; created by Calpano (ddot.it project)
