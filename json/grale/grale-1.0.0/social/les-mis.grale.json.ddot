@@ -1,23 +1,26 @@
 ddot.it/this ..kind.. collected
 ddot.it/this ..format.. format:grale-1.0.0
 ddot.it/this ..source url.. https://www-cs-faculty.stanford.edu/~knuth/sgb.html (Les Miserables co-occurrence, Stanford GraphBase)
+ddot.it/this ..content.. character co-occurrence network of Victor Hugo's Les Miserables, 77 nodes / 254 edges, directed, weighted edges, nodes carrying label/color/size/position; regenerated from xml/graphml/les-miserables.graphml via the graphinout graphml->grale conversion
 ddot.it/this ..license.. public domain (Stanford GraphBase explicitly declares its programs and data public-domain)
 
-ddot.it/this ..nodes.. 0
-ddot.it/this ..edges.. 0
-ddot.it/this ..uses feature.. attributes-on-graphs
-ddot.it/this ..does not use feature.. attributes-on-edges
-ddot.it/this ..does not use feature.. attributes-on-nodes
-ddot.it/this ..does not use feature.. directed-edges
-ddot.it/this ..does not use feature.. edge-labels
-ddot.it/this ..does not use feature.. edges-on-edges
-ddot.it/this ..does not use feature.. hyperedges
+ddot.it/this ..nodes.. 77
+ddot.it/this ..edges.. 254
+ddot.it/this ..uses feature.. nodes
+ddot.it/this ..uses feature.. directed-edges
+ddot.it/this ..uses feature.. node-labels
+ddot.it/this ..uses feature.. attributes-on-nodes
+ddot.it/this ..uses feature.. attributes-on-edges
+ddot.it/this ..does not use feature.. undirected-edges
 ddot.it/this ..does not use feature.. mixed-directionality-edges
+ddot.it/this ..does not use feature.. parallel-edges
+ddot.it/this ..does not use feature.. self-loops
+ddot.it/this ..does not use feature.. hyperedges
+ddot.it/this ..does not use feature.. edges-on-edges
+ddot.it/this ..does not use feature.. edge-labels
+ddot.it/this ..does not use feature.. attributes-on-graphs
+ddot.it/this ..does not use feature.. typed-edges
 ddot.it/this ..does not use feature.. multiple-graphs-per-document
+ddot.it/this ..does not use feature.. nested-graphs-in-nodes
 ddot.it/this ..does not use feature.. nested-graphs-in-edges
 ddot.it/this ..does not use feature.. nested-graphs-in-graphs
-ddot.it/this ..does not use feature.. nested-graphs-in-nodes
-ddot.it/this ..does not use feature.. node-labels
-ddot.it/this ..does not use feature.. nodes
-ddot.it/this ..does not use feature.. typed-edges
-ddot.it/this ..does not use feature.. undirected-edges
