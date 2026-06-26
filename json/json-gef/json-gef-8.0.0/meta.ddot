@@ -1,0 +1,41 @@
+= JSON Graph Entry Format (GEF) test fixtures
+
+Hand-authored synthetic JSON Graph Entry Format (GEF) documents used as test
+fixtures for the "graphinout" project by Calpano. GEF is a lenient *superset* of
+ConnectedJson: a graph may be stated at the document root (top-level nodes/edges,
+without a "graphs" wrapper). Each file exercises a graph-entry feature (node/port
+nesting, endpoint syntax, mixed/undirected edges, extensible non-reserved keys,
+multi-language labels, schema reference, nested subgraphs). No external dataset is
+involved; all content is crafted by hand. The non-English text in
+multilang.gef.json ("Sonne" / "Sun", German/English) is intentional test
+content, not data sourced from elsewhere.
+
+ddot.it/this ..kind.. synthetic
+ddot.it/this ..authored by.. Calpano (graphinout project)
+ddot.it/this ..format.. format:json-gef-8.0.0
+ddot.it/this ..content.. hand-crafted JSON Graph Entry Format graph test fixtures
+ddot.it/this ..tests.. GEF graph-at-root parsing / graph-entry features
+ddot.it/this ..license.. not stated (public domain unless otherwise stated)
+
+== Per-file
+
+example.gef.json ..kind.. synthetic
+example.gef.json ..authored by.. Calpano (graphinout project)
+example.gef.json ..format.. format:json-gef-8.0.0
+example.gef.json ..content.. graph-at-root: nodes with nested ports (a -> a2 -> a2-1/a2-2), an extensible non-reserved "hello" key, a source/target edge, and endpoint-syntax edges including in/out/undir directions and port references
+example.gef.json ..tests.. graph-at-root, nested ports, endpoint syntax, mixed/undirected edges, extensible keys
+example.gef.json ..license.. not stated (public domain unless otherwise stated)
+
+multilang.gef.json ..kind.. synthetic
+multilang.gef.json ..authored by.. Calpano (graphinout project)
+multilang.gef.json ..format.. format:json-gef-8.0.0
+multilang.gef.json ..content.. graph-at-root with two nodes: node "a" with a simple string label, node "b" with a multi-language label array {language:"de", value:"Sonne"} / {language:"en", value:"Sun"}
+multilang.gef.json ..tests.. graph-at-root, multi-language (i18n) label handling
+multilang.gef.json ..license.. not stated (public domain unless otherwise stated)
+
+sample-1.gef.json ..kind.. synthetic
+sample-1.gef.json ..authored by.. Calpano (graphinout project)
+sample-1.gef.json ..format.. format:json-gef-8.0.0
+sample-1.gef.json ..content.. graph-at-root with a $schema reference (cj-8.0.0), two top-level nodes with ports, source/target and endpoint-syntax edges carrying data, and a nested subgraph (graphs[]) with its own node and a cross-graph edge
+sample-1.gef.json ..tests.. graph-at-root, schema reference, edge data payloads, nested subgraphs, cross-graph endpoints
+sample-1.gef.json ..license.. not stated (public domain unless otherwise stated)
